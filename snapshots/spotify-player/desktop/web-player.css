@@ -1275,6 +1275,9 @@ html[dir="ltr"] .LayoutResizer__inline-start .LayoutResizer__input {
 .ftXmSDsPUvoTaXHNKrob {
   padding-block: 0;
 }
+.JXa5bBtFauDRKD0xFvXq + .JXa5bBtFauDRKD0xFvXq {
+  display: none;
+}
 .bGrvP_JSyWJr4Z1pqXPD,
 .ZneWGRkEnvrGM3hTn0Fw {
   -webkit-user-select: none;
@@ -23082,4 +23085,4 @@ html[lang="ar"] .OJ5cWLDrUtmvvt79mGNM {
     color: var(--text-announcement);
   }
 }
-/*# sourceMappingURL=web-player.430d3681.css.map*/
+/*# sourceMappingURL=web-player.a58896a2.css.map*/

@@ -1,7 +1,7 @@
 {
-  "snapshotVersion": "spotify-player.web-player.e71f8c4f__mobile-web-player.6c35b8d7",
+  "snapshotVersion": "spotify-player.web-player.b8ae1b2e__mobile-web-player.3d639f38",
   "source": {
-    "fingerprint": "sha256:fdc2181a68422cfe9ff9fcd07b05a8157e2950328221578a4a20b2f7b797ea3a",
+    "fingerprint": "sha256:9913dee58b153e8f0cc925012781c16e3a76688fbc6946bd42beb088a11c2070",
     "targets": {
       "desktop": [
         {
@@ -9,6 +9,12 @@
           "relativePath": "desktop/1272.css",
           "sha256": "0ec47880b64d53d773fbe8e58d4e81da383acc26c8fe232897091ddafd392c07",
           "byteLength": 15708
+        },
+        {
+          "fileName": "2312.css",
+          "relativePath": "desktop/2312.css",
+          "sha256": "5fc703227f4b344d75e2a04d2c65611532e80ecb68541a12c5a35e361d35e1e3",
+          "byteLength": 11946
         },
         {
           "fileName": "3079.css",
@@ -21,12 +27,6 @@
           "relativePath": "desktop/3210.css",
           "sha256": "34f76dc8d482151d7c097d17fae8582461353e7a3e76ee302c6f5460ad63c2aa",
           "byteLength": 20824
-        },
-        {
-          "fileName": "3448.css",
-          "relativePath": "desktop/3448.css",
-          "sha256": "01b5dad74c389e90fe8274da036efca91f45aa48cdc0318e44134e37f5693978",
-          "byteLength": 11946
         },
         {
           "fileName": "3565.css",
@@ -71,9 +71,9 @@
           "byteLength": 47337
         },
         {
-          "fileName": "7300.css",
-          "relativePath": "desktop/7300.css",
-          "sha256": "acdbd40c6f8299f470bdc3c9b533b7f782c987520a99594173ebe00c668cd181",
+          "fileName": "5891.css",
+          "relativePath": "desktop/5891.css",
+          "sha256": "ce20d16a313988dd34dc15f0286d50d984d6b8c3c8f194845a60b249bdff344e",
           "byteLength": 1931
         },
         {
@@ -295,8 +295,8 @@
         {
           "fileName": "web-player.css",
           "relativePath": "desktop/web-player.css",
-          "sha256": "e6b7a2ce470f6a368af135eaaaa72442f105d056dda8963dca91e87ed11c2eb7",
-          "byteLength": 614771
+          "sha256": "21a78566a676f2df75c81dcc68278e6add837765977e32577708f0fff18ef91c",
+          "byteLength": 614838
         },
         {
           "fileName": "xpui-debug-window-contents.css",
@@ -553,8 +553,8 @@
         {
           "fileName": "xpui-routes-your-library-x.css",
           "relativePath": "desktop/xpui-routes-your-library-x.css",
-          "sha256": "ee7a3d685d3fd296eeabdc081b8171cea70e770c99bf304a7bfa28d311988018",
-          "byteLength": 27652
+          "sha256": "58b5672362aebd34273796bb63a3d9cebc6fefe87e5fdcff7f75dca81bb0d8ee",
+          "byteLength": 27697
         },
         {
           "fileName": "your-sound-capsule-modal.css",
@@ -622,13 +622,19 @@
     }
   },
   "output": {
-    "fingerprint": "sha256:caeadbec7900ae2cede57bf128d4f8d4dfdb0c2216ec4490479622ba95f426c7",
+    "fingerprint": "sha256:77d1baccb5dfefd0519e3fd5beb9a3a122399e28ac915fefb4b38700f9eda175",
     "files": [
       {
         "fileName": "1272.css",
         "relativePath": "desktop/1272.css",
         "sha256": "4b4444b5fcc803a756b03c4cf845e614a1e47e7b859b3ef5786e38991912188a",
         "byteLength": 4587
+      },
+      {
+        "fileName": "2312.css",
+        "relativePath": "desktop/2312.css",
+        "sha256": "977a6f8baef37d284684fc5c9dce01c562fe832d78dd85813a715ddbd8f2d764",
+        "byteLength": 3427
       },
       {
         "fileName": "3079.css",
@@ -641,12 +647,6 @@
         "relativePath": "desktop/3210.css",
         "sha256": "964f624e7064e8b0e5763911e42b7af7056e3b3f6b8487d086e2a0aebb5227bf",
         "byteLength": 3541
-      },
-      {
-        "fileName": "3448.css",
-        "relativePath": "desktop/3448.css",
-        "sha256": "2ae8b04030138a28a0c814e194d758ee2c11dbac81607376b3c8e148d0798ac0",
-        "byteLength": 3427
       },
       {
         "fileName": "3565.css",
@@ -691,9 +691,9 @@
         "byteLength": 13193
       },
       {
-        "fileName": "7300.css",
-        "relativePath": "desktop/7300.css",
-        "sha256": "5e84074a807dc3187bf0532aabca7decebadc2a93c6b7af99264f72aefcb97e2",
+        "fileName": "5891.css",
+        "relativePath": "desktop/5891.css",
+        "sha256": "e4ed4f655ee82cc5184a621d9be6b2898e6ea4e3b2b314d15cc4317bea9424c2",
         "byteLength": 775
       },
       {
