@@ -3273,10 +3273,6 @@ a.DIRE9vCNa9uVIV3A6ny_:hover {
 .vWc0z6lZF5bun1WKKA4h.CBpXsg3c8NSVQa0NcFBD {
   margin-inline: var(--encore-spacing-tighter-4) var(--encore-spacing-tighter-5);
 }
-.vWc0z6lZF5bun1WKKA4h.WMKjCl_MW2EYOtkfmgXF {
-  background-color: var(--text-subdued);
-  color: var(--background-base);
-}
 .ypjCu8gZVXI2lG9RTOnk {
   all: unset;
   cursor: pointer;
@@ -11960,7 +11956,7 @@ div:has(> .profile-dropdown-menu) {
 }
 .UxiTA1zLUhQFbgDgd7or {
   background-color: var(--background-elevated-base);
-  border-radius: 30px;
+  border-radius: 8px;
   width: 392px;
   max-height: 500px;
   padding: 0 24px 32px;
@@ -23085,4 +23081,4 @@ html[lang="ar"] .OJ5cWLDrUtmvvt79mGNM {
     color: var(--text-announcement);
   }
 }
-/*# sourceMappingURL=web-player.a58896a2.css.map*/
+/*# sourceMappingURL=web-player.b71d1029.css.map*/

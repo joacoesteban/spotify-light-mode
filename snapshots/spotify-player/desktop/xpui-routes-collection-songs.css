@@ -59,6 +59,16 @@ __workaround_element__ {
   width: fit-content;
   max-width: 100%;
 }
+.OnnRUBqotw4yqmXEgl2o {
+  --background-tinted-base: #2c0096;
+  --background-tinted-highlight: #3c00e4;
+  --background-tinted-press: #26008d;
+}
+[aria-checked="true"] > .OnnRUBqotw4yqmXEgl2o {
+  --background-base: #c4caff;
+  --background-highlight: #d7dbff;
+  --background-press: #afb1ff;
+}
 .a9FDwXwMVRYKWfp4Etjy {
   flex-shrink: 0;
 }
@@ -68,7 +78,12 @@ __workaround_element__ {
 .novH6jFLvhIbegLzSJnn:active {
   background-color: #ffffff4d;
 }
+.Hsoph8D3RqzgYDLXINZ7 {
+  --background-base: #c4caff;
+  --background-highlight: #d7dbff;
+  --background-press: #afb1ff;
+}
 .QO2sjtEUhEdKAtiVPSiN {
   padding-bottom: var(--encore-spacing-base);
 }
-/*# sourceMappingURL=xpui-routes-collection-songs.619622eb.css.map*/
+/*# sourceMappingURL=xpui-routes-collection-songs.1b1d5e7d.css.map*/

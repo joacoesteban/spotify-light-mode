@@ -1428,6 +1428,14 @@ input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
   gap: 8px;
   display: inline-flex;
 }
+.Q0J4tXVupHkTTSVvOWBp {
+  flex-direction: column;
+  display: flex;
+}
+.mEGHf0E91AkRBrducuIz {
+  flex: 1;
+  min-height: 0;
+}
 .lmuPEWMWy4Lh6AJBkMLa {
   flex-direction: column;
   gap: 24px;
@@ -4158,4 +4166,4 @@ dialog:not([open]) {
   gap: 8px;
   display: flex;
 }
-/*# sourceMappingURL=dwp-panel-section.8d4ef32f.css.map*/
+/*# sourceMappingURL=dwp-panel-section.82ed7ea1.css.map*/

@@ -477,6 +477,13 @@ dialog:not([open]) {
   border-radius: 8px 8px 0 0;
   box-shadow: inset 0 -32px 40px -24px #000;
 }
+.SrI0Wh9HuBf0wbC9n4MA {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
 .uNoX53zEZ3wsZtD2XaEb {
   align-self: flex-end;
 }
@@ -509,4 +516,4 @@ dialog:not([open]) {
 .QdKqYtHHigbqV7lNymcq {
   margin-top: 56px;
 }
-/*# sourceMappingURL=xpui-routes-web-settings.526f90a6.css.map*/
+/*# sourceMappingURL=xpui-routes-web-settings.6380958e.css.map*/

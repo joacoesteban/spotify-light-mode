@@ -660,11 +660,6 @@ html:not(.no-focus-outline) main.main-view-container:focus:not(#spotify-light-mo
   background: #000000; /* hardcoded-color: #fff → #000000 */
 }
 
-.vWc0z6lZF5bun1WKKA4h.WMKjCl_MW2EYOtkfmgXF:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--text-subdued); /* css-var: var(--text-subdued) */
-  color: var(--background-base); /* css-var: var(--background-base) */
-}
-
 .ypjCu8gZVXI2lG9RTOnk:focus-visible:not(#spotify-light-mode-specificity-bump) {
   outline: 2px solid #000000; /* hardcoded-color: 2px solid #fff → 2px solid #000000 */
 }
