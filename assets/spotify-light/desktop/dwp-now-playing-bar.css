@@ -186,7 +186,7 @@
 }
 
 .tmR1hwyrY8Zgj9M5lL8K:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+  color: var(--text-base); /* css-var: var(--text-base) */
 }
 
 .KV63eJ1zGaIa5XagjJrQ:has(:focus-visible):not(#spotify-light-mode-specificity-bump) {

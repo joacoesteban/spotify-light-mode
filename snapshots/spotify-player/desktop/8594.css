@@ -31,6 +31,51 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.s_ibngdRFHas2k5bDPKQ {
+  color: #fff;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  height: calc(100vh - 96px);
+  padding: 0 16px;
+  display: flex;
+}
+.vUmROq9q3dWdmxY5VnXe {
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+.sd80CW1t234jEuh6VnSL {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+.NElZwNKuuC00nVBziHYD {
+  margin: 16px 0;
+}
+.zPf6FcMBUU3dL1_qrPhX > .onNnKPeboBIVLtU6SaSk {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+.onNnKPeboBIVLtU6SaSk .onNnKPeboBIVLtU6SaSk {
+  margin: 0 0 0 16px;
+}
+ol > .jl66pmCrZTgM3IDa0B5J {
+  list-style: decimal;
+}
+ul > .jl66pmCrZTgM3IDa0B5J {
+  list-style: outside;
+}
+.BzjOVvNJIcsaA8uJPZQe {
+  margin: 0;
+}
+.BzjOVvNJIcsaA8uJPZQe:not(:last-child) {
+  margin-block-end: 16px;
+}
 __workaround_element__ {
   --__workaround_property__: 0;
 }
@@ -359,51 +404,6 @@ __workaround_element__ {
 ::view-transition-new(sponsored-playlist-content-transition) {
   animation-duration: var(--encore-short-4);
   animation-timing-function: var(--encore-expressive-decelerate);
-}
-.s_ibngdRFHas2k5bDPKQ {
-  color: #fff;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  height: calc(100vh - 96px);
-  padding: 0 16px;
-  display: flex;
-}
-.vUmROq9q3dWdmxY5VnXe {
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  display: flex;
-}
-.sd80CW1t234jEuh6VnSL {
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  display: flex;
-}
-.NElZwNKuuC00nVBziHYD {
-  margin: 16px 0;
-}
-.zPf6FcMBUU3dL1_qrPhX > .onNnKPeboBIVLtU6SaSk {
-  margin: 16px 0;
-  padding-left: 24px;
-}
-.onNnKPeboBIVLtU6SaSk .onNnKPeboBIVLtU6SaSk {
-  margin: 0 0 0 16px;
-}
-ol > .jl66pmCrZTgM3IDa0B5J {
-  list-style: decimal;
-}
-ul > .jl66pmCrZTgM3IDa0B5J {
-  list-style: outside;
-}
-.BzjOVvNJIcsaA8uJPZQe {
-  margin: 0;
-}
-.BzjOVvNJIcsaA8uJPZQe:not(:last-child) {
-  margin-block-end: 16px;
 }
 .ehqLLKVr9BZ23KhPDG7b {
   flex-wrap: wrap;
@@ -947,4 +947,4 @@ ul > .jl66pmCrZTgM3IDa0B5J {
   justify-content: flex-end;
   display: flex;
 }
-/*# sourceMappingURL=3791.c39ff443.css.map*/
+/*# sourceMappingURL=8594.939efa69.css.map*/

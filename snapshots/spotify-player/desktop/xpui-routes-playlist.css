@@ -318,6 +318,44 @@ html[dir="rtl"] .pOpsVh6gpVnbZUA0dtnI {
 .Ha2eLarK9b56UxcT6gGl {
   padding-block: var(--encore-spacing-tighter-2);
 }
+.Ha2eLarK9b56UxcT6gGl [role="checkbox"] > .Xw2nqi5Q6PBKcJQWFSj8 {
+  background-color: var(--playlist-session-option-background);
+  color: var(--playlist-session-option-foreground);
+}
+.Ha2eLarK9b56UxcT6gGl [role="checkbox"]:hover > .Xw2nqi5Q6PBKcJQWFSj8,
+.Ha2eLarK9b56UxcT6gGl [role="checkbox"]:focus-visible > .Xw2nqi5Q6PBKcJQWFSj8,
+.Ha2eLarK9b56UxcT6gGl
+  :where([role="option"]:focus-visible)
+  [role="checkbox"]
+  > .Xw2nqi5Q6PBKcJQWFSj8 {
+  background-color: var(--playlist-session-option-highlight);
+}
+.Ha2eLarK9b56UxcT6gGl [role="checkbox"]:active > .Xw2nqi5Q6PBKcJQWFSj8 {
+  background-color: var(--playlist-session-option-press);
+}
+.Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]
+  > .Xw2nqi5Q6PBKcJQWFSj8 {
+  background-color: var(--playlist-session-selected-background);
+  color: var(--playlist-session-selected-foreground);
+}
+.Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]:hover
+  > .Xw2nqi5Q6PBKcJQWFSj8,
+.Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]:focus-visible
+  > .Xw2nqi5Q6PBKcJQWFSj8,
+.Ha2eLarK9b56UxcT6gGl
+  :where([role="option"]:focus-visible)
+  [role="checkbox"][aria-checked="true"]
+  > .Xw2nqi5Q6PBKcJQWFSj8 {
+  background-color: var(--playlist-session-selected-highlight);
+}
+.Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]:active
+  > .Xw2nqi5Q6PBKcJQWFSj8 {
+  background-color: var(--playlist-session-selected-press);
+}
 .PGlEyKDNYVCYaKEDZn5b {
   white-space: nowrap;
   flex-shrink: 0;
@@ -400,4 +438,4 @@ html[dir="rtl"] .pOpsVh6gpVnbZUA0dtnI {
 .xb37ODcxWDOjcWxIpq2i {
   grid-area: content;
 }
-/*# sourceMappingURL=xpui-routes-playlist.9c041540.css.map*/
+/*# sourceMappingURL=xpui-routes-playlist.3443504a.css.map*/

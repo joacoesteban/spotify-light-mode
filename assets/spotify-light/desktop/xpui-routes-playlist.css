@@ -73,6 +73,46 @@
   color: #000000; /* hardcoded-color: #fff → #000000 */
 }
 
+.Ha2eLarK9b56UxcT6gGl [role="checkbox"] > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--playlist-session-option-background); /* css-var: var(--playlist-session-option-background) */
+  color: var(--playlist-session-option-foreground); /* css-var: var(--playlist-session-option-foreground) */
+}
+
+.Ha2eLarK9b56UxcT6gGl [role="checkbox"]:hover > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump), .Ha2eLarK9b56UxcT6gGl [role="checkbox"]:focus-visible > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump), .Ha2eLarK9b56UxcT6gGl
+  :where([role="option"]:focus-visible)
+  [role="checkbox"]
+  > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--playlist-session-option-highlight); /* css-var: var(--playlist-session-option-highlight) */
+}
+
+.Ha2eLarK9b56UxcT6gGl [role="checkbox"]:active > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--playlist-session-option-press); /* css-var: var(--playlist-session-option-press) */
+}
+
+.Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]
+  > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--playlist-session-selected-background); /* css-var: var(--playlist-session-selected-background) */
+  color: var(--playlist-session-selected-foreground); /* css-var: var(--playlist-session-selected-foreground) */
+}
+
+.Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]:hover
+  > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump), .Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]:focus-visible
+  > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump), .Ha2eLarK9b56UxcT6gGl
+  :where([role="option"]:focus-visible)
+  [role="checkbox"][aria-checked="true"]
+  > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--playlist-session-selected-highlight); /* css-var: var(--playlist-session-selected-highlight) */
+}
+
+.Ha2eLarK9b56UxcT6gGl
+  [role="checkbox"][aria-checked="true"]:active
+  > .Xw2nqi5Q6PBKcJQWFSj8:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--playlist-session-selected-press); /* css-var: var(--playlist-session-selected-press) */
+}
+
 .sFAvvBu9t0QuBjnR3MUt:not(#spotify-light-mode-specificity-bump) {
   background-color: #0000001a; /* hardcoded-color: #ffffff1a → #0000001a */
 }

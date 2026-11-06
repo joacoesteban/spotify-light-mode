@@ -484,7 +484,7 @@ button.dF1HQjGbADsPgwU_wEiH:focus-visible {
   text-decoration: underline;
 }
 .tmR1hwyrY8Zgj9M5lL8K {
-  color: var(--text-subdued);
+  color: var(--text-base);
 }
 @media (prefers-reduced-motion: no-preference) {
   .tmR1hwyrY8Zgj9M5lL8K {
@@ -494,10 +494,10 @@ button.dF1HQjGbADsPgwU_wEiH:focus-visible {
 @keyframes mdACoBtbyCv1n1MYMLqg {
   0%,
   to {
-    opacity: 1;
+    opacity: 0.3;
   }
   50% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .xuYQehnmFtvYl0xKzC6D {
@@ -850,4 +850,4 @@ button.dF1HQjGbADsPgwU_wEiH:focus-visible {
   opacity: 0;
   transition: opacity 0.3s ease-out 0.5s;
 }
-/*# sourceMappingURL=dwp-now-playing-bar.68163af3.css.map*/
+/*# sourceMappingURL=dwp-now-playing-bar.7f0e350a.css.map*/

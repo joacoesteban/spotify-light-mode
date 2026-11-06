@@ -3,15 +3,15 @@ import _0 from "./desktop/1272.css?inline";
 import _1 from "./desktop/3079.css?inline";
 import _2 from "./desktop/3210.css?inline";
 import _3 from "./desktop/3565.css?inline";
-import _4 from "./desktop/3791.css?inline";
+import _4 from "./desktop/4091.css?inline";
 import _5 from "./desktop/4195.css?inline";
-import _6 from "./desktop/4340.css?inline";
-import _7 from "./desktop/4447.css?inline";
-import _8 from "./desktop/5424.css?inline";
-import _9 from "./desktop/5816.css?inline";
-import _10 from "./desktop/5891.css?inline";
-import _11 from "./desktop/5939.css?inline";
-import _12 from "./desktop/8409.css?inline";
+import _6 from "./desktop/4447.css?inline";
+import _7 from "./desktop/5424.css?inline";
+import _8 from "./desktop/5816.css?inline";
+import _9 from "./desktop/5891.css?inline";
+import _10 from "./desktop/7033.css?inline";
+import _11 from "./desktop/8409.css?inline";
+import _12 from "./desktop/8594.css?inline";
 import _13 from "./desktop/8869.css?inline";
 import _14 from "./desktop/9493.css?inline";
 import _15 from "./desktop/9886.css?inline";
@@ -113,15 +113,15 @@ export const lightModeStylesheetOverrides = [
   { sourceFileName: "3079.css", css: _1 },
   { sourceFileName: "3210.css", css: _2 },
   { sourceFileName: "3565.css", css: _3 },
-  { sourceFileName: "3791.css", css: _4 },
+  { sourceFileName: "4091.css", css: _4 },
   { sourceFileName: "4195.css", css: _5 },
-  { sourceFileName: "4340.css", css: _6 },
-  { sourceFileName: "4447.css", css: _7 },
-  { sourceFileName: "5424.css", css: _8 },
-  { sourceFileName: "5816.css", css: _9 },
-  { sourceFileName: "5891.css", css: _10 },
-  { sourceFileName: "5939.css", css: _11 },
-  { sourceFileName: "8409.css", css: _12 },
+  { sourceFileName: "4447.css", css: _6 },
+  { sourceFileName: "5424.css", css: _7 },
+  { sourceFileName: "5816.css", css: _8 },
+  { sourceFileName: "5891.css", css: _9 },
+  { sourceFileName: "7033.css", css: _10 },
+  { sourceFileName: "8409.css", css: _11 },
+  { sourceFileName: "8594.css", css: _12 },
   { sourceFileName: "8869.css", css: _13 },
   { sourceFileName: "9493.css", css: _14 },
   { sourceFileName: "9886.css", css: _15 },
