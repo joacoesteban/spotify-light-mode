@@ -1,7 +1,7 @@
 {
-  "snapshotVersion": "spotify-player.web-player.9d2e05ca__mobile-web-player.eae5fa6b",
+  "snapshotVersion": "spotify-player.web-player.632a438d__mobile-web-player.0b68c9e1",
   "source": {
-    "fingerprint": "sha256:4c3455ced3a2a3712355f0824f9192c4fd9120cb0ec117f935cf188d3b006419",
+    "fingerprint": "sha256:b7f81b7f70bb7cb436026c2c3e513f7a6d732c455116b99b48836abe99d12039",
     "targets": {
       "desktop": [
         {
@@ -77,10 +77,10 @@
           "byteLength": 11855
         },
         {
-          "fileName": "8594.css",
-          "relativePath": "desktop/8594.css",
-          "sha256": "a966ed946fb47f739ad22bf23f40e92d01c0e8472c79c947d1171a2ff9f19e70",
-          "byteLength": 20064
+          "fileName": "842.css",
+          "relativePath": "desktop/842.css",
+          "sha256": "0876a74227ef64cf4094ae9f19f35fcfae298df2a1b3a6ab5121d4922cde8506",
+          "byteLength": 20063
         },
         {
           "fileName": "8869.css",
@@ -463,8 +463,8 @@
         {
           "fileName": "xpui-routes-podcast-chapter.css",
           "relativePath": "desktop/xpui-routes-podcast-chapter.css",
-          "sha256": "56a7ef4d99556985f13f4c58f3dc93e67173fb004a91e7c8246c7f2c72e43aaf",
-          "byteLength": 670
+          "sha256": "acf1beec761eec6f2692f3fa76e3c13eeabbf2356b535cd7895353d8ded12825",
+          "byteLength": 847
         },
         {
           "fileName": "xpui-routes-premium-page.css",
@@ -622,7 +622,7 @@
     }
   },
   "output": {
-    "fingerprint": "sha256:fcb25a31d99aeb93cc337e65677a61fbdbe0ed6045b5bf42ea5c71f80e99d15b",
+    "fingerprint": "sha256:8a65c1cba376b2b8b19313efb67702aa67300fa1ba674c299b53654e729c6823",
     "files": [
       {
         "fileName": "1272.css",
@@ -697,10 +697,10 @@
         "byteLength": 3042
       },
       {
-        "fileName": "8594.css",
-        "relativePath": "desktop/8594.css",
-        "sha256": "a1cd1914c2f609580ce1688024be6fa7a373ac6378e2476a4d00b0ae7804514a",
-        "byteLength": 8058
+        "fileName": "842.css",
+        "relativePath": "desktop/842.css",
+        "sha256": "450e13a2b196fad0d902e21a38cb050e3494a6e390a9e66bd848b71c8b887de6",
+        "byteLength": 8057
       },
       {
         "fileName": "8869.css",
