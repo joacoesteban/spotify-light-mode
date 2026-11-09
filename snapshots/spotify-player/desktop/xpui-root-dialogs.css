@@ -1106,6 +1106,7 @@ __workaround_element__ {
   width: calc(var(--video-episode-thumbnail-height) * 16 / 9);
   height: var(--video-episode-thumbnail-height);
   aspect-ratio: 16/9;
+  align-self: flex-end;
 }
 .CibDvxAUMZohYLPx5ufg[data-seamless-gradient]
   .WuyUlqmokiV5uZ__gqwg.dPz1U7VhdWR5T0hKbmBB {
@@ -3743,4 +3744,4 @@ a.pxo4kvoArJpVFHxcPeHe:hover {
 .o1nK0kDjqxVL2lhO07Zg {
   border-radius: 8px;
 }
-/*# sourceMappingURL=xpui-root-dialogs.9b06bce3.css.map*/
+/*# sourceMappingURL=xpui-root-dialogs.d1ce1fcf.css.map*/

@@ -644,6 +644,7 @@ __workaround_element__ {
   width: calc(var(--video-episode-thumbnail-height) * 16 / 9);
   height: var(--video-episode-thumbnail-height);
   aspect-ratio: 16/9;
+  align-self: flex-end;
 }
 .CibDvxAUMZohYLPx5ufg[data-seamless-gradient]
   .WuyUlqmokiV5uZ__gqwg.dPz1U7VhdWR5T0hKbmBB {
@@ -787,4 +788,4 @@ __workaround_element__ {
   animation-duration: var(--encore-short-4);
   animation-timing-function: var(--encore-expressive-decelerate);
 }
-/*# sourceMappingURL=dwp-top-bar.3bacadd2.css.map*/
+/*# sourceMappingURL=dwp-top-bar.13366b41.css.map*/
