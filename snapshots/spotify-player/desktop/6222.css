@@ -113,6 +113,7 @@
 }
 .iNI1Y7czILu7FsaPMDkH {
   pointer-events: none;
+  anchor-name: --progress-tooltip-anchor;
   width: 1px;
   height: 1px;
   position: absolute;
@@ -493,4 +494,4 @@
   position: absolute;
   transform: translateY(-50%);
 }
-/*# sourceMappingURL=6222.63f00a5e.css.map*/
+/*# sourceMappingURL=6222.35186845.css.map*/
