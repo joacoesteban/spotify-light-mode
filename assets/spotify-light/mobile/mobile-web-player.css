@@ -1390,36 +1390,36 @@ html:not(#spotify-light-mode-specificity-bump) {
   -webkit-tap-highlight-color: transparent; /* forwarded-reset: transparent */
 }
 
-.e-101040-overlay:not(#spotify-light-mode-specificity-bump) {
+.e-101111-overlay:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-overlay__arrow-svg:not(#spotify-light-mode-specificity-bump) {
+.e-101111-overlay__arrow-svg:not(#spotify-light-mode-specificity-bump) {
   fill: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
 }
 
-.e-101040-legacy-overlay:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-overlay:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-focus-border:not(#spotify-light-mode-specificity-bump) {
+.e-101111-focus-border:not(#spotify-light-mode-specificity-bump) {
   outline: var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #ffffff00; /* hardcoded-color: var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #0000 → var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #ffffff00 */
 }
 
-.e-101040-focus-border-bottom:not(#spotify-light-mode-specificity-bump) {
+.e-101111-focus-border-bottom:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-focus-border-bottom-element:not(#spotify-light-mode-specificity-bump), .e-101040-focus-border-bottom:not(#spotify-light-mode-specificity-bump):after {
-  border-bottom: var(--encore-border-width-focus) solid #ffffff00; /* hardcoded-color: var(--encore-border-width-focus) solid #0000 → var(--encore-border-width-focus) solid #ffffff00 */
+.e-101111-focus-border-bottom-element:not(#spotify-light-mode-specificity-bump), .e-101111-focus-border-bottom:not(#spotify-light-mode-specificity-bump):after {
+  border-block-end: var(--encore-border-width-focus) solid #ffffff00; /* hardcoded-color: var(--encore-border-width-focus) solid #0000 → var(--encore-border-width-focus) solid #ffffff00 */
 }
 
-.e-101040-focus-border:focus-visible:not(#spotify-light-mode-specificity-bump) {
+.e-101111-focus-border:focus-visible:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(
     --encore-focus-outline-color,
     var(--parents-essential-base)
@@ -1429,71 +1429,71 @@ html:not(#spotify-light-mode-specificity-bump) {
   ) */
 }
 
-.e-101040-form-control:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-control:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-form-control:not(#spotify-light-mode-specificity-bump)::placeholder {
+.e-101111-form-control:not(#spotify-light-mode-specificity-bump)::placeholder {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-form-control[readonly]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-control[readonly]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
 }
 
-.e-101040-variant--naked:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--naked:not(#spotify-light-mode-specificity-bump) {
   --encore-container-bg: #ffffff00; /* custom-property: #0000 → #ffffff00 */
 }
 
-.e-101040-variant--tinted:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--tinted:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--encore-container-bg); /* css-var: var(--encore-container-bg) */
 }
 
-.e-101040-variant--elevated:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--elevated:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--encore-container-bg); /* css-var: var(--encore-container-bg) */
 }
 
-.e-101040-variant--bordered:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--bordered:not(#spotify-light-mode-specificity-bump) {
   --encore-container-bg: #ffffff00; /* custom-property: #0000 → #ffffff00 */
 }
 
-.e-101040-variant--contrasting:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--contrasting:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--encore-container-bg); /* css-var: var(--encore-container-bg) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-variant--interactive:hover:not(#spotify-light-mode-specificity-bump), .e-101040-variant--interactive[data-hovered]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--interactive:hover:not(#spotify-light-mode-specificity-bump), .e-101111-variant--interactive[data-hovered]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--encore-container-hover-bg); /* css-var: var(--encore-container-hover-bg) */
 }
 
-.e-101040-variant--interactive:active:not(#spotify-light-mode-specificity-bump), .e-101040-variant--interactive[data-pressed]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--interactive:active:not(#spotify-light-mode-specificity-bump), .e-101111-variant--interactive[data-pressed]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--encore-container-active-bg); /* css-var: var(--encore-container-active-bg) */
 }
 
-.e-101040-variant--interactive:focus-visible:where(
+.e-101111-variant--interactive:focus-visible:where(
     [data-focused]:not([data-focus-visible="true"])
   ):not(#spotify-light-mode-specificity-bump) {
   outline-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
 }
 
-.e-101040-variant--interactive[data-focus-visible]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--interactive[data-focus-visible]:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(--encore-focus-outline-color, var(--essential-base)); /* css-var: var(--encore-focus-outline-color, var(--essential-base)) */
 }
 
-.e-101040-variant--interactive:disabled:hover:not(#spotify-light-mode-specificity-bump), .e-101040-variant--interactive[aria-disabled="true"]:hover:not(#spotify-light-mode-specificity-bump), .e-101040-variant--interactive[aria-disabled="true"][data-hovered]:not(#spotify-light-mode-specificity-bump), .e-101040-variant--interactive[data-hovered]:disabled:not(#spotify-light-mode-specificity-bump) {
+.e-101111-variant--interactive:disabled:hover:not(#spotify-light-mode-specificity-bump), .e-101111-variant--interactive[aria-disabled="true"]:hover:not(#spotify-light-mode-specificity-bump), .e-101111-variant--interactive[aria-disabled="true"][data-hovered]:not(#spotify-light-mode-specificity-bump), .e-101111-variant--interactive[data-hovered]:disabled:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--encore-container-bg); /* css-var: var(--encore-container-bg) */
 }
 
-.e-101040-field-chrome:not(#spotify-light-mode-specificity-bump) {
+.e-101111-field-chrome:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
   outline: var(--encore-border-width-focus) solid #ffffff00; /* hardcoded-color: var(--encore-border-width-focus) solid #0000 → var(--encore-border-width-focus) solid #ffffff00 */
 }
 
 :is(
-  .e-101040-field-chrome:focus-visible,
-  .e-101040-field-chrome[data-focus-visible]
+  .e-101111-field-chrome:focus-visible,
+  .e-101111-field-chrome[data-focus-visible]
 ):not(#spotify-light-mode-specificity-bump) {
   outline-color: var(
     --encore-focus-outline-color,
@@ -1505,50 +1505,55 @@ html:not(#spotify-light-mode-specificity-bump) {
 }
 
 :is(
-    .e-101040-combo-box-input__input-row,
-    .e-101040-field-group,
-    .e-101040-search-field
+    .e-101111-combo-box-input__input-row,
+    .e-101111-field-group,
+    .e-101111-search-field
   )
-  > .e-101040-field-chrome:not(#spotify-light-mode-specificity-bump) {
+  > .e-101111-field-chrome:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-field-chrome-tinted:not(#spotify-light-mode-specificity-bump) {
+.e-101111-field-chrome-tinted:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
   outline: var(--encore-border-width-focus) solid #ffffff00; /* hardcoded-color: var(--encore-border-width-focus) solid #0000 → var(--encore-border-width-focus) solid #ffffff00 */
 }
 
-.e-101040-field-chrome-tinted > .e-101040-icon:not(#spotify-light-mode-specificity-bump) {
+.e-101111-field-chrome-tinted > .e-101111-icon:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-field-chrome-tinted:where(:hover, [data-hovered]):not(
-    :has(.e-101040-input:where(:read-only))
+.e-101111-field-chrome-tinted:where(:hover, [data-hovered]):not(
+    :has(.e-101111-input:where(:read-only))
   ):not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
 }
 
-.e-101040-field-chrome-tinted:where(:hover, [data-hovered]):not(
-    :has(.e-101040-input:where(:read-only))
-  )
-  > :where(.e-101040-icon):not(#spotify-light-mode-specificity-bump) {
+:is(
+  .e-101111-accordion,
+  .e-101111-field-chrome-tinted:has(.e-101111-input:where(:focus-visible))
+    > :where(.e-101111-icon),
+  .e-101111-field-chrome-tinted:has(
+      .e-101111-input:where(:read-only:not(:disabled))
+    )
+    > :where(.e-101111-icon),
+  .e-101111-field-chrome-tinted:where(:hover, [data-hovered]):not(
+      :has(.e-101111-input:where(:read-only))
+    )
+    > :where(.e-101111-icon)
+):not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-field-chrome-tinted[aria-invalid="true"]:not(#spotify-light-mode-specificity-bump), .e-101040-field-chrome-tinted[data-invalid]:not(#spotify-light-mode-specificity-bump) {
-  outline-color: var(--text-negative); /* css-var: var(--text-negative) */
-}
-
-.e-101040-field-chrome-tinted[data-disabled]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-field-chrome-tinted[data-disabled]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-field-chrome-tinted:has(.e-101040-input:where(:disabled)):not(#spotify-light-mode-specificity-bump) {
+.e-101111-field-chrome-tinted:has(.e-101111-input:where(:disabled)):not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-field-chrome-tinted:has(.e-101040-input:where(:focus-visible)):not(#spotify-light-mode-specificity-bump) {
+.e-101111-field-chrome-tinted:has(.e-101111-input:where(:focus-visible)):not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
   outline-color: var(
     --encore-focus-outline-color,
@@ -1559,277 +1564,256 @@ html:not(#spotify-light-mode-specificity-bump) {
   ) */
 }
 
-.e-101040-field-chrome-tinted:has(.e-101040-input:where(:focus-visible))
-  > :where(.e-101040-icon):not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-field-chrome-tinted:has(
-  .e-101040-input:where(:read-only:not(:disabled))
+.e-101111-field-chrome-tinted:has(
+  .e-101111-input:where(:read-only:not(:disabled))
 ):not(#spotify-light-mode-specificity-bump) {
   background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
 }
 
-.e-101040-field-chrome-tinted:has(
-    .e-101040-input:where(:read-only:not(:disabled))
-  )
-  > :where(.e-101040-icon):not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-accordion:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
+.e-101111-accordion:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-accordion-content:not(#spotify-light-mode-specificity-bump) {
+.e-101111-accordion-content:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-accordion-title__button:not(#spotify-light-mode-specificity-bump) {
+.e-101111-accordion-title__button:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
   border: none; /* forwarded-reset: none */
 }
 
-.e-101040-accordion-title__icon:not(#spotify-light-mode-specificity-bump) {
+.e-101111-accordion-title__icon:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-app:not(#spotify-light-mode-specificity-bump) {
+.e-101111-app:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-backdrop:not(#spotify-light-mode-specificity-bump) {
+.e-101111-backdrop:not(#spotify-light-mode-specificity-bump) {
   background: #ffffff80; /* hardcoded-color: #00000080 → #ffffff80 */
 }
 
-.e-101040-banner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-banner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-banner--color-set:not(#spotify-light-mode-specificity-bump) {
+.e-101111-banner--color-set:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-legacy-box:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-box:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-legacy-box--interactive.e-101040-legacy-box--contrasting:hover:not(#spotify-light-mode-specificity-bump), .e-101040-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--interactive.e-101111-legacy-box--contrasting:hover:not(#spotify-light-mode-specificity-bump), .e-101111-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--background-highlight); /* css-var: var(--background-highlight) */
 }
 
-.e-101040-legacy-box--interactive.e-101040-legacy-box--contrasting:active:not(#spotify-light-mode-specificity-bump), .e-101040-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--interactive.e-101111-legacy-box--contrasting:active:not(#spotify-light-mode-specificity-bump), .e-101111-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--background-press); /* css-var: var(--background-press) */
 }
 
-.e-101040-legacy-box--tinted:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-box--tinted:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-legacy-box--tinted.e-101040-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--tinted.e-101111-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
 }
 
-.e-101040-legacy-box--tinted.e-101040-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--tinted.e-101111-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--background-tinted-press); /* css-var: var(--background-tinted-press) */
 }
 
-.e-101040-legacy-box--elevated:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-box--elevated:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
 }
 
-.e-101040-legacy-box--elevated.e-101040-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--elevated.e-101111-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--background-elevated-highlight); /* css-var: var(--background-elevated-highlight) */
 }
 
-.e-101040-legacy-box--elevated.e-101040-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--elevated.e-101111-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
 }
 
-.e-101040-legacy-box--hover-custom.e-101040-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--hover-custom.e-101111-legacy-box--interactive:hover:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--box-hover-background-color); /* css-var: var(--box-hover-background-color) */
 }
 
-.e-101040-legacy-box--active-custom.e-101040-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-box--active-custom.e-101111-legacy-box--interactive:active:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--box-active-background-color); /* css-var: var(--box-active-background-color) */
 }
 
-.e-101040-legacy-box--contrasting:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-box--contrasting:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-link.e-101040-breadcrumb-item[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-link.e-101111-breadcrumb-item[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-button:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button:not(#spotify-light-mode-specificity-bump) {
   border: none; /* forwarded-reset: none */
 }
 
-.e-101040-button:focus-visible:where(
+.e-101111-button:focus-visible:where(
     [data-focused]:not([data-focus-visible="true"])
-  ):not(.e-101040-button--secondary-bordered):not(#spotify-light-mode-specificity-bump) {
+  ):not(.e-101111-button--secondary-bordered):not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-button--floating-background:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--floating-background:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
 }
 
-.e-101040-button--floating-background:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--floating-background:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-highlight); /* css-var: var(--background-elevated-highlight) */
 }
 
-.e-101040-button--floating-background:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--floating-background:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
 }
 
-.e-101040-button--primary:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--primary:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-button--primary:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--primary:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-highlight); /* css-var: var(--background-highlight) */
 }
 
-.e-101040-button--primary:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--primary:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-press); /* css-var: var(--background-press) */
 }
 
-.e-101040-button--primary.e-101040-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101040-button--primary:disabled:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--primary.e-101111-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101111-button--primary:disabled:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-button--secondary:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-button--secondary:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
 }
 
-.e-101040-button--secondary:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-press); /* css-var: var(--background-tinted-press) */
 }
 
-.e-101040-button--secondary.e-101040-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101040-button--secondary:disabled:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered:hover:not(#spotify-light-mode-specificity-bump), .e-101111-button--secondary.e-101111-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101111-button--secondary:disabled:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-button--secondary-bordered:hover:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
-}
-
-.e-101040-button--secondary-bordered:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-press); /* css-var: var(--background-tinted-press) */
 }
 
-.e-101040-button--secondary-bordered-text-base:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered-text-base:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
 }
 
-.e-101040-button--secondary-bordered-text-base:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered-text-base:hover:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-button--secondary-bordered-text-base.e-101040-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101040-button--secondary-bordered-text-base:disabled:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered-text-base.e-101111-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101111-button--secondary-bordered-text-base:disabled:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
   border-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
 }
 
-.e-101040-button--secondary-bordered-subdued:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered-subdued:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-button--secondary-bordered-subdued:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered-subdued:hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-button--secondary-bordered-subdued.e-101040-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101040-button--secondary-bordered-subdued:disabled:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--secondary-bordered-subdued.e-101111-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101111-button--secondary-bordered-subdued:disabled:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-button--tertiary:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--tertiary:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-button--tertiary:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--tertiary:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-press); /* css-var: var(--background-tinted-press) */
 }
 
-.e-101040-button--tertiary-text-subdued:active:not(#spotify-light-mode-specificity-bump), .e-101040-button--tertiary-text-subdued:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--tertiary-text-subdued:active:not(#spotify-light-mode-specificity-bump), .e-101111-button--tertiary-text-subdued:hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-button--tertiary-text-subdued.e-101040-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101040-button--tertiary-text-subdued:disabled:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button--tertiary-text-subdued.e-101111-button--has-disabled-styling:not(#spotify-light-mode-specificity-bump), .e-101111-button--tertiary-text-subdued:disabled:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-legacy-button-primary:hover .e-101040-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-primary:hover .e-101111-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-highlight); /* css-var: var(--background-highlight) */
 }
 
-.e-101040-legacy-button-primary:active .e-101040-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-primary:active .e-101111-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-press); /* css-var: var(--background-press) */
 }
 
-.e-101040-legacy-button-primary:disabled .e-101040-button-primary__inner:not(#spotify-light-mode-specificity-bump), .e-101040-legacy-button-primary[aria-disabled="true"]
-  .e-101040-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-primary:disabled .e-101111-button-primary__inner:not(#spotify-light-mode-specificity-bump), .e-101111-legacy-button-primary[aria-disabled="true"]
+  .e-101111-button-primary__inner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-legacy-button-secondary--text-base:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-secondary--text-base:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
 }
 
-.e-101040-legacy-button-secondary--text-base:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-secondary--text-base:hover:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--essential-base); /* css-var: var(--essential-base) */
 }
 
-.e-101040-legacy-button-secondary--subdued:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-secondary--subdued:hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
   border-color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-legacy-button-secondary--text-base:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-secondary--text-base:active:not(#spotify-light-mode-specificity-bump), .e-101111-legacy-button-secondary--text-base:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-legacy-button-secondary--text-base[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
 }
 
-.e-101040-legacy-button-secondary--text-base:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-legacy-button-secondary--text-base[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
-  border-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
-}
-
-.e-101040-legacy-button-secondary--subdued:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-legacy-button-secondary--subdued[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-button-secondary--subdued:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-legacy-button-secondary--subdued[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--text-subdued); /* css-var: var(--text-subdued) */
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-button-tertiary--text-subdued:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button-tertiary--text-subdued:hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-button-tertiary--text-subdued:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-button-tertiary--text-subdued[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-button-tertiary--text-subdued:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-button-tertiary--text-subdued[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-card__button:not(#spotify-light-mode-specificity-bump) {
+.e-101111-card__button:not(#spotify-light-mode-specificity-bump) {
   border: none; /* forwarded-reset: none */
 }
 
-.e-101040-card__button:focus:not(#spotify-light-mode-specificity-bump) {
+.e-101111-card__button:focus:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-card.e-101040-focus-border:has(> :first-child:focus-visible):not(#spotify-light-mode-specificity-bump) {
+.e-101111-card.e-101111-focus-border:has(> :first-child:focus-visible):not(#spotify-light-mode-specificity-bump) {
   outline-color: var(
     --encore-focus-outline-color,
     var(--parents-essential-base)
@@ -1839,177 +1823,237 @@ html:not(#spotify-light-mode-specificity-bump) {
   ) */
 }
 
-.e-101040-card-title--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
+.e-101111-card-title--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-checkbox-indicator--indeterminate:not(#spotify-light-mode-specificity-bump), .e-101040-checkbox-indicator--selected:not(#spotify-light-mode-specificity-bump) {
+.e-101111-checkbox-indicator--indeterminate:not(#spotify-light-mode-specificity-bump), .e-101111-checkbox-indicator--selected:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--essential-bright-accent); /* css-var: var(--essential-bright-accent) */
   border: none; /* forwarded-reset: none */
 }
 
 :is(
-  .e-101040-checkbox-indicator--selected,
-  .e-101040-checkbox-indicator--indeterminate
+  .e-101111-checkbox-indicator--selected,
+  .e-101111-checkbox-indicator--indeterminate
 ):not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-checkbox-indicator--selected:not(#spotify-light-mode-specificity-bump):after {
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M6.70898 9.54395L5.14453 7.70898L3.62305 9.00781L6.70801 12.623L12.5059 5.8418L10.9854 4.54199L6.70898 9.54395Z' fill='#ffffff'/></svg>"); /* hardcoded-color: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M6.70898 9.54395L5.14453 7.70898L3.62305 9.00781L6.70801 12.623L12.5059 5.8418L10.9854 4.54199L6.70898 9.54395Z' fill='black'/></svg>") → url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M6.70898 9.54395L5.14453 7.70898L3.62305 9.00781L6.70801 12.623L12.5059 5.8418L10.9854 4.54199L6.70898 9.54395Z' fill='#ffffff'/></svg>") */
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M6.70898 9.54395L5.14453 7.70898L3.62305 9.00781L6.70801 12.623L12.5059 5.8418L10.9854 4.54199L6.70898 9.54395Z' fill='#ffffff'/></svg>"); /* hardcoded-color: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M6.70898 9.54395L5.14453 7.70898L3.62305 9.00781L6.70801 12.623L12.5059 5.8418L10.9854 4.54199L6.70898 9.54395Z' fill='black'/></svg>") → url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M6.70898 9.54395L5.14453 7.70898L3.62305 9.00781L6.70801 12.623L12.5059 5.8418L10.9854 4.54199L6.70898 9.54395Z' fill='#ffffff'/></svg>") */
+}
+
+.e-101111-checkbox-indicator--indeterminate:not(#spotify-light-mode-specificity-bump):after {
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill-rule='evenodd' clip-rule='evenodd' d='M12 9H4V7H12V9Z' fill='#ffffff'/></svg>"); /* hardcoded-color: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill-rule='evenodd' clip-rule='evenodd' d='M12 9H4V7H12V9Z' fill='black'/></svg>") → url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill-rule='evenodd' clip-rule='evenodd' d='M12 9H4V7H12V9Z' fill='#ffffff'/></svg>") */
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill-rule='evenodd' clip-rule='evenodd' d='M12 9H4V7H12V9Z' fill='#ffffff'/></svg>"); /* hardcoded-color: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill-rule='evenodd' clip-rule='evenodd' d='M12 9H4V7H12V9Z' fill='black'/></svg>") → url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill-rule='evenodd' clip-rule='evenodd' d='M12 9H4V7H12V9Z' fill='#ffffff'/></svg>") */
+}
+
+.e-101111-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-legacy-chip__inner--selected:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-chip__inner--selected:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-legacy-chip__inner--secondary:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-chip__inner--secondary:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
 }
 
-.e-101040-legacy-chip:hover > .e-101040-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-chip:hover > .e-101111-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
 }
 
-.e-101040-legacy-chip:hover
-  > .e-101040-legacy-chip__inner.e-101040-legacy-chip__inner--selected:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-chip:hover
+  > .e-101111-legacy-chip__inner.e-101111-legacy-chip__inner--selected:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-highlight); /* css-var: var(--background-highlight) */
 }
 
-.e-101040-legacy-chip:active > .e-101040-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-chip:active > .e-101111-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-press); /* css-var: var(--background-tinted-press) */
 }
 
-.e-101040-legacy-chip:active
-  > .e-101040-legacy-chip__inner.e-101040-legacy-chip__inner--selected:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-chip:active
+  > .e-101111-legacy-chip__inner.e-101111-legacy-chip__inner--selected:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-press); /* css-var: var(--background-press) */
 }
 
-.e-101040-legacy-chip:disabled > .e-101040-legacy-chip__inner:not(#spotify-light-mode-specificity-bump), .e-101040-legacy-chip[aria-disabled="true"] > .e-101040-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-chip:disabled > .e-101111-legacy-chip__inner:not(#spotify-light-mode-specificity-bump), .e-101111-legacy-chip[aria-disabled="true"] > .e-101111-legacy-chip__inner:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-legacy-chip__inner--selected:is(
-  .e-101040-legacy-chip:disabled > .e-101040-legacy-chip__inner,
-  .e-101040-legacy-chip[aria-disabled="true"] > .e-101040-legacy-chip__inner
+.e-101111-legacy-chip__inner--selected:is(
+  .e-101111-legacy-chip:disabled > .e-101111-legacy-chip__inner,
+  .e-101111-legacy-chip[aria-disabled="true"] > .e-101111-legacy-chip__inner
 ):not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-chip-clear:not(#spotify-light-mode-specificity-bump) {
+.e-101111-chip-clear:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-chip-clear:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-chip-clear:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
 }
 
-.e-101040-chip-clear:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-chip-clear:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-press); /* css-var: var(--background-tinted-press) */
 }
 
-.e-101040-chip-clear:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-chip-clear[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-chip-clear:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-chip-clear[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-chip-group:not(#spotify-light-mode-specificity-bump):before {
+.e-101111-chip-group:not(#spotify-light-mode-specificity-bump):before {
   background: linear-gradient(270deg, #ffffff00, var(--background-base) 75%); /* hardcoded-color: linear-gradient(270deg, #0000, var(--background-base) 75%) → linear-gradient(270deg, #ffffff00, var(--background-base) 75%) */
 }
 
-.e-101040-chip-group:not(#spotify-light-mode-specificity-bump):after, [dir="rtl"] :is():not(#spotify-light-mode-specificity-bump) {
+.e-101111-chip-group:not(#spotify-light-mode-specificity-bump):after, [dir="rtl"] .e-101111-chip-group:not(#spotify-light-mode-specificity-bump):before {
   background: linear-gradient(90deg, #ffffff00, var(--background-base) 75%); /* hardcoded-color: linear-gradient(90deg, #0000, var(--background-base) 75%) → linear-gradient(90deg, #ffffff00, var(--background-base) 75%) */
 }
 
-[dir="rtl"] :is():not(#spotify-light-mode-specificity-bump) {
+[dir="rtl"] .e-101111-chip-group:not(#spotify-light-mode-specificity-bump):after {
   background: linear-gradient(270deg, #ffffff00, var(--background-base) 75%); /* hardcoded-color: linear-gradient(270deg, #0000, var(--background-base) 75%) → linear-gradient(270deg, #ffffff00, var(--background-base) 75%) */
 }
 
-.e-101040-collapse-button:not(#spotify-light-mode-specificity-bump) {
+.e-101111-collapse-button:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.encore-internal-color-text-subdued.e-101040-collapse-button:hover:not(#spotify-light-mode-specificity-bump) {
+.encore-internal-color-text-subdued.e-101111-collapse-button:hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-dialog-full-screen:not(#spotify-light-mode-specificity-bump) {
+.e-101111-combo-box[data-readonly] .e-101111-field-group:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
+}
+
+.e-101111-combo-box-chip:not(#spotify-light-mode-specificity-bump) {
+  outline: var(--encore-border-width-thin) solid #ffffff00; /* hardcoded-color: var(--encore-border-width-thin) solid #0000 → var(--encore-border-width-thin) solid #ffffff00 */
+}
+
+.e-101111-combo-box-chip:focus:not(#spotify-light-mode-specificity-bump) {
+  outline-color: var(--parents-essential-base); /* css-var: var(--parents-essential-base) */
+}
+
+[data-encore-id="comboBoxInput"]:has(
+  .e-101111-combo-box-input__clear:focus-visible
+):not(#spotify-light-mode-specificity-bump) {
+  outline-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
+}
+
+.e-101111-dialog-full-screen:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-divider:not(#spotify-light-mode-specificity-bump) {
+.e-101111-divider:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-dropdown__arrow:not(#spotify-light-mode-specificity-bump) {
+.e-101111-dropdown__arrow:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-dropdown-link:not(#spotify-light-mode-specificity-bump) {
+.e-101111-dropdown-link:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-dropdown-link:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-dropdown-link:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-highlight); /* css-var: var(--background-elevated-highlight) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-dropdown-link:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-dropdown-link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-dropdown-link:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-dropdown-link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-dropdown-link:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-dropdown-link:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-dropdown-list:focus-visible .e-101040-dropdown-link--selected:not(#spotify-light-mode-specificity-bump) {
+.e-101111-dropdown-list:focus-visible .e-101111-dropdown-link--selected:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-dropdown-list:focus-visible .e-101040-dropdown-link--selected:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-dropdown-list:focus-visible .e-101111-dropdown-link--selected:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-empty-state--contextual:not(#spotify-light-mode-specificity-bump) {
+.e-101111-empty-state--contextual:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-highlight); /* css-var: var(--background-highlight) */
 }
 
-.e-101040-empty-state--contextual:not(#spotify-light-mode-specificity-bump), .e-101040-empty-state__message-container:not(#spotify-light-mode-specificity-bump) {
+.e-101111-empty-state--contextual:not(#spotify-light-mode-specificity-bump), .e-101111-empty-state__message-container:not(#spotify-light-mode-specificity-bump) {
   border: var(--encore-border-width-hairline) solid #ffffff00; /* hardcoded-color: var(--encore-border-width-hairline) solid #0000 → var(--encore-border-width-hairline) solid #ffffff00 */
 }
 
-.e-101040-empty-state__icon-container:not(#spotify-light-mode-specificity-bump) {
+.e-101111-empty-state__icon-container:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-empty-state__icon:not(#spotify-light-mode-specificity-bump) {
+.e-101111-empty-state__icon:not(#spotify-light-mode-specificity-bump) {
   color: var(--essential-base); /* css-var: var(--essential-base) */
 }
 
-.e-101040-empty-state--has-background:not(#spotify-light-mode-specificity-bump) {
+.e-101111-empty-state--has-background:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
 }
 
-.e-101040-empty-state__message-container--contextual:not(#spotify-light-mode-specificity-bump) {
+.e-101111-empty-state__message-container--contextual:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
   border-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
 }
 
-.e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
+.e-101111-field-description:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-field-error:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-negative); /* css-var: var(--text-negative) */
+}
+
+.e-101111-field-group:has(
+  .e-101111-input:where(:focus-visible),
+  .e-101111-text-area:where(:focus-visible)
+):not(#spotify-light-mode-specificity-bump) {
+  outline-color: var(
+    --encore-focus-outline-color,
+    var(--parents-essential-base)
+  ); /* css-var: var(
+    --encore-focus-outline-color,
+    var(--parents-essential-base)
+  ) */
+}
+
+.e-101111-field-group:has(
+  .e-101111-input:where(:read-only:not(:disabled)),
+  .e-101111-text-area:where(:read-only:not(:disabled))
+):not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
+}
+
+.e-101111-field-group > .e-101111-icon:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
   outline: var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #ffffff00; /* hardcoded-color: var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #0000 → var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #ffffff00 */
 }
 
-input + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
+input + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-input:active + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
+input:active + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
   border-color: var(
     --encore-form-checkbox-semantic-color,
     var(--essential-bright-accent)
@@ -2019,7 +2063,7 @@ input:active + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-
   ) */
 }
 
-input:checked + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
+input:checked + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
   background-color: var(
     --encore-form-checkbox-semantic-color,
     var(--essential-bright-accent)
@@ -2036,7 +2080,7 @@ input:checked + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode
   ) */
 }
 
-input:focus-visible + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
+input:focus-visible + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(
     --encore-focus-outline-color,
     var(--parents-essential-base)
@@ -2046,7 +2090,7 @@ input:focus-visible + label .e-101040-form-checkbox__indicator:not(#spotify-ligh
   ) */
 }
 
-input:not(:checked):active + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump), input:not(:checked):hover + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
+input:not(:checked):active + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump), input:not(:checked):hover + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
   border-color: var(
     --encore-form-checkbox-semantic-color,
     var(--essential-bright-accent)
@@ -2056,18 +2100,18 @@ input:not(:checked):active + label .e-101040-form-checkbox__indicator:not(#spoti
   ) */
 }
 
-input:checked + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump):before {
+input:checked + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump):before {
   border-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-input:not(:checked):disabled + label .e-101040-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
+input:not(:checked):disabled + label .e-101111-form-checkbox__indicator:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   border-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
 }
 
-input + label .e-101040-form-checkbox__indicator.e-101040-Encore_indeterminate:not(#spotify-light-mode-specificity-bump), input:disabled
+input + label .e-101111-form-checkbox__indicator.e-101111-Encore_indeterminate:not(#spotify-light-mode-specificity-bump), input:disabled
   + label
-  .e-101040-form-checkbox__indicator.e-101040-Encore_indeterminate:not(#spotify-light-mode-specificity-bump) {
+  .e-101111-form-checkbox__indicator.e-101111-Encore_indeterminate:not(#spotify-light-mode-specificity-bump) {
   background-color: var(
     --encore-form-checkbox-semantic-color,
     var(--essential-bright-accent)
@@ -2086,39 +2130,39 @@ input + label .e-101040-form-checkbox__indicator.e-101040-Encore_indeterminate:n
 
 input
   + label
-  .e-101040-form-checkbox__indicator.e-101040-Encore_indeterminate:not(#spotify-light-mode-specificity-bump):before {
+  .e-101111-form-checkbox__indicator.e-101111-Encore_indeterminate:not(#spotify-light-mode-specificity-bump):before {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-form-checkbox__text:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-checkbox__text:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-form-group__label:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-group__label:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-form-group__required:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-group__required:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-negative); /* css-var: var(--text-negative) */
 }
 
-.e-101040-form-group__indicator-text:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-group__indicator-text:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-form-help-text:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-help-text:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-form-help-text--error:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-help-text--error:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-negative); /* css-var: var(--text-negative) */
 }
 
-.e-101040-form-input-icon__icon:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-input-icon__icon:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   outline: var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #ffffff00; /* hardcoded-color: var(--encore-focus-outline-width, var(--encore-border-width-focus))
@@ -2126,7 +2170,7 @@ input
     solid #ffffff00 */
 }
 
-input:checked + .e-101040-form-radio__label .e-101040-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
+input:checked + .e-101111-form-radio__label .e-101111-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
   border-color: var(
     --encore-form-radio-semantic-color,
     var(--essential-bright-accent)
@@ -2137,8 +2181,8 @@ input:checked + .e-101040-form-radio__label .e-101040-form-radio__indicator:not(
 }
 
 input:focus-visible
-  + .e-101040-form-radio__label
-  .e-101040-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
+  + .e-101111-form-radio__label
+  .e-101111-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(
     --encore-focus-outline-color,
     var(--parents-essential-base)
@@ -2149,24 +2193,24 @@ input:focus-visible
 }
 
 input:not(:checked):disabled
-  + .e-101040-form-radio__label
-  .e-101040-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
+  + .e-101111-form-radio__label
+  .e-101111-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
 }
 
 input:checked
-  + .e-101040-form-radio__label
-  .e-101040-form-radio__indicator:not(#spotify-light-mode-specificity-bump):before {
+  + .e-101111-form-radio__label
+  .e-101111-form-radio__indicator:not(#spotify-light-mode-specificity-bump):before {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-form-radio__text:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-radio__text:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
 input:not(:checked, :disabled):hover
-  + .e-101040-form-radio__label
-  .e-101040-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
+  + .e-101111-form-radio__label
+  .e-101111-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
   border-color: var(
     --encore-form-radio-semantic-color,
     var(--essential-bright-accent)
@@ -2177,8 +2221,8 @@ input:not(:checked, :disabled):hover
 }
 
 input:not(:checked, :disabled):active
-  + .e-101040-form-radio__label
-  .e-101040-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
+  + .e-101111-form-radio__label
+  .e-101111-form-radio__indicator:not(#spotify-light-mode-specificity-bump) {
   border-color: var(
     --encore-form-radio-semantic-color,
     var(--essential-bright-accent)
@@ -2188,7 +2232,7 @@ input:not(:checked, :disabled):active
   ) */
 }
 
-.e-101040-form-toggle__wrapper:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-toggle__wrapper:not(#spotify-light-mode-specificity-bump) {
   outline: var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #ffffff00; /* hardcoded-color: var(--encore-focus-outline-width, var(--encore-border-width-focus))
     solid #0000 → var(--encore-focus-outline-width, var(--encore-border-width-focus))
@@ -2196,7 +2240,7 @@ input:not(:checked, :disabled):active
   background-color: var(--essential-subdued); /* css-var: var(--essential-subdued) */
 }
 
-input:focus-visible + .e-101040-form-toggle__wrapper:not(#spotify-light-mode-specificity-bump) {
+input:focus-visible + .e-101111-form-toggle__wrapper:not(#spotify-light-mode-specificity-bump) {
   outline-color: var(
     --encore-focus-outline-color,
     var(--parents-essential-base)
@@ -2206,7 +2250,7 @@ input:focus-visible + .e-101040-form-toggle__wrapper:not(#spotify-light-mode-spe
   ) */
 }
 
-input:checked + .e-101040-form-toggle__wrapper:not(#spotify-light-mode-specificity-bump) {
+input:checked + .e-101111-form-toggle__wrapper:not(#spotify-light-mode-specificity-bump) {
   background-color: var(
     --encore-form-toggle-semantic-color,
     var(--essential-bright-accent)
@@ -2216,76 +2260,82 @@ input:checked + .e-101040-form-toggle__wrapper:not(#spotify-light-mode-specifici
   ) */
 }
 
-.e-101040-form-toggle__indicator:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-toggle__indicator:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-form-toggle__label:not(#spotify-light-mode-specificity-bump) {
+.e-101111-form-toggle__label:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-input[aria-readonly] ~ .e-101040-form-toggle__label:not(#spotify-light-mode-specificity-bump) {
+input[aria-readonly] ~ .e-101111-form-toggle__label:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-icon:not(#spotify-light-mode-specificity-bump) {
+.e-101111-icon:not(#spotify-light-mode-specificity-bump) {
   fill: var(--encore-icon-fill, currentColor); /* css-var: var(--encore-icon-fill, currentColor) */
 }
 
-.e-101040-legacy-image__placeholder-wrapper:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-image__placeholder-wrapper:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-link:not(#spotify-light-mode-specificity-bump) {
+.e-101111-input:not(#spotify-light-mode-specificity-bump)::placeholder {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-input:read-only:not(:disabled):not(#spotify-light-mode-specificity-bump), .e-101111-input[data-readonly]:not([data-disabled]):not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
+}
+
+.e-101111-label:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-link:not(#spotify-light-mode-specificity-bump) {
   color: var(--encore-link-color, inherit); /* css-var: var(--encore-link-color, inherit) */
 }
 
-.e-101040-link:where(button):not(#spotify-light-mode-specificity-bump) {
+.e-101111-link:where(button):not(#spotify-light-mode-specificity-bump) {
   border: none; /* forwarded-reset: none */
 }
 
-.e-101040-link--inline-color:not([aria-disabled="true"]):hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-link--inline-color:not([aria-disabled="true"]):hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--encore-link-color, var(--text-bright-accent)); /* css-var: var(--encore-link-color, var(--text-bright-accent)) */
 }
 
-.e-101040-link--inline-color:not([aria-disabled="true"]):active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-link--inline-color:not([aria-disabled="true"]):active:not(#spotify-light-mode-specificity-bump) {
   color: var(--encore-link-color, var(--text-bright-accent)); /* css-var: var(--encore-link-color, var(--text-bright-accent)) */
 }
 
-.e-101040-list--divider > :not(:first-child):not(#spotify-light-mode-specificity-bump):before {
+.e-101111-list--divider > :not(:first-child):not(#spotify-light-mode-specificity-bump):before {
   border-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
 }
 
-.e-101040-list--divider:has(.e-101040-box)
-  > .e-101040-box:active
-  + .e-101040-box:not(#spotify-light-mode-specificity-bump):before {
+.e-101111-list--divider:has(.e-101111-box) > .e-101111-box:active:not(#spotify-light-mode-specificity-bump):before {
   border-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
 }
 
-.e-101040-list--divider:has(.e-101040-box) > .e-101040-box:active:not(#spotify-light-mode-specificity-bump):before {
+.e-101111-list--divider:has(.e-101111-box) > .e-101111-box:hover:not(#spotify-light-mode-specificity-bump):before {
   border-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
 }
 
-.e-101040-list--divider:has(.e-101040-box)
-  > .e-101040-box:hover
-  + .e-101040-box:not(#spotify-light-mode-specificity-bump):before {
+.e-101111-list--divider:has(.e-101111-box)
+  > :is(.e-101111-box:active, .e-101111-box:hover)
+  + .e-101111-box:not(#spotify-light-mode-specificity-bump):before {
   border-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
 }
 
-.e-101040-list--divider:has(.e-101040-box) > .e-101040-box:hover:not(#spotify-light-mode-specificity-bump):before {
-  border-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
-}
-
-.e-101040-legacy-list-row__row-button:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-list-row__row-button:not(#spotify-light-mode-specificity-bump) {
   border: none; /* forwarded-reset: none */
 }
 
-.e-101040-legacy-list-row__row-button:focus:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-list-row__row-button:focus:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-legacy-list-row.e-101040-focus-border:has(
+.e-101111-legacy-list-row.e-101111-focus-border:has(
     > :first-child:focus-visible
   ):not(#spotify-light-mode-specificity-bump) {
   outline-color: var(
@@ -2297,138 +2347,138 @@ input[aria-readonly] ~ .e-101040-form-toggle__label:not(#spotify-light-mode-spec
   ) */
 }
 
-.e-101040-legacy-list-row-title--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
+.e-101111-legacy-list-row-title--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-logo:not(#spotify-light-mode-specificity-bump) {
+.e-101111-logo:not(#spotify-light-mode-specificity-bump) {
   stroke: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
   fill: var(--encore-logo-fill-color); /* css-var: var(--encore-logo-fill-color) */
 }
 
-.e-101040-logo-spotify-for-artists:not(#spotify-light-mode-specificity-bump) {
+.e-101111-logo-spotify-for-artists:not(#spotify-light-mode-specificity-bump) {
   stroke: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
   fill: var(--encore-logo-artists-fill-color); /* css-var: var(--encore-logo-artists-fill-color) */
 }
 
-.e-101040-menu:not(#spotify-light-mode-specificity-bump) {
+.e-101111-menu:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-menu-row[data-focused]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-menu-row[data-focused]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--list-row-hover-bg); /* css-var: var(--list-row-hover-bg) */
 }
 
-.e-101040-menu-row[data-open]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-menu-row[data-open]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--list-row-hover-bg); /* css-var: var(--list-row-hover-bg) */
 }
 
-.e-101040-nav-bar:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-bar:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-nav-bar-list-item__link:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-bar-list-item__link:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-nav-bar-list-item__link--active:not(#spotify-light-mode-specificity-bump), .e-101040-nav-bar-list-item__link:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-bar-list-item__link--active:not(#spotify-light-mode-specificity-bump), .e-101111-nav-bar-list-item__link:hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-nav-bar-list-item__link--focus-border:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-bar-list-item__link--focus-border:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-nav-bar-list-item__link--focus-border:focus-visible:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-pill-panel:focus-visible:not(#spotify-light-mode-specificity-bump) {
+  outline: none; /* forwarded-reset: none */
+}
+
+.e-101111-nav-bar-list-item__link--focus-border:focus-visible:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-nav-bar-list-item__link--active:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-nav-bar-list-item__link--active:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--essential-base); /* css-var: var(--essential-base) */
 }
 
-.e-101040-nav-bar-list-item__link--focus-border:focus-visible:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-nav-bar-list-item__link--focus-border:focus-visible:not(#spotify-light-mode-specificity-bump):after {
   background-color: var(--essential-base); /* css-var: var(--essential-base) */
 }
 
-.e-101040-nav-pill-list-item__link:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-pill-list-item__link:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-nav-pill-list-item__link:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-nav-pill-list-item__link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-pill-list-item__link:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-nav-pill-list-item__link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-nav-pill-list-item__link--hover:not(#spotify-light-mode-specificity-bump), .e-101040-nav-pill-list-item__link:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-pill-list-item__link--hover:not(#spotify-light-mode-specificity-bump), .e-101111-nav-pill-list-item__link:hover:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-nav-pill-list-item__link--active:not(#spotify-light-mode-specificity-bump), .e-101040-nav-pill-list-item__link:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-pill-list-item__link--active:not(#spotify-light-mode-specificity-bump), .e-101111-nav-pill-list-item__link:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-nav-pill-panel:focus-visible:not(#spotify-light-mode-specificity-bump) {
-  outline: none; /* forwarded-reset: none */
-}
-
-.e-101040-nav-stepper-item__text:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-stepper-item__text:not(#spotify-light-mode-specificity-bump) {
   border-block-end: 2px solid #ffffff00; /* hardcoded-color: 2px solid #0000 → 2px solid #ffffff00 */
 }
 
-.e-101040-nav-stepper-item__text--active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-stepper-item__text--active:not(#spotify-light-mode-specificity-bump) {
   border-color: var(--essential-bright-accent); /* css-var: var(--essential-bright-accent) */
 }
 
-.e-101040-nav-stepper-item__icon:not(#spotify-light-mode-specificity-bump) {
+.e-101111-nav-stepper-item__icon:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-navigation:not(#spotify-light-mode-specificity-bump) {
+.e-101111-navigation:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-navigation-action:not(#spotify-light-mode-specificity-bump) {
+.e-101111-navigation-action:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-navigation-action:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-navigation-action:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-highlight); /* css-var: var(--background-highlight) */
 }
 
-.e-101040-navigation-action .e-101040-navigation-action--active:not(#spotify-light-mode-specificity-bump), .e-101040-navigation-action:active:not(#spotify-light-mode-specificity-bump) {
+.e-101111-navigation-action .e-101111-navigation-action--active:not(#spotify-light-mode-specificity-bump), .e-101111-navigation-action:active:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-press); /* css-var: var(--background-press) */
 }
 
-.e-101040-navigation-action:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-navigation-action[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-navigation-action:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-navigation-action[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-base); /* css-var: var(--background-base) */
 }
 
-.e-101040-navigation-list-item__link:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-navigation-list-item__link:active:not(#spotify-light-mode-specificity-bump), .e-101040-navigation-list-item__link:hover:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-navigation-list-item__link:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-navigation-list-item__link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-navigation-list-item__link--active:not(#spotify-light-mode-specificity-bump), .e-101040-navigation-list-item__link--active:hover:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-navigation-list-item__link--active
-    .e-101040-navigation-list-item__link-child:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-navigation-list-item__link--active
+    .e-101111-navigation-list-item__link-child:not(#spotify-light-mode-specificity-bump):after {
   border-color: var(--essential-bright-accent); /* css-var: var(--essential-bright-accent) */
 }
 
-.e-101040-navigation-list-item__link--focus:focus-visible
-  .e-101040-navigation-list-item__link-child:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-navigation-list-item__link:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-navigation-list-item__link:active:not(#spotify-light-mode-specificity-bump), .e-101111-navigation-list-item__link:hover:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-navigation-list-item__link:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-navigation-list-item__link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-navigation-list-item__link--active:not(#spotify-light-mode-specificity-bump), .e-101111-navigation-list-item__link--active:hover:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-navigation-list-item__link--focus:focus-visible
+  .e-101111-navigation-list-item__link-child:not(#spotify-light-mode-specificity-bump):after {
   border-color: var(--text-base); /* css-var: var(--text-base) */
   outline-color: var(
     --encore-focus-outline-color,
@@ -2439,389 +2489,305 @@ input[aria-readonly] ~ .e-101040-form-toggle__label:not(#spotify-light-mode-spec
   ) */
 }
 
-.e-101040-navigation-list-item__link--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
+.e-101111-navigation-list-item__link--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-navigation-list-title:not(#spotify-light-mode-specificity-bump) {
+.e-101111-navigation-list-title:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-pagination-controls__label:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-controls__label:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-pagination-dropdown:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-dropdown:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-pagination-dropdown__arrow:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-dropdown__arrow:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-pagination-dropdown-link:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-dropdown-link:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-pagination-dropdown-link--selected:not(#spotify-light-mode-specificity-bump), .e-101040-pagination-dropdown-link--selected:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-dropdown-link--selected:not(#spotify-light-mode-specificity-bump), .e-101111-pagination-dropdown-link--selected:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-pagination-dropdown-link:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-dropdown-link:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-highlight); /* css-var: var(--background-elevated-highlight) */
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
 :is(
-  .e-101040-pagination-dropdown-link:focus-visible,
-  .e-101040-pagination-dropdown-link:active
+  .e-101111-pagination-dropdown-link:focus-visible,
+  .e-101111-pagination-dropdown-link:active
 ):not(#spotify-light-mode-specificity-bump), :is(
-  .e-101040-pagination-dropdown-link:focus-visible,
-  .e-101040-pagination-dropdown-link:active
+  .e-101111-pagination-dropdown-link:focus-visible,
+  .e-101111-pagination-dropdown-link:active
 ):hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-pagination-dropdown-list--focus:focus:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-dropdown-list--focus:focus:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-pagination-dropdown-list--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
+.e-101111-pagination-dropdown-list--focus:focus-visible:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-legacy-popover--arrow-top-start:not(#spotify-light-mode-specificity-bump):after, .e-101040-legacy-popover--arrow-top:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-top-end:not(#spotify-light-mode-specificity-bump):after, .e-101111-legacy-popover--arrow-top-start:not(#spotify-light-mode-specificity-bump):after, .e-101111-legacy-popover--arrow-top:not(#spotify-light-mode-specificity-bump):after {
   filter: drop-shadow(0 -2px 1px #ffffff0d); /* hardcoded-color: drop-shadow(0 -2px 1px #0000000d) → drop-shadow(0 -2px 1px #ffffff0d) */
   border-inline: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
 }
 
-.e-101040-legacy-popover--arrow-top-end:not(#spotify-light-mode-specificity-bump):after {
-  filter: drop-shadow(0 -2px 1px #ffffff0d); /* hardcoded-color: drop-shadow(0 -2px 1px #0000000d) → drop-shadow(0 -2px 1px #ffffff0d) */
-  border-inline: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
-}
-
-.e-101040-legacy-popover--arrow-bottom-start:not(#spotify-light-mode-specificity-bump):after, .e-101040-legacy-popover--arrow-bottom:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-bottom-end:not(#spotify-light-mode-specificity-bump):after, .e-101111-legacy-popover--arrow-bottom-start:not(#spotify-light-mode-specificity-bump):after, .e-101111-legacy-popover--arrow-bottom:not(#spotify-light-mode-specificity-bump):after {
   border-inline: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
   filter: drop-shadow(0 2px 1px #ffffff0d); /* hardcoded-color: drop-shadow(0 2px 1px #0000000d) → drop-shadow(0 2px 1px #ffffff0d) */
 }
 
-.e-101040-legacy-popover--arrow-bottom-end:not(#spotify-light-mode-specificity-bump):after {
-  border-inline: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
-  filter: drop-shadow(0 2px 1px #ffffff0d); /* hardcoded-color: drop-shadow(0 2px 1px #0000000d) → drop-shadow(0 2px 1px #ffffff0d) */
-}
-
-.e-101040-legacy-popover--arrow-start:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-start:not(#spotify-light-mode-specificity-bump):after {
   border-block-end: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
   filter: drop-shadow(-2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(-2px 0 1px #0000000d) → drop-shadow(-2px 0 1px #ffffff0d) */
   border-block-start: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
 }
 
-[dir="rtl"] .e-101040-legacy-popover--arrow-start:not(#spotify-light-mode-specificity-bump):after {
+[dir="rtl"] .e-101111-legacy-popover--arrow-start:not(#spotify-light-mode-specificity-bump):after {
   filter: drop-shadow(2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(2px 0 1px #0000000d) → drop-shadow(2px 0 1px #ffffff0d) */
 }
 
-.e-101040-legacy-popover--arrow-start-top:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-start-top:not(#spotify-light-mode-specificity-bump):after {
   border-block-end: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
   filter: drop-shadow(-2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(-2px 0 1px #0000000d) → drop-shadow(-2px 0 1px #ffffff0d) */
   border-block-start: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
 }
 
-[dir="rtl"] .e-101040-legacy-popover--arrow-start-top:not(#spotify-light-mode-specificity-bump):after {
+[dir="rtl"] .e-101111-legacy-popover--arrow-start-top:not(#spotify-light-mode-specificity-bump):after {
   filter: drop-shadow(2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(2px 0 1px #0000000d) → drop-shadow(2px 0 1px #ffffff0d) */
 }
 
-.e-101040-legacy-popover--arrow-start-bottom:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-start-bottom:not(#spotify-light-mode-specificity-bump):after {
   border-block-end: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
   filter: drop-shadow(-2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(-2px 0 1px #0000000d) → drop-shadow(-2px 0 1px #ffffff0d) */
   border-block-start: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
 }
 
-.e-101040-legacy-popover--arrow-end:not(#spotify-light-mode-specificity-bump):after, [dir="rtl"] .e-101040-legacy-popover--arrow-start-bottom:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-end:not(#spotify-light-mode-specificity-bump):after, [dir="rtl"] .e-101111-legacy-popover--arrow-start-bottom:not(#spotify-light-mode-specificity-bump):after {
   filter: drop-shadow(2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(2px 0 1px #0000000d) → drop-shadow(2px 0 1px #ffffff0d) */
 }
 
-.e-101040-legacy-popover--arrow-end:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-end:not(#spotify-light-mode-specificity-bump):after {
   border-block-end: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
   border-block-start: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
 }
 
-[dir="rtl"] .e-101040-legacy-popover--arrow-end:not(#spotify-light-mode-specificity-bump):after {
+[dir="rtl"] .e-101111-legacy-popover--arrow-end:not(#spotify-light-mode-specificity-bump):after {
   filter: drop-shadow(-2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(-2px 0 1px #0000000d) → drop-shadow(-2px 0 1px #ffffff0d) */
 }
 
-.e-101040-legacy-popover--arrow-end-top:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-end-top:not(#spotify-light-mode-specificity-bump):after {
   border-block-end: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
   filter: drop-shadow(2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(2px 0 1px #0000000d) → drop-shadow(2px 0 1px #ffffff0d) */
   border-block-start: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
 }
 
-[dir="rtl"] .e-101040-legacy-popover--arrow-end-top:not(#spotify-light-mode-specificity-bump):after {
+[dir="rtl"] .e-101111-legacy-popover--arrow-end-top:not(#spotify-light-mode-specificity-bump):after {
   filter: drop-shadow(-2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(-2px 0 1px #0000000d) → drop-shadow(-2px 0 1px #ffffff0d) */
 }
 
-.e-101040-legacy-popover--arrow-end-bottom:not(#spotify-light-mode-specificity-bump):after {
+.e-101111-legacy-popover--arrow-end-bottom:not(#spotify-light-mode-specificity-bump):after {
   border-block-end: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
   filter: drop-shadow(2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(2px 0 1px #0000000d) → drop-shadow(2px 0 1px #ffffff0d) */
   border-block-start: 8px solid #ffffff00; /* hardcoded-color: 8px solid #0000 → 8px solid #ffffff00 */
 }
 
-[dir="rtl"] .e-101040-legacy-popover--arrow-end-bottom:not(#spotify-light-mode-specificity-bump):after {
+[dir="rtl"] .e-101111-legacy-popover--arrow-end-bottom:not(#spotify-light-mode-specificity-bump):after {
   filter: drop-shadow(-2px 0 1px #ffffff0d); /* hardcoded-color: drop-shadow(-2px 0 1px #0000000d) → drop-shadow(-2px 0 1px #ffffff0d) */
 }
 
-.e-101040-popover-navigation-link:not(#spotify-light-mode-specificity-bump) {
+.e-101111-popover-navigation-link:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-popover-navigation-link:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-popover-navigation-link:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-highlight); /* css-var: var(--background-elevated-highlight) */
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-popover-navigation-link:disabled:not(#spotify-light-mode-specificity-bump), .e-101040-popover-navigation-link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-popover-navigation-link:disabled:not(#spotify-light-mode-specificity-bump), .e-101111-popover-navigation-link[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-popover-navigation-link:active:not(#spotify-light-mode-specificity-bump), .e-101040-popover-navigation-link:active:hover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-popover-navigation-link:active:not(#spotify-light-mode-specificity-bump), .e-101111-popover-navigation-link:active:hover:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-press); /* css-var: var(--background-elevated-press) */
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-progress-bar:not(#spotify-light-mode-specificity-bump) {
+.e-101111-progress-bar:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
-.e-101040-progress-bar__indicator:not(#spotify-light-mode-specificity-bump) {
+.e-101111-progress-bar__indicator:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--progress-bar-color); /* css-var: var(--progress-bar-color) */
 }
 
-.e-101040-progress-dots__dot:not(#spotify-light-mode-specificity-bump) {
+.e-101111-progress-dots__dot:not(#spotify-light-mode-specificity-bump) {
   fill: var(--essential-base); /* css-var: var(--essential-base) */
 }
 
-.e-101040-skip-link:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--background-base); /* css-var: var(--background-base) */
-}
-
-.e-101040-skip-link--browser-default:focus-visible:not(#spotify-light-mode-specificity-bump) {
-  outline: none; /* forwarded-reset: none */
-}
-
-.e-101040-skip-link__text:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-  border-color: var(--essential-base); /* css-var: var(--essential-base) */
-}
-
-.e-101040-status-indicator:not(#spotify-light-mode-specificity-bump):before {
-  background-color: var(--encore-status-indicator-essential-color); /* css-var: var(--encore-status-indicator-essential-color) */
-}
-
-.e-101040-tab-item:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-tab-item:hover:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-tab-item[aria-selected="true"]:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-tab-item[aria-selected="true"]:not(#spotify-light-mode-specificity-bump):before {
-  background-color: var(--essential-bright-accent); /* css-var: var(--essential-bright-accent) */
-}
-
-.e-101040-tab-item[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-tab-list:not(#spotify-light-mode-specificity-bump):before {
-  background: linear-gradient(270deg, #ffffff00, var(--background-base) 75%); /* hardcoded-color: linear-gradient(270deg, #0000, var(--background-base) 75%) → linear-gradient(270deg, #ffffff00, var(--background-base) 75%) */
-}
-
-.e-101040-tab-list:not(#spotify-light-mode-specificity-bump):after {
-  background: linear-gradient(90deg, #ffffff00, var(--background-base) 75%); /* hardcoded-color: linear-gradient(90deg, #0000, var(--background-base) 75%) → linear-gradient(90deg, #ffffff00, var(--background-base) 75%) */
-}
-
-.e-101040-table-cell:focus:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-  outline: none; /* forwarded-reset: none */
-}
-
-.e-101040-table-cell--highlight:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-table-container--sticky-header .e-101040-table-header-cell:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--background-base); /* css-var: var(--background-base) */
-}
-
-.e-101040-table-header-cell:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-table-header-cell--active:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-table-header-cell--hoverable:hover:not(#spotify-light-mode-specificity-bump), .e-101040-table-header-cell--selectable:hover:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-table-pagination:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-table-row:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-table-row--hoverable:hover:not(#spotify-light-mode-specificity-bump), .e-101040-table-row--selected:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-tag:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-tag--color-set:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--background-base); /* css-var: var(--background-base) */
-}
-
-.e-101040-text-link.e-101040-text-link--colors[href]:active:not(#spotify-light-mode-specificity-bump), .e-101040-text-link.e-101040-text-link--colors[href]:hover:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-bright-accent); /* css-var: var(--text-bright-accent) */
-}
-
-:is(
-  .e-101040-text-link--use-focus.e-101040-text-link--button:focus-visible,
-  .e-101040-text-link--use-focus[href]:focus-visible
-):not(#spotify-light-mode-specificity-bump) {
-  outline: none; /* forwarded-reset: none */
-}
-
-.e-101040-text-link--colors:is(
-  .e-101040-text-link:disabled,
-  .e-101040-text-link[href]:disabled,
-  .e-101040-text-link[aria-disabled="true"],
-  .e-101040-text-link[href][aria-disabled="true"]
-):not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-text-link--standalone.e-101040-text-link--colors:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-text-link--use-focus.e-101040-text-link--standalone.e-101040-text-link--colors[href]:focus-visible:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-text-link--standalone.e-101040-text-link--colors[href]:active:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-text-link--standalone.e-101040-text-link--colors[href]:hover:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-legacy-tooltip:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-html[class*="-dark-theme"] .e-101040-verified-badge:not(#spotify-light-mode-specificity-bump) {
-  --encore-verified-badge-background: var(--green-desat-185, #355b3a); /* custom-property: var(--green-desat-185, #c5f0c9) → var(--green-desat-185, #355b3a) */
-}
-
-.e-101040-combo-box[data-readonly] .e-101040-field-group:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
-}
-
-.e-101040-combo-box-chip:not(#spotify-light-mode-specificity-bump) {
-  outline: var(--encore-border-width-thin) solid #ffffff00; /* hardcoded-color: var(--encore-border-width-thin) solid #0000 → var(--encore-border-width-thin) solid #ffffff00 */
-}
-
-.e-101040-combo-box-chip:focus:not(#spotify-light-mode-specificity-bump) {
-  outline-color: var(--parents-essential-base); /* css-var: var(--parents-essential-base) */
-}
-
-.e-101040-combo-box-chip__remove:not(#spotify-light-mode-specificity-bump) {
-  outline: none; /* forwarded-reset: none */
-}
-
-[data-encore-id="comboBoxInput"]:has(
-  .e-101040-combo-box-input__clear:focus-visible
-):not(#spotify-light-mode-specificity-bump) {
-  outline-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
-}
-
-.e-101040-field-description:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-field-error:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-negative); /* css-var: var(--text-negative) */
-}
-
-.e-101040-field-group:has(
-  .e-101040-input:where(:focus-visible),
-  .e-101040-text-area:where(:focus-visible)
-):not(#spotify-light-mode-specificity-bump) {
-  outline-color: var(
-    --encore-focus-outline-color,
-    var(--parents-essential-base)
-  ); /* css-var: var(
-    --encore-focus-outline-color,
-    var(--parents-essential-base)
-  ) */
-}
-
-.e-101040-field-group:has(
-  .e-101040-input:where(:read-only:not(:disabled)),
-  .e-101040-text-area:where(:read-only:not(:disabled))
-):not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
-}
-
-.e-101040-field-group > .e-101040-icon:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-input:not(#spotify-light-mode-specificity-bump)::placeholder {
-  color: var(--text-subdued); /* css-var: var(--text-subdued) */
-}
-
-.e-101040-input:read-only:not(:disabled):not(#spotify-light-mode-specificity-bump), .e-101040-input[data-readonly]:not([data-disabled]):not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
-}
-
-.e-101040-label:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-base); /* css-var: var(--text-base) */
-}
-
-.e-101040-select-menu-button:focus-visible:where(
+.e-101111-select-menu-button:focus-visible:where(
     [data-focused]:not([data-focus-visible])
   ):not(#spotify-light-mode-specificity-bump) {
   outline-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
 }
 
-.e-101040-select-menu-button > .e-101040-icon:not(#spotify-light-mode-specificity-bump) {
+.e-101111-select-menu-button > .e-101111-icon:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-text-area:not(#spotify-light-mode-specificity-bump)::placeholder {
+.e-101111-skip-link:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-base); /* css-var: var(--background-base) */
+}
+
+.e-101111-skip-link--browser-default:focus-visible:not(#spotify-light-mode-specificity-bump) {
+  outline: none; /* forwarded-reset: none */
+}
+
+.e-101111-skip-link__text:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+  border-color: var(--essential-base); /* css-var: var(--essential-base) */
+}
+
+.e-101111-status-indicator:not(#spotify-light-mode-specificity-bump):before {
+  background-color: var(--encore-status-indicator-essential-color); /* css-var: var(--encore-status-indicator-essential-color) */
+}
+
+.e-101111-tab-item:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }
 
-.e-101040-text-area:read-only:not(#spotify-light-mode-specificity-bump), .e-101040-text-area[data-readonly]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-tab-item:hover:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-tab-item[aria-selected="true"]:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-tab-item[aria-selected="true"]:not(#spotify-light-mode-specificity-bump):before {
+  background-color: var(--essential-bright-accent); /* css-var: var(--essential-bright-accent) */
+}
+
+.e-101111-tab-item[aria-disabled="true"]:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-tab-list:not(#spotify-light-mode-specificity-bump):before {
+  background: linear-gradient(270deg, #ffffff00, var(--background-base) 75%); /* hardcoded-color: linear-gradient(270deg, #0000, var(--background-base) 75%) → linear-gradient(270deg, #ffffff00, var(--background-base) 75%) */
+}
+
+.e-101111-tab-list:not(#spotify-light-mode-specificity-bump):after {
+  background: linear-gradient(90deg, #ffffff00, var(--background-base) 75%); /* hardcoded-color: linear-gradient(90deg, #0000, var(--background-base) 75%) → linear-gradient(90deg, #ffffff00, var(--background-base) 75%) */
+}
+
+.e-101111-table-cell:focus:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+  outline: none; /* forwarded-reset: none */
+}
+
+.e-101111-table-cell--highlight:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-table-container--sticky-header .e-101111-table-header-cell:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-base); /* css-var: var(--background-base) */
+}
+
+.e-101111-table-header-cell:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-table-header-cell--active:not(#spotify-light-mode-specificity-bump), .e-101111-table-header-cell--hoverable:hover:not(#spotify-light-mode-specificity-bump), .e-101111-table-header-cell--selectable:hover:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-table-pagination:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-table-row:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-table-row--hoverable:hover:not(#spotify-light-mode-specificity-bump), .e-101111-table-row--selected:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-tag:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-tag--color-set:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-base); /* css-var: var(--background-base) */
+}
+
+.e-101111-text-area:not(#spotify-light-mode-specificity-bump)::placeholder {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-text-area:read-only:not(#spotify-light-mode-specificity-bump), .e-101111-text-area[data-readonly]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--decorative-subdued); /* css-var: var(--decorative-subdued) */
 }
 
-.e-101040-image__container:not(#spotify-light-mode-specificity-bump) {
+.e-101111-text-link.e-101111-text-link--colors[href]:active:not(#spotify-light-mode-specificity-bump), .e-101111-text-link.e-101111-text-link--colors[href]:hover:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-bright-accent); /* css-var: var(--text-bright-accent) */
+}
+
+:is(
+  .e-101111-text-link--use-focus.e-101111-text-link--button:focus-visible,
+  .e-101111-text-link--use-focus[href]:focus-visible
+):not(#spotify-light-mode-specificity-bump) {
+  outline: none; /* forwarded-reset: none */
+}
+
+.e-101111-text-link--colors:is(
+  .e-101111-text-link:disabled,
+  .e-101111-text-link[href]:disabled,
+  .e-101111-text-link[aria-disabled="true"],
+  .e-101111-text-link[href][aria-disabled="true"]
+):not(#spotify-light-mode-specificity-bump), .e-101111-text-link--standalone.e-101111-text-link--colors:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-text-link--standalone.e-101111-text-link--colors[href]:active:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-text-link--use-focus.e-101111-text-link--standalone.e-101111-text-link--colors[href]:focus-visible:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.e-101111-text-link--standalone.e-101111-text-link--colors[href]:hover:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
+.e-101111-legacy-tooltip:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+html[class*="-dark-theme"] .e-101111-verified-badge:not(#spotify-light-mode-specificity-bump) {
+  --encore-verified-badge-background: var(--green-desat-185, #355b3a); /* custom-property: var(--green-desat-185, #c5f0c9) → var(--green-desat-185, #355b3a) */
+}
+
+.e-101111-image__container:not(#spotify-light-mode-specificity-bump) {
   background-color: var(
     --encore-image-background-color,
     var(--background-tinted-base)
@@ -2832,39 +2798,39 @@ html[class*="-dark-theme"] .e-101040-verified-badge:not(#spotify-light-mode-spec
   color: var(--encore-image-color, var(--text-subdued)); /* css-var: var(--encore-image-color, var(--text-subdued)) */
 }
 
-.e-101040-listbox:not(#spotify-light-mode-specificity-bump) {
+.e-101111-listbox:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
-.e-101040-list-row:not(#spotify-light-mode-specificity-bump) {
+.e-101111-list-row:not(#spotify-light-mode-specificity-bump) {
   --encore-list-row-bg: var(--encore-container-bg, #ffffff00); /* custom-property: var(--encore-container-bg, #0000) → var(--encore-container-bg, #ffffff00) */
   background-color: var(--encore-list-row-bg); /* css-var: var(--encore-list-row-bg) */
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
-.e-101040-list-row:where(button):not(#spotify-light-mode-specificity-bump) {
+.e-101111-list-row:where(button):not(#spotify-light-mode-specificity-bump) {
   background-color: var(--encore-list-row-bg); /* css-var: var(--encore-list-row-bg) */
 }
 
-.e-101040-list-row:focus-visible:where(
+.e-101111-list-row:focus-visible:where(
     [data-focused]:not([data-focus-visible="true"])
   ):not(#spotify-light-mode-specificity-bump) {
   outline-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
 }
 
-.e-101040-list-row--interactive:hover:not(#spotify-light-mode-specificity-bump), .e-101040-list-row--interactive[data-hovered]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-list-row--interactive:hover:not(#spotify-light-mode-specificity-bump), .e-101111-list-row--interactive[data-hovered]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--list-row-hover-bg); /* css-var: var(--list-row-hover-bg) */
 }
 
-.e-101040-list-row--interactive:active:not(#spotify-light-mode-specificity-bump), .e-101040-list-row--interactive[data-pressed]:not(#spotify-light-mode-specificity-bump) {
+.e-101111-list-row--interactive:active:not(#spotify-light-mode-specificity-bump), .e-101111-list-row--interactive[data-pressed]:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--list-row-active-bg); /* css-var: var(--list-row-active-bg) */
 }
 
-.e-101040-list-row--selected:not(#spotify-light-mode-specificity-bump) {
+.e-101111-list-row--selected:not(#spotify-light-mode-specificity-bump) {
   --encore-list-row-bg: color-mix(in srgb, var(--text-announcement) 6%, #ffffff00); /* custom-property: color-mix(in srgb, var(--text-announcement) 6%, #0000) → color-mix(in srgb, var(--text-announcement) 6%, #ffffff00) */
 }
 
-.e-101040-popover:not(#spotify-light-mode-specificity-bump) {
+.e-101111-popover:not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 

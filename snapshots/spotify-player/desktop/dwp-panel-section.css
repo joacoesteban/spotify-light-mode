@@ -3820,6 +3820,8 @@ __workaround_element__ {
   padding-inline-end: 8px;
 }
 .GFA1R05odbuPuMaxPKE9 {
+  flex: 1;
+  min-width: 0;
   margin-block: -4px;
   margin-inline: -12px -4px;
 }
@@ -4166,4 +4168,4 @@ dialog:not([open]) {
   gap: 8px;
   display: flex;
 }
-/*# sourceMappingURL=dwp-panel-section.82ed7ea1.css.map*/
+/*# sourceMappingURL=dwp-panel-section.7d205085.css.map*/
