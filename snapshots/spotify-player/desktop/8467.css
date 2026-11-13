@@ -398,6 +398,9 @@ __workaround_element__ {
   display: flex;
   position: relative;
 }
+.KNkMTVAX4Py78rLL_f04 {
+  padding-top: 24px;
+}
 .gBlDqLsMJoywo1PBChSx > :not(:first-child) {
   margin-top: calc(var(--content-spacing) - 8px);
 }
@@ -521,4 +524,4 @@ __workaround_element__ {
 .xb37ODcxWDOjcWxIpq2i {
   grid-area: content;
 }
-/*# sourceMappingURL=8467.9bc2dc93.css.map*/
+/*# sourceMappingURL=8467.0748ad68.css.map*/

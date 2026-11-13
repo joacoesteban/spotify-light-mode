@@ -347,7 +347,7 @@ __workaround_element__ {
   view-transition-name: sponsored-playlist-content-transition;
 }
 .bPQPkA_TjuzuTrMwjMdC {
-  --action-bar-padding-top: var(--encore-spacing-tighter);
+  --action-bar-padding-top: var(--content-spacing);
   --action-bar-padding-bottom: var(--encore-spacing-base);
 }
 .w8YmjkR1dj_KH0iD2cTV {
@@ -714,4 +714,4 @@ ul > .jl66pmCrZTgM3IDa0B5J {
 .X15qSY_2sKpgZz41acgd {
   color: #b3b3b3;
 }
-/*# sourceMappingURL=xpui-routes-album.1a7493cb.css.map*/
+/*# sourceMappingURL=xpui-routes-album.3020dd8e.css.map*/

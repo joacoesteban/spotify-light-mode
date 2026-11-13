@@ -94,6 +94,9 @@
   display: flex;
   position: relative;
 }
+.KNkMTVAX4Py78rLL_f04 {
+  padding-top: 24px;
+}
 .gBlDqLsMJoywo1PBChSx > :not(:first-child) {
   margin-top: calc(var(--content-spacing) - 8px);
 }
@@ -649,7 +652,7 @@ dialog:not([open]) {
   display: flex;
 }
 .mzD4TvIdr_2Zh_xTFxqS {
-  background: var(--background-elevated-highlight);
+  background: var(--background-tinted-base);
   width: 2px;
   height: 8px;
 }
@@ -657,7 +660,7 @@ dialog:not([open]) {
   min-width: 0;
   padding: var(--encore-spacing-tighter-2) var(--encore-spacing-tighter);
   border-radius: var(--encore-corner-radius-larger-2);
-  background: var(--background-elevated-base);
+  background: var(--background-tinted-base);
   position: relative;
   overflow: hidden;
 }
@@ -743,7 +746,7 @@ dialog:not([open]) {
   z-index: 1;
   isolation: isolate;
   opacity: 0;
-  background-color: var(--background-elevated-base);
+  background-color: var(--background-tinted-base);
   position: absolute;
   inset-block-end: var(--encore-spacing-tighter-2);
   inset-inline-end: var(--encore-spacing-tighter);
@@ -753,7 +756,7 @@ dialog:not([open]) {
   background: linear-gradient(
     to right,
     transparent,
-    var(--background-elevated-base) 32px
+    var(--background-tinted-base) 32px
   );
   content: "";
   pointer-events: none;
@@ -765,7 +768,7 @@ dialog:not([open]) {
   background: linear-gradient(
     to left,
     transparent,
-    var(--background-elevated-base) 32px
+    var(--background-tinted-base) 32px
   );
 }
 .F5qnQV2vhIpVJzui73_Z:hover .X4BcsQqrhmOGGRWuywyD,
@@ -803,4 +806,4 @@ dialog:not([open]) {
     var(--background-elevated-highlight) 32px
   );
 }
-/*# sourceMappingURL=7968.8a62137c.css.map*/
+/*# sourceMappingURL=7968.c5f92c13.css.map*/

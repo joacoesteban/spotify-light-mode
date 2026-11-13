@@ -102,6 +102,9 @@ __workaround_element__ {
   display: flex;
   position: relative;
 }
+.KNkMTVAX4Py78rLL_f04 {
+  padding-top: 24px;
+}
 .gBlDqLsMJoywo1PBChSx > :not(:first-child) {
   margin-top: calc(var(--content-spacing) - 8px);
 }
@@ -268,4 +271,4 @@ __workaround_element__ {
   gap: 16px;
   display: flex;
 }
-/*# sourceMappingURL=home-subfeed.a8bce2ff.css.map*/
+/*# sourceMappingURL=home-subfeed.c2d0ffe0.css.map*/

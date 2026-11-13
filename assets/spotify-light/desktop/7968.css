@@ -131,7 +131,7 @@ dialog:not(#spotify-light-mode-specificity-bump)::backdrop {
 }
 
 .X4BcsQqrhmOGGRWuywyD:not(#spotify-light-mode-specificity-bump) {
-  background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
+  background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
 }
 
 .F5qnQV2vhIpVJzui73_Z:not(.d2WRyfUXsEALz1t4oBqu):hover .X4BcsQqrhmOGGRWuywyD:not(#spotify-light-mode-specificity-bump), .F5qnQV2vhIpVJzui73_Z:not(.d2WRyfUXsEALz1t4oBqu):focus-within

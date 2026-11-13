@@ -1,9 +1,15 @@
 {
-  "snapshotVersion": "spotify-player.web-player.59ba9c4e__mobile-web-player.bf58f40c",
+  "snapshotVersion": "spotify-player.web-player.b5909d1b__mobile-web-player.c6647026",
   "source": {
-    "fingerprint": "sha256:2da2ca34a4598e0ef4bc23cc5b0eefd376d3925620eb62a1017431cba50cbc69",
+    "fingerprint": "sha256:42094aabdd97f377c033ae0d84d64b6729a207cca162aae8bc3eeb0d0f804298",
     "targets": {
       "desktop": [
+        {
+          "fileName": "178.css",
+          "relativePath": "desktop/178.css",
+          "sha256": "cec1a5a4760f0023ac3e01bb6150fd42e062190c7d2b4302da593b43dd0faf7d",
+          "byteLength": 11945
+        },
         {
           "fileName": "254.css",
           "relativePath": "desktop/254.css",
@@ -13,26 +19,20 @@
         {
           "fileName": "2543.css",
           "relativePath": "desktop/2543.css",
-          "sha256": "1c2b89bad5fe2b7ceb2813d51ae8b31201f64bbf56fc5db4a75375361e03800f",
-          "byteLength": 11468
+          "sha256": "a0df4b078c9ae0634ae1c5034282816aec14ab83344acaba5ce5b4a8060d9f00",
+          "byteLength": 11515
+        },
+        {
+          "fileName": "2855.css",
+          "relativePath": "desktop/2855.css",
+          "sha256": "8b31f96a57d4a7fcc05cd5e7eed4de49ecf92aa12ea5cc7de9de362e70fa0a51",
+          "byteLength": 1931
         },
         {
           "fileName": "3080.css",
           "relativePath": "desktop/3080.css",
-          "sha256": "0080755c73ae72dd8609c014e53af43149c33a2ad9e5f9540faa28e88ce64285",
-          "byteLength": 20064
-        },
-        {
-          "fileName": "4279.css",
-          "relativePath": "desktop/4279.css",
-          "sha256": "1f74b42056eb05ac16b03461dbd4a14bea2698e9d77f3417760cb00ae3cdbbc7",
-          "byteLength": 1931
-        },
-        {
-          "fileName": "4952.css",
-          "relativePath": "desktop/4952.css",
-          "sha256": "d9e86397861351cff6e5133499b08df7b86339741e1e864b1f8f3e5a88c3147c",
-          "byteLength": 20848
+          "sha256": "ee8cb1020a58ad5fb70d9c98abdb84b143f3881bdfff3baa2233759bf57c2d21",
+          "byteLength": 20057
         },
         {
           "fileName": "556.css",
@@ -49,20 +49,14 @@
         {
           "fileName": "6187.css",
           "relativePath": "desktop/6187.css",
-          "sha256": "890ed82f562138fde8adaf4b66b3ba632098a0ec00c311e45865f7325a2f7845",
-          "byteLength": 16954
+          "sha256": "26073246ac5a8768c157747964910f1b1482daf2a3e38f3b582b825af9b44121",
+          "byteLength": 17001
         },
         {
           "fileName": "6222.css",
           "relativePath": "desktop/6222.css",
           "sha256": "b66ad7db2be3d59e7cf1cbe891d05d0a19ec878ac5f7c33d647b6d9be6d41dac",
           "byteLength": 11430
-        },
-        {
-          "fileName": "6325.css",
-          "relativePath": "desktop/6325.css",
-          "sha256": "8d18acad040ca2d5862887a6831b35cc39d02d53914cc14d696a524405ed9e8a",
-          "byteLength": 11946
         },
         {
           "fileName": "6617.css",
@@ -85,14 +79,14 @@
         {
           "fileName": "7968.css",
           "relativePath": "desktop/7968.css",
-          "sha256": "725fedf7af18deb70051b13dde13ee139072f7e62a9b2eebcf94fd74fe570bf2",
-          "byteLength": 18667
+          "sha256": "b1ab52c7ec4b76192090663ca3d48a0a4037c74e20635a49b411d98c1a487078",
+          "byteLength": 18699
         },
         {
           "fileName": "8467.css",
           "relativePath": "desktop/8467.css",
-          "sha256": "4a51a4bacf43c53a50b1c90d2d217c24bbb5e18a17e6792fe69c9f00f5d47362",
-          "byteLength": 11855
+          "sha256": "6972742faf053a22b6fa47019d182b5fad00e8ad9824bd8933e1fb577a5d36ce",
+          "byteLength": 11902
         },
         {
           "fileName": "9449.css",
@@ -101,10 +95,16 @@
           "byteLength": 794
         },
         {
+          "fileName": "9563.css",
+          "relativePath": "desktop/9563.css",
+          "sha256": "eb7f6bf60f74e135d70401ae8bd26877a94e01d1822772cd8d158fd124f35a28",
+          "byteLength": 22034
+        },
+        {
           "fileName": "browse-v2.css",
           "relativePath": "desktop/browse-v2.css",
-          "sha256": "0ec4355cfcf4fbd7c011824d264331910ff8d611b066c2c11e4d4533fa427283",
-          "byteLength": 10892
+          "sha256": "05682ad7bf2e9aac08f2692e3b3c7e69c6753f4e0402176757ae770ba1ee1335",
+          "byteLength": 11098
         },
         {
           "fileName": "concerts-on-tour-playlist-card.css",
@@ -133,8 +133,8 @@
         {
           "fileName": "dwp-home-chips-row.css",
           "relativePath": "desktop/dwp-home-chips-row.css",
-          "sha256": "db57dac5192d9545ba7107db1e30d171407c7aca73cbba25137b9bc3927c500e",
-          "byteLength": 28631
+          "sha256": "578145eb34b8820be98d411335b8b7d0177af57e2debac77e6614667e4c79ed9",
+          "byteLength": 29748
         },
         {
           "fileName": "dwp-home-header.css",
@@ -169,8 +169,8 @@
         {
           "fileName": "dwp-panel-section.css",
           "relativePath": "desktop/dwp-panel-section.css",
-          "sha256": "4cf843eab79b7fb261c777e0eddbf8f65dc8e5fb81bafdba527cbbe1174bc15d",
-          "byteLength": 87480
+          "sha256": "ca6d04cf752fa06e9bf5653cd79ea4515249968bdf016be74b7d4588930e1043",
+          "byteLength": 87856
         },
         {
           "fileName": "dwp-premium-page.css",
@@ -187,8 +187,8 @@
         {
           "fileName": "dwp-promptedPlaylists.css",
           "relativePath": "desktop/dwp-promptedPlaylists.css",
-          "sha256": "d31d6832de09213bceb7724b32d6b31e20faaa8c1644af24137aa60b13f5704f",
-          "byteLength": 35302
+          "sha256": "d92418e9bbb730b4ecca76ad861e442c46c600cd32a16cfe372e0ed2f3e4aaec",
+          "byteLength": 35295
         },
         {
           "fileName": "dwp-socialPrompting.css",
@@ -199,8 +199,8 @@
         {
           "fileName": "dwp-top-bar.css",
           "relativePath": "desktop/dwp-top-bar.css",
-          "sha256": "72a771c81b1a850c910914ed6556d27922e955e8a6c052d3361bcff1530eb526",
-          "byteLength": 19546
+          "sha256": "15d005148821d104c374ec5201e9d62bb0c690b6b4d3fe0ac5eb747d2ad7c170",
+          "byteLength": 20663
         },
         {
           "fileName": "dwp-user-comments.css",
@@ -241,8 +241,8 @@
         {
           "fileName": "home-subfeed.css",
           "relativePath": "desktop/home-subfeed.css",
-          "sha256": "c0dc8bf7196c633aea6e9af25ffbdfd1835e7689b18d5bed12802aae56343259",
-          "byteLength": 5976
+          "sha256": "d0784163fd07ef35eb5a16e4f26341b450fa646013b3b451bd14c41f42c20d21",
+          "byteLength": 6023
         },
         {
           "fileName": "listening-stats-modal.css",
@@ -289,14 +289,14 @@
         {
           "fileName": "web-player.css",
           "relativePath": "desktop/web-player.css",
-          "sha256": "617a13163604c74053f1e714478b68ee912c97918cea586a27467ac2bbd49746",
-          "byteLength": 613069
+          "sha256": "dbb93212bb76d89620398b383d5146dca6249698284de5494d02c09b7ee38fc9",
+          "byteLength": 619446
         },
         {
           "fileName": "xpui-debug-window-contents.css",
           "relativePath": "desktop/xpui-debug-window-contents.css",
-          "sha256": "bab1b4a763b4036673d90f055c3264df2bf2ae26435e353f02f7a6089920a401",
-          "byteLength": 36662
+          "sha256": "17690aabe412b8bf733e268d2ae20f4f1034f48f6861506777b029ef2472d88b",
+          "byteLength": 37038
         },
         {
           "fileName": "xpui-desktop-modals.css",
@@ -307,14 +307,14 @@
         {
           "fileName": "xpui-pip-mini-player.css",
           "relativePath": "desktop/xpui-pip-mini-player.css",
-          "sha256": "e0bfb80b6586f9a161473ac1cef45ecddae7e7f67c4060ce9437870c51e11f14",
-          "byteLength": 49932
+          "sha256": "630617eddcfb7ae202272680f4e5052bf903468587f3275a21cd34336bc7a961",
+          "byteLength": 50308
         },
         {
           "fileName": "xpui-root-dialogs.css",
           "relativePath": "desktop/xpui-root-dialogs.css",
-          "sha256": "d9552280abd83f86cab122345c2f583b4e47a32d6137e72a74b8ecbaedc73e68",
-          "byteLength": 82998
+          "sha256": "ee48b4bdeef81f24bea6b88c57d76f75cb4e5ab9e39f547c6b8489950d236caf",
+          "byteLength": 84491
         },
         {
           "fileName": "xpui-routes-album-prerelease.css",
@@ -325,8 +325,8 @@
         {
           "fileName": "xpui-routes-album.css",
           "relativePath": "desktop/xpui-routes-album.css",
-          "sha256": "58470aa85c1b8811a361dd94dcb262b5fb8627093b278b21eb4da3ccf27256d4",
-          "byteLength": 15014
+          "sha256": "0759a6743a2d2beacff42d7479ce4f8827f59c20d1c2b235df9928331c68a818",
+          "byteLength": 15007
         },
         {
           "fileName": "xpui-routes-all-show-ads.css",
@@ -355,20 +355,20 @@
         {
           "fileName": "xpui-routes-collection-concert-gallery.css",
           "relativePath": "desktop/xpui-routes-collection-concert-gallery.css",
-          "sha256": "ca99a40c7dfa99730100e77a73a5668e04b82e1dbf9ae0e1742bc29558000e8a",
-          "byteLength": 172
+          "sha256": "a2821dd0e2e537b9c1b4dee7d8f6609be8fa50adc0965132a7ec3946c0f989b6",
+          "byteLength": 240
         },
         {
           "fileName": "xpui-routes-collection-concerts.css",
           "relativePath": "desktop/xpui-routes-collection-concerts.css",
-          "sha256": "6ed9c3d6b0e5de9d1effc2870e4ee9ff7d2da9fb38008a4eaac5faadbd62d7ad",
-          "byteLength": 21572
+          "sha256": "42d37f047e4c81f617a51e2a7e90aa6dd8ae97aa7d500625808c91a26e17f4ec",
+          "byteLength": 21640
         },
         {
           "fileName": "xpui-routes-collection-episodes.css",
           "relativePath": "desktop/xpui-routes-collection-episodes.css",
-          "sha256": "f531d8f4458d9e8d89ef482a791152e35ac394751fafd5d12f93d66b794b1345",
-          "byteLength": 16658
+          "sha256": "06a04113743c76aca8b23b7844396d749947c5765ff61f85c36b8fd7561a9108",
+          "byteLength": 16705
         },
         {
           "fileName": "xpui-routes-collection-local-files.css",
@@ -469,8 +469,8 @@
         {
           "fileName": "xpui-routes-profile.css",
           "relativePath": "desktop/xpui-routes-profile.css",
-          "sha256": "ae2735d5fa7e62626f9e12e5fc2a0d049bff2fe57a73f5821c4539e1d914a4cb",
-          "byteLength": 19063
+          "sha256": "9562e4903898cb914a100fc5da645bc2347ecca90e63d653b1c854ac774fbfc4",
+          "byteLength": 19110
         },
         {
           "fileName": "xpui-routes-recent-searches.css",
@@ -487,8 +487,8 @@
         {
           "fileName": "xpui-routes-recents.css",
           "relativePath": "desktop/xpui-routes-recents.css",
-          "sha256": "e84fa48aabe52d242a912cf64ab18b17c33674abe7ab294cdf773127699ef328",
-          "byteLength": 5285
+          "sha256": "83a44310eb560ebc402b6f43dfbf88510eefa2fe1130e04edbcecdaa69470745",
+          "byteLength": 5703
         },
         {
           "fileName": "xpui-routes-search.css",
@@ -511,8 +511,8 @@
         {
           "fileName": "xpui-routes-show.css",
           "relativePath": "desktop/xpui-routes-show.css",
-          "sha256": "4913ba7db76ba03b06e2a94cde2be9b5999c50f0bc10b0129e3e8addf612715a",
-          "byteLength": 35970
+          "sha256": "48e32ed272435a9c8274a7ea6491ad778de7137d64137616aef223ce886a9bab",
+          "byteLength": 36339
         },
         {
           "fileName": "xpui-routes-stage-page.css",
@@ -529,8 +529,8 @@
         {
           "fileName": "xpui-routes-track-v2.css",
           "relativePath": "desktop/xpui-routes-track-v2.css",
-          "sha256": "aa85e4b68252ff00afab5f35a02dbab19afd9c914de98539fa3bbf6bdb665446",
-          "byteLength": 17796
+          "sha256": "2802e3f6f04081de55abbbfd71b573678f0d7f2929402d2c39397a37d9f8bc34",
+          "byteLength": 17843
         },
         {
           "fileName": "xpui-routes-venues.css",
@@ -541,8 +541,8 @@
         {
           "fileName": "xpui-routes-web-settings.css",
           "relativePath": "desktop/xpui-routes-web-settings.css",
-          "sha256": "e717b8b406736594d968128e8f9393cc13e711e8ab00f8adac3e72cd67160131",
-          "byteLength": 10867
+          "sha256": "377132fd38f96c2beacebb1ab01ac8a7e508f892fea65262e68674d8c5d34a17",
+          "byteLength": 11243
         },
         {
           "fileName": "xpui-routes-your-library-x.css",
@@ -616,8 +616,14 @@
     }
   },
   "output": {
-    "fingerprint": "sha256:70f30a8c41a42b493b40234a62afe8636bfd3f99ed51b80b07bb7bcd0ffd1c70",
+    "fingerprint": "sha256:a1ea913e0a32ad26281cca12f02e7d69ec4563a88a16f56ef3b402985b6baaad",
     "files": [
+      {
+        "fileName": "178.css",
+        "relativePath": "desktop/178.css",
+        "sha256": "a510a48f837acaecf7398850a7b3a1be25630d6e3c0b43d0a28d4b9f368af4fe",
+        "byteLength": 3426
+      },
       {
         "fileName": "254.css",
         "relativePath": "desktop/254.css",
@@ -631,22 +637,16 @@
         "byteLength": 3335
       },
       {
+        "fileName": "2855.css",
+        "relativePath": "desktop/2855.css",
+        "sha256": "303d88c27c977b3dbbb94404f4b1267c967c746aa2861216ddf789b3d09288c3",
+        "byteLength": 775
+      },
+      {
         "fileName": "3080.css",
         "relativePath": "desktop/3080.css",
         "sha256": "9cfbccc7f37c90c6865ca8884a102bd7db4470d565bb5e79ba88f5b5d2e2949b",
         "byteLength": 8058
-      },
-      {
-        "fileName": "4279.css",
-        "relativePath": "desktop/4279.css",
-        "sha256": "9cc255ef5ea5f33823b27491a75a87ab063f99cee5754882ce7fc7592fe4e440",
-        "byteLength": 775
-      },
-      {
-        "fileName": "4952.css",
-        "relativePath": "desktop/4952.css",
-        "sha256": "730de536bfbd846af210864d685a72d087f63cbc6ef2d3f148dd5f7d1e6784a9",
-        "byteLength": 3541
       },
       {
         "fileName": "556.css",
@@ -673,12 +673,6 @@
         "byteLength": 4136
       },
       {
-        "fileName": "6325.css",
-        "relativePath": "desktop/6325.css",
-        "sha256": "288c38c904c7f2d66e146f3e233ada98406379765552af56a753bd28d90702f5",
-        "byteLength": 3427
-      },
-      {
         "fileName": "6617.css",
         "relativePath": "desktop/6617.css",
         "sha256": "ea4975123698994913bf1b23dfcc130712199a994e40a044cbfc793b9718501b",
@@ -699,8 +693,8 @@
       {
         "fileName": "7968.css",
         "relativePath": "desktop/7968.css",
-        "sha256": "d0c06fefa7516fea6fb5cfc1956f7990222e7b3afdfc0f467c3f1aa1ae8276d9",
-        "byteLength": 5996
+        "sha256": "ca4a028140b4448ef705ec126628f733c504cd5b0b7fd9109bc600a10ad3260e",
+        "byteLength": 5992
       },
       {
         "fileName": "8467.css",
@@ -713,6 +707,12 @@
         "relativePath": "desktop/9449.css",
         "sha256": "5a445ad9bd673b6dd92b40a5fbba4950a344016d1a75d430ad9ae5ecfa1d6f50",
         "byteLength": 336
+      },
+      {
+        "fileName": "9563.css",
+        "relativePath": "desktop/9563.css",
+        "sha256": "530c697516bce98988f9046e4f3ed5676324203bd05f6ade7ef4801b6f7de288",
+        "byteLength": 3541
       },
       {
         "fileName": "browse-v2.css",
@@ -783,7 +783,7 @@
       {
         "fileName": "dwp-panel-section.css",
         "relativePath": "desktop/dwp-panel-section.css",
-        "sha256": "8b51d85ef22e1db0f0e99e52e25dd4d9276d406f69ac905e4052e28940329c63",
+        "sha256": "e788dcba6a512f7f4e744f04fc328c10e0ddca61d8a02f7adc0974d3a702e875",
         "byteLength": 26919
       },
       {
@@ -903,8 +903,8 @@
       {
         "fileName": "web-player.css",
         "relativePath": "desktop/web-player.css",
-        "sha256": "5d7f9550baf4caf9c50c88bc101fe9dddab29618f884672e5560037cfd2aa105",
-        "byteLength": 264177
+        "sha256": "ffc94fc26799ff9eacb5f53a4aad03cbee6756f4ae4dbfc42df7bffb461e393d",
+        "byteLength": 266959
       },
       {
         "fileName": "xpui-debug-window-contents.css",

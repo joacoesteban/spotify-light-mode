@@ -1887,14 +1887,16 @@ html:not(.no-focus-outline)
   background: #fff;
   width: 20px;
   height: 20px;
-  transition:
-    background-color,
-    left,
-    right,
-    width 0.1s;
   position: absolute;
   top: 2px;
   left: 2px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .c7cfA324G09TSXVvGMc1 {
+    transition:
+      transform var(--encore-shortest-3) var(--encore-productive),
+      width 0.1s ease;
+  }
 }
 .c7cfA324G09TSXVvGMc1.zgC63D3K32lpQq9X2NcG {
   width: 12px;
@@ -1930,8 +1932,17 @@ input:checked ~ .ZgpugrSQ4mYTFUFNxSgZ {
 }
 input:checked ~ .ZgpugrSQ4mYTFUFNxSgZ .c7cfA324G09TSXVvGMc1 {
   background-color: #fff;
-  left: auto;
-  right: 2px;
+  transform: translate(18px);
+}
+input:checked
+  ~ .ZgpugrSQ4mYTFUFNxSgZ
+  .c7cfA324G09TSXVvGMc1.zgC63D3K32lpQq9X2NcG {
+  transform: translate(12px);
+}
+input:checked:active:not([disabled])
+  ~ .ZgpugrSQ4mYTFUFNxSgZ
+  .c7cfA324G09TSXVvGMc1.zgC63D3K32lpQq9X2NcG {
+  transform: translate(4px);
 }
 input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
   opacity: 0.4;
@@ -2129,4 +2140,4 @@ input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
   height: 100%;
   max-height: 100%;
 }
-/*# sourceMappingURL=xpui-pip-mini-player.c1d23fd4.css.map*/
+/*# sourceMappingURL=xpui-pip-mini-player.942f1cb2.css.map*/

@@ -378,14 +378,16 @@
   background: #fff;
   width: 20px;
   height: 20px;
-  transition:
-    background-color,
-    left,
-    right,
-    width 0.1s;
   position: absolute;
   top: 2px;
   left: 2px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .c7cfA324G09TSXVvGMc1 {
+    transition:
+      transform var(--encore-shortest-3) var(--encore-productive),
+      width 0.1s ease;
+  }
 }
 .c7cfA324G09TSXVvGMc1.zgC63D3K32lpQq9X2NcG {
   width: 12px;
@@ -421,8 +423,17 @@ input:checked ~ .ZgpugrSQ4mYTFUFNxSgZ {
 }
 input:checked ~ .ZgpugrSQ4mYTFUFNxSgZ .c7cfA324G09TSXVvGMc1 {
   background-color: #fff;
-  left: auto;
-  right: 2px;
+  transform: translate(18px);
+}
+input:checked
+  ~ .ZgpugrSQ4mYTFUFNxSgZ
+  .c7cfA324G09TSXVvGMc1.zgC63D3K32lpQq9X2NcG {
+  transform: translate(12px);
+}
+input:checked:active:not([disabled])
+  ~ .ZgpugrSQ4mYTFUFNxSgZ
+  .c7cfA324G09TSXVvGMc1.zgC63D3K32lpQq9X2NcG {
+  transform: translate(4px);
 }
 input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
   opacity: 0.4;
@@ -1770,4 +1781,4 @@ select:disabled:hover {
   padding: 12px;
   overflow-y: scroll;
 }
-/*# sourceMappingURL=xpui-debug-window-contents.fd91d474.css.map*/
+/*# sourceMappingURL=xpui-debug-window-contents.fa66a6e0.css.map*/

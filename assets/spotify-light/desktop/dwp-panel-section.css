@@ -207,11 +207,11 @@ input:checked ~ .ZgpugrSQ4mYTFUFNxSgZ .c7cfA324G09TSXVvGMc1:not(#spotify-light-m
   color: #e4e4e4; /* hardcoded-color: #282828 → #e4e4e4 */
 }
 
-.RJhKGfFj3VMny0m1HtoA > *:not(#spotify-light-mode-specificity-bump) {
+.xwL0Aqpci72BVg2_kJaw > *:not(#spotify-light-mode-specificity-bump) {
   background-color: #0000000d; /* hardcoded-color: #ffffff0d → #0000000d */
 }
 
-.RJhKGfFj3VMny0m1HtoA .yx43uoWxKgFvXzm6L0oY:not(#spotify-light-mode-specificity-bump) {
+.xwL0Aqpci72BVg2_kJaw .M6YJw2T3EVdORE0oocEr:not(#spotify-light-mode-specificity-bump) {
   fill: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
 }
 
