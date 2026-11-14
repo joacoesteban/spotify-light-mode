@@ -1,4 +1,4 @@
-import chroma, { Color } from "chroma-js";
+import chroma, { type Color } from "chroma-js";
 
 const OKLCH_GAMUT_FIT_STEPS = 24;
 const ACHROMATIC_THRESHOLD = 0.01;

@@ -1,3 +1,6 @@
+[tools]
+fnox = "1.39.0"
+
 [tasks.generate-spotify-light-css]
 description = "Generate light-mode overrides from a versioned Spotify snapshot CSS directory"
 run = "bun scripts/generate-spotify-light-css.ts {{arg(name='snapshot-version')}}"
@@ -29,3 +32,12 @@ run = ["bun --bun run build", "bun scripts/test-extension-updates.ts"]
 [tasks.demo-extension-update]
 description = "Open Spotify in isolated Chromium and show a real extension update toast"
 run = ["bun --bun run build", "bun scripts/demo-extension-update.ts"]
+
+[tasks."store:dry-run"]
+description = "Build the store zips and check the ci profile's credentials against both stores, uploading nothing"
+run = [
+  "rm -f .output/*.zip",
+  "bun run zip",
+  "bun run zip:firefox",
+  "fnox -P ci exec -- bun wxt submit --dry-run --chrome-zip .output/*-chrome.zip --firefox-zip .output/*-firefox.zip --firefox-sources-zip .output/*-sources.zip",
+]

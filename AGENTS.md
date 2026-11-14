@@ -168,8 +168,27 @@ If the output changes, it bumps the patch version, creates a release tag, and tr
 Metadata changes alone do not create a release.
 
 `.github/workflows/publish.yml` supports release tags and manual runs.
-It packages Chrome, Firefox, and Edge artifacts and submits them to the browser stores.
+It packages Chrome and Firefox artifacts and submits them to the browser stores with `wxt submit`.
+`CHROME_CANCEL_PENDING` cancels a pending Chrome review, so the store reviews the newest version.
+CI does not publish to the Edge Add-ons store.
 A refresh workflow run can therefore lead to a published extension update.
+
+The store credentials are in `fnox.toml` under the `ci` profile.
+They are age-encrypted to two recipients: the publish workflow key and the maintainer's Mac.
+The `FNOX_AGE_KEY` repository secret holds the identity of the workflow key.
+Only the submit step, under `fnox -P ci exec`, receives the credentials.
+The encrypted values are the Chrome Web Store API v2 service account (`CHROME_SERVICE_ACCOUNT_CLIENT_EMAIL`, `CHROME_SERVICE_ACCOUNT_PRIVATE_KEY`) and the AMO API key (`FIREFOX_JWT_ISSUER`, `FIREFOX_JWT_SECRET`).
+Values that are not secret, such as the store IDs, `CHROME_API_VERSION`, and `FIREFOX_CHANNEL`, use the `plain` provider (`fnox -P ci set KEY VALUE -p plain`).
+The workflow masks only the age-encrypted values.
+`mise run store:dry-run` checks the credentials against both stores without an upload.
+`mise run ci:secret:add KEY...` encrypts one value per key, from stdin lines or hidden prompts, and commits `fnox.toml`.
+Encryption needs no identity.
+`mise run chrome:service-account FILE` stores the email and private key of the service account from the JSON key file that Google Cloud downloads.
+`mise run ci:key` replaces the workflow key and `FNOX_AGE_KEY`; land its commit on `main` before the next release.
+`mise run ci:mac-key` replaces the Secure Enclave key of the Mac in `age-se.txt`.
+The repository tracks `age-se.txt` because only that Mac can unwrap it.
+The tasks are in `mise-tasks/` and commit with jj.
+Agents cannot decrypt the profile. Do not run these tasks without a user request.
 
 ## Tooling and repository rules
 
