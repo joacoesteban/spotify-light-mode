@@ -9586,6 +9586,15 @@ body[data-dragging-uri-type] .KkoKagblq35EIplRGT6A {
   padding: 8px 16px;
   display: flex;
 }
+.p9q6jMjgRv03aBK3fD4R {
+  align-self: center;
+}
+.p9q6jMjgRv03aBK3fD4R .GRM0c_jK9pqTypK64M8F {
+  box-sizing: border-box;
+  min-block-size: var(--encore-control-size-smaller);
+  padding-block: var(--encore-spacing-tighter-4);
+  padding-inline: var(--encore-spacing-base);
+}
 .bACQ5CGzkD6M89v5vRMS {
   transition:
     opacity 0.3s ease-in,
@@ -23182,4 +23191,4 @@ html[lang="ar"] .OJ5cWLDrUtmvvt79mGNM {
     color: var(--text-announcement);
   }
 }
-/*# sourceMappingURL=web-player.397fde5a.css.map*/
+/*# sourceMappingURL=web-player.a495218f.css.map*/

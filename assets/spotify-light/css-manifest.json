@@ -1,15 +1,9 @@
 {
-  "snapshotVersion": "spotify-player.web-player.b5909d1b__mobile-web-player.c6647026",
+  "snapshotVersion": "spotify-player.web-player.c078a389__mobile-web-player.9666f6f7",
   "source": {
-    "fingerprint": "sha256:42094aabdd97f377c033ae0d84d64b6729a207cca162aae8bc3eeb0d0f804298",
+    "fingerprint": "sha256:71f4ff582c6ffa3e3c2dadd21f0502b90a5d187bdc23d2866757ce57e20b3a78",
     "targets": {
       "desktop": [
-        {
-          "fileName": "178.css",
-          "relativePath": "desktop/178.css",
-          "sha256": "cec1a5a4760f0023ac3e01bb6150fd42e062190c7d2b4302da593b43dd0faf7d",
-          "byteLength": 11945
-        },
         {
           "fileName": "254.css",
           "relativePath": "desktop/254.css",
@@ -99,6 +93,12 @@
           "relativePath": "desktop/9563.css",
           "sha256": "eb7f6bf60f74e135d70401ae8bd26877a94e01d1822772cd8d158fd124f35a28",
           "byteLength": 22034
+        },
+        {
+          "fileName": "9913.css",
+          "relativePath": "desktop/9913.css",
+          "sha256": "50be9ec2dcf33e92266cb65636434e78b65fcbf1789bed2081a4cfe0e0af4bbc",
+          "byteLength": 11946
         },
         {
           "fileName": "browse-v2.css",
@@ -289,8 +289,8 @@
         {
           "fileName": "web-player.css",
           "relativePath": "desktop/web-player.css",
-          "sha256": "dbb93212bb76d89620398b383d5146dca6249698284de5494d02c09b7ee38fc9",
-          "byteLength": 619446
+          "sha256": "595f049c30d4a09e4cf5c151bc7046833964bab954567d7a80a9a10f57a7dde1",
+          "byteLength": 619718
         },
         {
           "fileName": "xpui-debug-window-contents.css",
@@ -616,14 +616,8 @@
     }
   },
   "output": {
-    "fingerprint": "sha256:a1ea913e0a32ad26281cca12f02e7d69ec4563a88a16f56ef3b402985b6baaad",
+    "fingerprint": "sha256:4aaa3ede0aab5c11cab97897ec3591793e4befb9875dafec2fe9783a79a279a8",
     "files": [
-      {
-        "fileName": "178.css",
-        "relativePath": "desktop/178.css",
-        "sha256": "a510a48f837acaecf7398850a7b3a1be25630d6e3c0b43d0a28d4b9f368af4fe",
-        "byteLength": 3426
-      },
       {
         "fileName": "254.css",
         "relativePath": "desktop/254.css",
@@ -713,6 +707,12 @@
         "relativePath": "desktop/9563.css",
         "sha256": "530c697516bce98988f9046e4f3ed5676324203bd05f6ade7ef4801b6f7de288",
         "byteLength": 3541
+      },
+      {
+        "fileName": "9913.css",
+        "relativePath": "desktop/9913.css",
+        "sha256": "98a3eed16cd5fbf5c11b4164a61a194eadc8b95d97d079a72a639a9bef9debb2",
+        "byteLength": 3427
       },
       {
         "fileName": "browse-v2.css",
