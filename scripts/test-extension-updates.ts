@@ -153,7 +153,7 @@ class ExtensionUpdateProof {
           css: await readFile(resolve(directory, sourceFileName), "utf8"),
         })),
     );
-    const stylesheet = stylesheets.find(({ css }) => css.includes(".qlztBvYSudkICUPJU5Lk {"));
+    const stylesheet = stylesheets.find(({ css }) => css.includes(".uI8JyD_faatLr66nS5Cb {"));
     assert.ok(stylesheet, "Current snapshot does not contain the Spotify slider fixture selectors");
     return stylesheet;
   }
@@ -215,9 +215,9 @@ class ExtensionUpdateProof {
       <style>body{font:18px system-ui;padding:40px;background:#fff;color:#111}h1{font-size:24px}#slider{position:relative;height:24px;margin:36px 0}audio{width:100%}pre{font-size:14px;line-height:1.6}</style>
       </head><body><h1>Spotify Light Mode — extension update proof</h1>
       <p>Controlled Spotify slider fixture · real Chromium extension lifecycle</p>
-      <div class="Cem1QXiCggQeNdbM1G3g ECIY8k2bCFYI4MqX9D3k">
-        <div id="slider" class="qlztBvYSudkICUPJU5Lk" style="--progress-bar-transform:65%">
-          <div class="H_o1A1RgPB3_6z7nL3_I"><div class="SRfZTwPXaUiVkUEP3uld"><div id="fill" class="TfVTZDI_lRJD2nIOQv3b"></div></div></div>
+      <div class="sFPdqIr8t2xI75iScCuj CTG2kuUAISyh9_NteS8D">
+        <div id="slider" class="uI8JyD_faatLr66nS5Cb" style="--progress-bar-transform:65%">
+          <div class="CJNV1IIT3eMUTjFyxFku"><div class="IArn70r67O47a5w2VPr9"><div id="fill" class="C_oPDLKHmOSABQwEKgMs"></div></div></div>
         </div>
       </div>
       <audio autoplay controls src="${this.audio()}"></audio><pre id="evidence"></pre>

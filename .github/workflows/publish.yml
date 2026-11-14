@@ -44,25 +44,24 @@ jobs:
       - name: Package Firefox extension
         run: bun run zip:firefox
 
-      - name: Package Edge extension
-        run: bun run zip:edge
+      - name: Install fnox
+        uses: jdx/mise-action@6be3c7ed4c21d4f76b208d351d95aac273ebb76d # v5.2.4
+        with:
+          install_args: fnox
+
+      - name: Mask store credentials
+        env:
+          FNOX_AGE_KEY: ${{ secrets.FNOX_AGE_KEY }}
+        run: |
+          for key in $(yq -p toml -o yaml '.profiles.ci.secrets | to_entries | .[] | select(.value.provider == "age") | .key' fnox.toml); do
+            fnox -P ci get "$key" | jq -Rr 'select(length > 0) | "::add-mask::" + .'
+          done
 
       - name: Submit to Chrome Web Store and Firefox Add-ons
         env:
-          CHROME_EXTENSION_ID: ${{ vars.CHROME_EXTENSION_ID }}
-          CHROME_CLIENT_ID: ${{ secrets.CHROME_CLIENT_ID }}
-          CHROME_CLIENT_SECRET: ${{ secrets.CHROME_CLIENT_SECRET }}
-          CHROME_REFRESH_TOKEN: ${{ secrets.CHROME_REFRESH_TOKEN }}
-          FIREFOX_EXTENSION_ID: ${{ vars.FIREFOX_EXTENSION_ID }}
-          FIREFOX_JWT_ISSUER: ${{ secrets.FIREFOX_JWT_ISSUER }}
-          FIREFOX_JWT_SECRET: ${{ secrets.FIREFOX_JWT_SECRET }}
-          FIREFOX_CHANNEL: ${{ vars.FIREFOX_CHANNEL }}
-          EDGE_PRODUCT_ID: ${{ vars.EDGE_PRODUCT_ID }}
-          EDGE_CLIENT_ID: ${{ secrets.EDGE_CLIENT_ID }}
-          EDGE_API_KEY: ${{ secrets.EDGE_API_KEY }}
-        run: |
-          bun wxt submit \
-            --chrome-zip .output/*-chrome.zip \
-            --firefox-zip .output/*-firefox.zip \
-            --firefox-sources-zip .output/*-sources.zip \
-            --edge-zip .output/*-edge.zip
+          FNOX_AGE_KEY: ${{ secrets.FNOX_AGE_KEY }}
+        run: >
+          fnox -P ci exec -- bun wxt submit
+          --chrome-zip .output/*-chrome.zip
+          --firefox-zip .output/*-firefox.zip
+          --firefox-sources-zip .output/*-sources.zip
