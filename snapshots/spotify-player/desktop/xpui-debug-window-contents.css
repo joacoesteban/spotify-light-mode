@@ -931,46 +931,6 @@ input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
 .sdGJMgiXOn5nTvLnm6Wx .H6W0q3LFu7czj78HdihE {
   color: #f8f8f2;
 }
-dialog {
-  background-color: #0000;
-  border: none;
-  max-block-size: calc(100vw - 32px);
-  max-inline-size: calc(100vw - 32px);
-  padding: 0;
-}
-dialog::backdrop {
-  background-color: #000000b3;
-}
-dialog:not([open]) {
-  display: none;
-}
-.spotify__container--is-desktop:not(.fullscreen) dialog {
-  -webkit-app-region: no-drag;
-}
-@keyframes QzMj6u3AszuagBDmvrE9 {
-  to {
-    opacity: 1;
-  }
-}
-@keyframes dSRjp9xn0ZT5CCLRwmBn {
-  0% {
-    transform: translateY(10%);
-  }
-}
-.Ma4s3EM2QMK9dcVipDd2[open] {
-  opacity: 0;
-  animation-name: dSRjp9xn0ZT5CCLRwmBn, QzMj6u3AszuagBDmvrE9;
-  animation-duration: 0.15s;
-  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  animation-fill-mode: forwards;
-}
-.Ma4s3EM2QMK9dcVipDd2[open]::backdrop {
-  opacity: 0;
-  animation-name: QzMj6u3AszuagBDmvrE9;
-  animation-duration: 0.15s;
-  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  animation-fill-mode: forwards;
-}
 .fb7uBKwE3tWEK2zvgkb8 {
   width: 100%;
   height: 100%;
@@ -1781,4 +1741,4 @@ select:disabled:hover {
   padding: 12px;
   overflow-y: scroll;
 }
-/*# sourceMappingURL=xpui-debug-window-contents.fa66a6e0.css.map*/
+/*# sourceMappingURL=xpui-debug-window-contents.a1286bfe.css.map*/

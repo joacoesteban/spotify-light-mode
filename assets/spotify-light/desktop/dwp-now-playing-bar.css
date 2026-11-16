@@ -31,6 +31,10 @@
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
 }
 
+.XLayAGgrqTrpVFc_E1ZX:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-base, #f1f1f1); /* hardcoded-color: var(--background-base, #181818) → var(--background-base, #f1f1f1) */
+}
+
 .IUYGQ1ar_HJsjBhthonA:not(#spotify-light-mode-specificity-bump) {
   color: #000000b3; /* hardcoded-color: #ffffffb3 → #000000b3 */
   background-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
