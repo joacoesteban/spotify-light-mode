@@ -18,6 +18,14 @@
   box-shadow: 0 2px 4px #ffffff4d; /* hardcoded-color: 0 2px 4px #0000004d → 0 2px 4px #ffffff4d */
 }
 
+.DFM9TfB_VNDtw0TVvZWC .Ffws6AUxL3EjVpYbWveP:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued, #000000b3); /* hardcoded-color: var(--text-subdued, #ffffffb3) → var(--text-subdued, #000000b3) */
+}
+
+.DFM9TfB_VNDtw0TVvZWC .cN9abBVMEnKtkyU4ng4w:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued, #000000b3); /* hardcoded-color: var(--text-subdued, #ffffffb3) → var(--text-subdued, #000000b3) */
+}
+
 .sFPdqIr8t2xI75iScCuj.CTG2kuUAISyh9_NteS8D:has(:focus-visible):not(#spotify-light-mode-specificity-bump) {
   outline: 5px auto #73a9ff; /* hardcoded-color: 5px auto #3673d4 → 5px auto #73a9ff */
 }
@@ -51,14 +59,6 @@
 
 .pyq3gLRAyHjtPwSQgn2Y:not(#spotify-light-mode-specificity-bump) {
   background-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
-}
-
-.DFM9TfB_VNDtw0TVvZWC .Ffws6AUxL3EjVpYbWveP:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued, #000000b3); /* hardcoded-color: var(--text-subdued, #ffffffb3) → var(--text-subdued, #000000b3) */
-}
-
-.DFM9TfB_VNDtw0TVvZWC .cN9abBVMEnKtkyU4ng4w:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-subdued, #000000b3); /* hardcoded-color: var(--text-subdued, #ffffffb3) → var(--text-subdued, #000000b3) */
 }
 
 .JDIbXwYAlJfGW63mTf8w:not(#spotify-light-mode-specificity-bump) {

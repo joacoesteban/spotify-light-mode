@@ -376,7 +376,7 @@ __workaround_element__ {
   max-height: 336px;
 }
 .WmLxq7qgDcOAaoNDGrKS {
-  --optimized-entity-header-height: 25cqh;
+  --optimized-entity-header-height: min(25cqh, 187px);
   --optimized-entity-header-min-height: 112px;
 }
 .lMgEVpggF5Tt8OTsWSD5 {
@@ -819,4 +819,4 @@ __workaround_element__ {
   animation-duration: var(--encore-short-4);
   animation-timing-function: var(--encore-expressive-decelerate);
 }
-/*# sourceMappingURL=dwp-top-bar.8d61ef47.css.map*/
+/*# sourceMappingURL=dwp-top-bar.fde31f75.css.map*/

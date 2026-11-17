@@ -113,6 +113,14 @@
   background-color: var(--playlist-session-selected-press); /* css-var: var(--playlist-session-selected-press) */
 }
 
+._mChiCSExEtyIvU1mJzf:not(#spotify-light-mode-specificity-bump) {
+  outline: none; /* forwarded-reset: none */
+}
+
+._mChiCSExEtyIvU1mJzf:focus-visible [role="checkbox"]:not(#spotify-light-mode-specificity-bump), ._mChiCSExEtyIvU1mJzf[data-focus-visible="true"] [role="checkbox"]:not(#spotify-light-mode-specificity-bump) {
+  outline-color: var(--parents-essential-base); /* css-var: var(--parents-essential-base) */
+}
+
 .sFAvvBu9t0QuBjnR3MUt:not(#spotify-light-mode-specificity-bump) {
   background-color: #0000001a; /* hardcoded-color: #ffffff1a → #0000001a */
 }

@@ -356,6 +356,13 @@ html[dir="rtl"] .pOpsVh6gpVnbZUA0dtnI {
   > .Xw2nqi5Q6PBKcJQWFSj8 {
   background-color: var(--playlist-session-selected-press);
 }
+._mChiCSExEtyIvU1mJzf {
+  outline: none;
+}
+._mChiCSExEtyIvU1mJzf:focus-visible [role="checkbox"],
+._mChiCSExEtyIvU1mJzf[data-focus-visible="true"] [role="checkbox"] {
+  outline-color: var(--parents-essential-base);
+}
 .PGlEyKDNYVCYaKEDZn5b {
   white-space: nowrap;
   flex-shrink: 0;
@@ -715,4 +722,4 @@ html[dir="rtl"] .pOpsVh6gpVnbZUA0dtnI {
 .xb37ODcxWDOjcWxIpq2i {
   grid-area: content;
 }
-/*# sourceMappingURL=xpui-routes-playlist.a47a1c51.css.map*/
+/*# sourceMappingURL=xpui-routes-playlist.b5bc4e8d.css.map*/

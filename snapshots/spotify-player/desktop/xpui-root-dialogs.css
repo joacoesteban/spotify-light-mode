@@ -798,7 +798,7 @@ __workaround_element__ {
   max-height: 336px;
 }
 .WmLxq7qgDcOAaoNDGrKS {
-  --optimized-entity-header-height: 25cqh;
+  --optimized-entity-header-height: min(25cqh, 187px);
   --optimized-entity-header-min-height: 112px;
 }
 .lMgEVpggF5Tt8OTsWSD5 {
@@ -3768,4 +3768,4 @@ a.pxo4kvoArJpVFHxcPeHe:hover {
 .o1nK0kDjqxVL2lhO07Zg {
   border-radius: 8px;
 }
-/*# sourceMappingURL=xpui-root-dialogs.7d56257c.css.map*/
+/*# sourceMappingURL=xpui-root-dialogs.76f421da.css.map*/

@@ -11,7 +11,7 @@ import _8 from "./desktop/6617.css?inline";
 import _9 from "./desktop/7330.css?inline";
 import _10 from "./desktop/7879.css?inline";
 import _11 from "./desktop/7968.css?inline";
-import _12 from "./desktop/8467.css?inline";
+import _12 from "./desktop/848.css?inline";
 import _13 from "./desktop/9449.css?inline";
 import _14 from "./desktop/9563.css?inline";
 import _15 from "./desktop/9913.css?inline";
@@ -120,7 +120,7 @@ export const lightModeStylesheetOverrides = [
   { sourceFileName: "7330.css", css: _9 },
   { sourceFileName: "7879.css", css: _10 },
   { sourceFileName: "7968.css", css: _11 },
-  { sourceFileName: "8467.css", css: _12 },
+  { sourceFileName: "848.css", css: _12 },
   { sourceFileName: "9449.css", css: _13 },
   { sourceFileName: "9563.css", css: _14 },
   { sourceFileName: "9913.css", css: _15 },

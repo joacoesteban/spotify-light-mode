@@ -152,7 +152,7 @@ __workaround_element__ {
   max-height: 336px;
 }
 .WmLxq7qgDcOAaoNDGrKS {
-  --optimized-entity-header-height: 25cqh;
+  --optimized-entity-header-height: min(25cqh, 187px);
   --optimized-entity-header-min-height: 112px;
 }
 .lMgEVpggF5Tt8OTsWSD5 {
@@ -1111,4 +1111,4 @@ button:focus-visible .vFhVwr6hBRtMNHnub8Ny:not(.YKKLHgw4w6W3SlYJZE3c) {
     var(--background-tinted-highlight, #0000001f) 100%
   );
 }
-/*# sourceMappingURL=dwp-home-chips-row.40471864.css.map*/
+/*# sourceMappingURL=dwp-home-chips-row.c6716271.css.map*/
