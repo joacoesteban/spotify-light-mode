@@ -1201,7 +1201,7 @@ html:not(.no-focus-outline)
   color: var(--text-base);
 }
 .y_hxy3VOpVnHodlL40qI.HqXeW1xz1YYOXGFAuggw {
-  color: var(--text-bright-accent);
+  color: var(--playback-speed-active-color, var(--text-bright-accent));
 }
 .cR8j17k7FY70tGghJrds {
   justify-content: center;
@@ -1360,12 +1360,12 @@ html:not(.no-focus-outline)
   transform: scaleY(1);
 }
 .uI8JyD_faatLr66nS5Cb:hover .pyq3gLRAyHjtPwSQgn2Y {
+  transform: scaleY(var(--progress-bar-chapter-hover-scale, 1.5));
   opacity: 1;
-  transform: scaleY(1.5);
 }
 .uI8JyD_faatLr66nS5Cb:has(:focus-visible) .pyq3gLRAyHjtPwSQgn2Y {
+  transform: scaleY(var(--progress-bar-chapter-hover-scale, 1.5));
   opacity: 1;
-  transform: scaleY(1.5);
 }
 .uI8JyD_faatLr66nS5Cb.Ko5gmZg1A6LKWw6A61s6 .C_oPDLKHmOSABQwEKgMs {
   background-image: linear-gradient(
@@ -1542,13 +1542,14 @@ html:not(.no-focus-outline)
   right: 0;
 }
 .JDIbXwYAlJfGW63mTf8w {
+  width: 3px;
+  height: var(--progress-bar-chapter-marker-height, 8px);
+  top: var(--progress-bar-chapter-marker-offset, -2px);
+  background-color: var(--progress-bar-chapter-marker-color, #000);
+  transition: var(--progress-bar-chapter-marker-transition, none);
   z-index: 2;
   opacity: 1;
-  background: #000;
-  width: 3px;
-  height: 8px;
   position: absolute;
-  top: -2px;
   transform: translate(-50%);
 }
 .JDIbXwYAlJfGW63mTf8w:focus-visible {
@@ -2140,4 +2141,4 @@ input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
   height: 100%;
   max-height: 100%;
 }
-/*# sourceMappingURL=xpui-pip-mini-player.942f1cb2.css.map*/
+/*# sourceMappingURL=xpui-pip-mini-player.126a49bc.css.map*/

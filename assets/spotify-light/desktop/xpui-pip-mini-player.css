@@ -292,7 +292,7 @@
 }
 
 .y_hxy3VOpVnHodlL40qI.HqXeW1xz1YYOXGFAuggw:not(#spotify-light-mode-specificity-bump) {
-  color: var(--text-bright-accent); /* css-var: var(--text-bright-accent) */
+  color: var(--playback-speed-active-color, var(--text-bright-accent)); /* css-var: var(--playback-speed-active-color, var(--text-bright-accent)) */
 }
 
 .sFPdqIr8t2xI75iScCuj.CTG2kuUAISyh9_NteS8D:has(:focus-visible):not(#spotify-light-mode-specificity-bump) {
@@ -347,7 +347,7 @@
 }
 
 .JDIbXwYAlJfGW63mTf8w:not(#spotify-light-mode-specificity-bump) {
-  background: #ffffff; /* hardcoded-color: #000 → #ffffff */
+  background-color: var(--progress-bar-chapter-marker-color, #ffffff); /* hardcoded-color: var(--progress-bar-chapter-marker-color, #000) → var(--progress-bar-chapter-marker-color, #ffffff) */
 }
 
 .UfyQ1IVKbME4zlxC4pLC:not(#spotify-light-mode-specificity-bump) {

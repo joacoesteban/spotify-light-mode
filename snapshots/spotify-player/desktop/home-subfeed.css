@@ -230,6 +230,9 @@ __workaround_element__ {
   ) {
   transform: translate(8px);
 }
+.vB1rnhMXIU8st13V7h44 {
+  transition-property: transform;
+}
 .uZw_fW1DcgWWRM_3Ftpr {
   grid-gap: 8px;
   min-width: 0;
@@ -295,4 +298,4 @@ __workaround_element__ {
   gap: 16px;
   display: flex;
 }
-/*# sourceMappingURL=home-subfeed.2adfdacf.css.map*/
+/*# sourceMappingURL=home-subfeed.8d73e670.css.map*/

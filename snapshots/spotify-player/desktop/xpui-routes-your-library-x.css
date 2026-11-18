@@ -327,6 +327,10 @@
   z-index: calc(-1 * var(--chip-index));
   margin-left: -48px;
 }
+.TPN1n03rJmmu5QvQFKE8 .sULMjBmBA_c2g43mJkM9 {
+  margin-left: 0;
+  margin-inline-start: -48px;
+}
 .Szn3f5G6p9CdB0eINkZa {
   margin-inline-start: calc(min(var(--ylx-folder-depth, 0), 5) * 16px);
   grid-template-rows: 48px !important;
@@ -1229,4 +1233,4 @@
   inset-inline: 8px auto !important;
   transform: none !important;
 }
-/*# sourceMappingURL=xpui-routes-your-library-x.b46ae7b3.css.map*/
+/*# sourceMappingURL=xpui-routes-your-library-x.42700dfd.css.map*/

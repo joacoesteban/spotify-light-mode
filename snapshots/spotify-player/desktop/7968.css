@@ -198,6 +198,9 @@
   ) {
   transform: translate(8px);
 }
+.vB1rnhMXIU8st13V7h44 {
+  transition-property: transform;
+}
 .uZw_fW1DcgWWRM_3Ftpr {
   grid-gap: 8px;
   min-width: 0;
@@ -766,4 +769,4 @@ __workaround_element__ {
     var(--background-elevated-highlight) 32px
   );
 }
-/*# sourceMappingURL=7968.51bb6448.css.map*/
+/*# sourceMappingURL=7968.7ecff224.css.map*/
