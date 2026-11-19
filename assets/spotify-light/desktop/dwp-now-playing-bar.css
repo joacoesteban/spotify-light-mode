@@ -248,8 +248,14 @@
 }
 
 .XLayAGgrqTrpVFc_E1ZX:not(#spotify-light-mode-specificity-bump) {
+  --npb-shared-background: var(--background-base, #f1f1f1); /* custom-property: var(--background-base, #181818) → var(--background-base, #f1f1f1) */
+  --npb-dodo-cover-shadow: #ffffff66; /* custom-property: #0006 → #ffffff66 */
   color: var(--text-base); /* css-var: var(--text-base) */
   background-color: var(--background-base, #f1f1f1); /* hardcoded-color: var(--background-base, #181818) → var(--background-base, #f1f1f1) */
+}
+
+.XLayAGgrqTrpVFc_E1ZX:has(.nW7aUBlgsD_VaBbzGuKa):not(#spotify-light-mode-specificity-bump) {
+  background-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
 }
 
 .o8ioBctJm9JkidspAbZB:not(#spotify-light-mode-specificity-bump):before {

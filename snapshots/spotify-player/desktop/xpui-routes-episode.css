@@ -30,39 +30,6 @@
 .ICaChUuSw10XUFnRKYoL {
   flex-shrink: 0;
 }
-.H4wKIFS5E53g0kbGgIwJ {
-  position: relative;
-}
-.NMKqUNqpEeq4rbc5sIAQ {
-  color: #ffffffb3;
-  background: 0 0;
-  border: 0;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  display: flex;
-}
-.NMKqUNqpEeq4rbc5sIAQ:hover {
-  color: #fff;
-}
-.fsl2RxNWnT7lsR3l49re,
-.fsl2RxNWnT7lsR3l49re:hover {
-  color: #1ed760;
-}
-.TwYfFYsob_pnPbWPwAzk {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-.fG1jNPhCBi4cjlxvuF0f {
-  pointer-events: none;
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .BN7c5TxzDA6GtIligg0z {
   padding: 0;
 }
@@ -515,6 +482,64 @@ __workaround_element__ {
   justify-content: space-between;
   display: flex;
 }
+.NElZwNKuuC00nVBziHYD {
+  margin: 16px 0;
+}
+.zPf6FcMBUU3dL1_qrPhX > .onNnKPeboBIVLtU6SaSk {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+.onNnKPeboBIVLtU6SaSk .onNnKPeboBIVLtU6SaSk {
+  margin: 0 0 0 16px;
+}
+ol > .jl66pmCrZTgM3IDa0B5J {
+  list-style: decimal;
+}
+ul > .jl66pmCrZTgM3IDa0B5J {
+  list-style: outside;
+}
+.BzjOVvNJIcsaA8uJPZQe {
+  margin: 0;
+}
+.BzjOVvNJIcsaA8uJPZQe:not(:last-child) {
+  margin-block-end: 16px;
+}
+.iPcmOf9A0hVYb9qu72Jg {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: 0 0;
+  border: none;
+  padding: 0;
+  display: inline-block;
+}
+.iPcmOf9A0hVYb9qu72Jg:hover .pMyW7muZhPiqDkxtKr7T,
+.iPcmOf9A0hVYb9qu72Jg:focus .pMyW7muZhPiqDkxtKr7T {
+  text-decoration: underline;
+}
+.idkU7E2NMVrf68Nd_blr {
+  word-break: break-word;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 24px;
+  transition: height 0.25s;
+  display: flex;
+  overflow: hidden;
+  color: #b3b3b3 !important;
+}
+.hdIHrZ_6KFQokeww_XI8 {
+  color: #b3b3b3 !important;
+}
+.kYDWcGooJZYrFMXWq6vd {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: 0 0;
+  border: none;
+  align-self: start;
+  padding: 0;
+  display: inline-block;
+}
 .MtFJDZXa2gPzmSGkHa6W {
   --modal-max-height: 80vh;
   max-width: 80vw;
@@ -625,4 +650,4 @@ __workaround_element__ {
     align-self: end;
   }
 }
-/*# sourceMappingURL=xpui-routes-episode.2d48db25.css.map*/
+/*# sourceMappingURL=xpui-routes-episode.4d7f3ae8.css.map*/

@@ -338,7 +338,8 @@
 }
 .fgfjb2xBe1NOlIDqU0R7 [aria-pressed],
 .fgfjb2xBe1NOlIDqU0R7 [type="button"] {
-  transition: color 0.6s ease-in-out;
+  transition: color var(--now-playing-color-transition-duration, 0.6s)
+    ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .fgfjb2xBe1NOlIDqU0R7 [aria-pressed],
@@ -781,13 +782,15 @@ __workaround_element__ {
 .gtUxIVrE53YjfVvR7q_A .vuoiRt9fgNnPtLEiyZog button,
 .gtUxIVrE53YjfVvR7q_A .MHcuCaIjS4JLGWhggDxP {
   transition:
-    color 0.6s ease-in-out,
+    color var(--now-playing-color-transition-duration, 0.6s) ease-in-out,
     background-color var(--encore-shortest-3) var(--encore-productive),
     transform var(--encore-shortest-3) var(--encore-productive);
 }
 .gtUxIVrE53YjfVvR7q_A .vuoiRt9fgNnPtLEiyZog button:hover,
 .gtUxIVrE53YjfVvR7q_A .MHcuCaIjS4JLGWhggDxP:hover {
-  transition-duration: 0.6s, var(--encore-shortest-1), var(--encore-shortest-1);
+  transition-duration:
+    var(--now-playing-color-transition-duration, 0.6s),
+    var(--encore-shortest-1), var(--encore-shortest-1);
 }
 @media (prefers-reduced-motion: reduce) {
   .gtUxIVrE53YjfVvR7q_A .vuoiRt9fgNnPtLEiyZog button,
@@ -823,7 +826,7 @@ __workaround_element__ {
     --progress-bar-chapter-marker-offset: 0px;
     --progress-bar-chapter-hover-scale: 1;
     top: -4px;
-    inset-inline: var(--encore-corner-radius-larger-2);
+    inset-inline: var(--npb-shared-border-radius);
     z-index: 2;
     width: auto;
     min-width: 0;
@@ -919,12 +922,21 @@ __workaround_element__ {
   bottom: -8px;
 }
 .XLayAGgrqTrpVFc_E1ZX {
+  isolation: isolate;
   --now-playing-color-transition: color 0.6s ease-in-out;
+  --now-playing-color-transition-duration: 0.6s;
+  --npb-shared-background: var(--background-base, #181818);
+  --npb-shared-border-radius: 8px;
+  --npb-shared-panel-gap: 0px;
+  --npb-dodo-cover-shadow: #0006;
+  --npb-shared-color-transition: background-color
+    var(--now-playing-color-transition-duration, 0.6s) ease-in-out;
   --play-button-icon-color: var(--background-base);
   --progress-bar-chapter-marker-color: var(--background-base);
-  --progress-bar-chapter-marker-transition: background-color 0.6s ease-in-out;
+  --progress-bar-chapter-marker-transition: background-color
+    var(--now-playing-color-transition-duration, 0.6s) ease-in-out;
   color: var(--text-base);
-  border-radius: var(--encore-corner-radius-larger-2);
+  border-radius: var(--npb-shared-border-radius);
   background-color: var(--background-base, #181818);
   width: 100%;
   height: 54px;
@@ -935,12 +947,49 @@ __workaround_element__ {
   position: relative;
   container: desktop-next-now-playing-bar/inline-size;
 }
+.XLayAGgrqTrpVFc_E1ZX:has(.nW7aUBlgsD_VaBbzGuKa) {
+  background-color: #0000;
+}
 @media (prefers-reduced-motion: reduce) {
   .XLayAGgrqTrpVFc_E1ZX {
     --now-playing-color-transition: none;
+    --npb-shared-color-transition: none;
     --progress-bar-chapter-marker-transition: none;
     transition: none;
   }
+}
+.n4MjFss0IkMXvZmOX_S_ {
+  isolation: isolate;
+  padding-inline: inherit;
+  border-radius: inherit;
+  position: absolute;
+  inset: 0;
+}
+.EcWKLFC81PG6U2IqvtHz {
+  transform-origin: 0;
+}
+.EcWKLFC81PG6U2IqvtHz:is(
+  :lang(ae),
+  :lang(ar),
+  :lang(arc),
+  :lang(bcc),
+  :lang(bqi),
+  :lang(ckb),
+  :lang(dv),
+  :lang(fa),
+  :lang(glk),
+  :lang(he),
+  :lang(ku),
+  :lang(mzn),
+  :lang(nqo),
+  :lang(pnb),
+  :lang(ps),
+  :lang(sd),
+  :lang(ug),
+  :lang(ur),
+  :lang(yi)
+) {
+  transform-origin: 100%;
 }
 .aMOiZ6s9f1VmnluxGzeR {
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) auto;
@@ -964,7 +1013,8 @@ __workaround_element__ {
   background-color: var(--text-subdued);
   width: 1px;
   height: 16px;
-  transition: background-color 0.6s ease-in-out;
+  transition: background-color
+    var(--now-playing-color-transition-duration, 0.6s) ease-in-out;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -975,7 +1025,31 @@ __workaround_element__ {
   }
 }
 .BEh2IbR2tKjioQLL5kfY {
+  transform-origin: 100%;
   justify-self: end;
+}
+.BEh2IbR2tKjioQLL5kfY:is(
+  :lang(ae),
+  :lang(ar),
+  :lang(arc),
+  :lang(bcc),
+  :lang(bqi),
+  :lang(ckb),
+  :lang(dv),
+  :lang(fa),
+  :lang(glk),
+  :lang(he),
+  :lang(ku),
+  :lang(mzn),
+  :lang(nqo),
+  :lang(pnb),
+  :lang(ps),
+  :lang(sd),
+  :lang(ug),
+  :lang(ur),
+  :lang(yi)
+) {
+  transform-origin: 0;
 }
 @container desktop-next-now-playing-bar (width<=1100px) {
   .aMOiZ6s9f1VmnluxGzeR {
@@ -1136,4 +1210,4 @@ __workaround_element__ {
   opacity: 0;
   transition: opacity 0.3s ease-out 0.5s;
 }
-/*# sourceMappingURL=dwp-now-playing-bar.9ffece47.css.map*/
+/*# sourceMappingURL=dwp-now-playing-bar.de733cb5.css.map*/

@@ -96,6 +96,12 @@
   border: none; /* forwarded-reset: none */
 }
 
+.h5ON2tYphq8O7OBjl1KK
+  > ._KWrVsLzOrskCRdBu1Jb
+  + :not(.v64MFV_lBh1C0Xrpueht, [data-invisible]):not(#spotify-light-mode-specificity-bump):before {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
 .j8tyGvIyrZGCVUqWYq_I:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued, #000000b3); /* hardcoded-color: var(--text-subdued, #ffffffb3) → var(--text-subdued, #000000b3) */
 }

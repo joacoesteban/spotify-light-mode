@@ -125,12 +125,13 @@ input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
   white-space: nowrap;
 }
 .W5sW8eI03u5vWByB0IYs {
-  align-items: center;
+  align-items: flex-start;
   gap: 4px;
   display: flex;
 }
 .DhO9x1ZdY_qeB8kJWyhg {
   flex-shrink: 0;
+  height: 1lh;
   display: flex;
 }
 .k3wDnJa0JbLd1jwSN7yy {
@@ -487,4 +488,4 @@ select:disabled:hover {
 .QdKqYtHHigbqV7lNymcq {
   margin-top: 56px;
 }
-/*# sourceMappingURL=xpui-routes-web-settings.21e3269b.css.map*/
+/*# sourceMappingURL=xpui-routes-web-settings.a716d555.css.map*/

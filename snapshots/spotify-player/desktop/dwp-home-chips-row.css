@@ -278,6 +278,7 @@ __workaround_element__ {
   flex-flow: column;
   flex: 1;
   justify-content: flex-end;
+  min-width: 0;
   display: flex;
 }
 @media (width>=1024px) {
@@ -545,12 +546,21 @@ __workaround_element__ {
   text-transform: uppercase;
 }
 .JjDZHFnF_MgivDKC23jQ {
-  grid-gap: 4px;
-  grid-auto-flow: column;
   align-items: center;
-  display: grid;
+  gap: 4px;
+  min-width: 0;
+  max-width: 100%;
+  display: flex;
+}
+.NHgqUrwSfLPLlsCkq9yg {
+  text-overflow: ellipsis;
+  min-width: 0;
+  margin: -2px;
+  padding: 2px;
+  overflow: hidden;
 }
 .pQoW3eOEDFGivYujNuL_ {
+  flex-shrink: 0;
   grid-auto-flow: column;
   display: grid;
 }
@@ -1111,4 +1121,4 @@ button:focus-visible .vFhVwr6hBRtMNHnub8Ny:not(.YKKLHgw4w6W3SlYJZE3c) {
     var(--background-tinted-highlight, #0000001f) 100%
   );
 }
-/*# sourceMappingURL=dwp-home-chips-row.c6716271.css.map*/
+/*# sourceMappingURL=dwp-home-chips-row.7623a239.css.map*/

@@ -191,6 +191,12 @@
   --text-base: #000000 !important; /* custom-property: #fff → #000000 */
 }
 
+.h5ON2tYphq8O7OBjl1KK
+  > ._KWrVsLzOrskCRdBu1Jb
+  + :not(.v64MFV_lBh1C0Xrpueht, [data-invisible]):not(#spotify-light-mode-specificity-bump):before {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
 .DsHV7RMZgHFcgHiT4_Iz .xnRPBfkpaz0thKkEwAkV:not(#spotify-light-mode-specificity-bump) {
   color: #000000; /* hardcoded-color: #fff → #000000 */
 }

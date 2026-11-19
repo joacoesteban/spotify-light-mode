@@ -33,6 +33,12 @@
     var(--background-noise) */
 }
 
+.h5ON2tYphq8O7OBjl1KK
+  > ._KWrVsLzOrskCRdBu1Jb
+  + :not(.v64MFV_lBh1C0Xrpueht, [data-invisible]):not(#spotify-light-mode-specificity-bump):before {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
 .bPjYUtSI45RmeWUPBg1K:not(#spotify-light-mode-specificity-bump) {
   color: #000000; /* hardcoded-color: #fff → #000000 */
 }
