@@ -31,6 +31,29 @@
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
 }
 
+.XLayAGgrqTrpVFc_E1ZX:not(#spotify-light-mode-specificity-bump) {
+  --npb-shared-background: var(--background-base, #f1f1f1); /* custom-property: var(--background-base, #181818) → var(--background-base, #f1f1f1) */
+  --npb-dodo-cover-shadow: #ffffff66; /* custom-property: #0006 → #ffffff66 */
+  color: var(--text-base); /* css-var: var(--text-base) */
+  background-color: var(--background-base, #f1f1f1); /* hardcoded-color: var(--background-base, #181818) → var(--background-base, #f1f1f1) */
+}
+
+.XLayAGgrqTrpVFc_E1ZX:has(.nW7aUBlgsD_VaBbzGuKa):not(#spotify-light-mode-specificity-bump) {
+  background-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
+}
+
+.MbidQHvqf122sYtmWWJZ:not(#spotify-light-mode-specificity-bump) {
+  --progress-bar-active-fg-color: #000000; /* custom-property: #fff → #000000 */
+}
+
+.tuE5_0wRKfSsMe8nz4Dl:not(#spotify-light-mode-specificity-bump) {
+  background-color: #0000004d; /* hardcoded-color: #ffffff4d → #0000004d */
+}
+
+.VEZsCjveajBnTHWOXc2m:not(#spotify-light-mode-specificity-bump) {
+  color: #000000; /* hardcoded-color: #fff → #000000 */
+}
+
 .IUYGQ1ar_HJsjBhthonA:not(#spotify-light-mode-specificity-bump) {
   color: var(--toggle-button-color, #000000b3); /* hardcoded-color: var(--toggle-button-color, #ffffffb3) → var(--toggle-button-color, #000000b3) */
   background-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
@@ -63,7 +86,7 @@
 }
 
 .EcHuTf6xmwloutl2qGA0 > .f6qznX9ZxqApiZY21CjR:not(#spotify-light-mode-specificity-bump) {
-  background-color: #dbdbdb; /* hardcoded-color: #333 → #dbdbdb */
+  background: var(--volume-slider-background, #dbdbdb); /* hardcoded-color: var(--volume-slider-background, #333) → var(--volume-slider-background, #dbdbdb) */
 }
 
 .fq4d1fw6GLioH4yoZBv8:not(:disabled, [aria-disabled="true"]):not(#spotify-light-mode-specificity-bump) {
@@ -162,6 +185,10 @@
   ) */
 }
 
+.fgfjb2xBe1NOlIDqU0R7:not(#spotify-light-mode-specificity-bump) {
+  --progress-bar-active-fg-color: #000000; /* custom-property: #fff → #000000 */
+}
+
 .fgfjb2xBe1NOlIDqU0R7 [type="button"]:not([aria-pressed]):not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued) !important; /* css-var: var(--text-subdued) */
 }
@@ -240,24 +267,10 @@
 }
 
 .gtUxIVrE53YjfVvR7q_A:not(#spotify-light-mode-specificity-bump) {
+  --text-bright-accent: #000000; /* custom-property: #fff → #000000 */
   --playback-speed-active-color: #000000; /* custom-property: #fff → #000000 */
 }
 
 .gtUxIVrE53YjfVvR7q_A .MHcuCaIjS4JLGWhggDxP:not(#spotify-light-mode-specificity-bump) {
   color: var(--play-button-icon-color, #ffffff) !important; /* hardcoded-color: var(--play-button-icon-color, #000) → var(--play-button-icon-color, #ffffff) */
-}
-
-.XLayAGgrqTrpVFc_E1ZX:not(#spotify-light-mode-specificity-bump) {
-  --npb-shared-background: var(--background-base, #f1f1f1); /* custom-property: var(--background-base, #181818) → var(--background-base, #f1f1f1) */
-  --npb-dodo-cover-shadow: #ffffff66; /* custom-property: #0006 → #ffffff66 */
-  color: var(--text-base); /* css-var: var(--text-base) */
-  background-color: var(--background-base, #f1f1f1); /* hardcoded-color: var(--background-base, #181818) → var(--background-base, #f1f1f1) */
-}
-
-.XLayAGgrqTrpVFc_E1ZX:has(.nW7aUBlgsD_VaBbzGuKa):not(#spotify-light-mode-specificity-bump) {
-  background-color: #ffffff00; /* hardcoded-color: #0000 → #ffffff00 */
-}
-
-.o8ioBctJm9JkidspAbZB:not(#spotify-light-mode-specificity-bump):before {
-  background-color: var(--text-subdued); /* css-var: var(--text-subdued) */
 }

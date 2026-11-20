@@ -300,12 +300,12 @@
 }
 
 .uI8JyD_faatLr66nS5Cb:not(#spotify-light-mode-specificity-bump) {
-  --bg-color: #0000004d; /* custom-property: #ffffff4d → #0000004d */
+  --bg-color: var(--progress-bar-bg-color, #0000004d); /* custom-property: var(--progress-bar-bg-color, #ffffff4d) → var(--progress-bar-bg-color, #0000004d) */
   --mg-color: #000000b3; /* custom-property: #ffffffb3 → #000000b3 */
   --fg-color: #000000; /* custom-property: #fff → #000000 */
 }
 
-.CJNV1IIT3eMUTjFyxFku:not(#spotify-light-mode-specificity-bump) {
+.O6Y3A1fEGHLxnhfuC6ng:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--bg-color); /* css-var: var(--bg-color) */
 }
 
@@ -331,7 +331,7 @@
 }
 
 .EcHuTf6xmwloutl2qGA0 > .f6qznX9ZxqApiZY21CjR:not(#spotify-light-mode-specificity-bump) {
-  background-color: #dbdbdb; /* hardcoded-color: #333 → #dbdbdb */
+  background: var(--volume-slider-background, #dbdbdb); /* hardcoded-color: var(--volume-slider-background, #333) → var(--volume-slider-background, #dbdbdb) */
 }
 
 .fq4d1fw6GLioH4yoZBv8:not(:disabled, [aria-disabled="true"]):not(#spotify-light-mode-specificity-bump) {

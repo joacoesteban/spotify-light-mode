@@ -61,6 +61,19 @@
   background-color: var(--background-tinted-press); /* css-var: var(--background-tinted-press) */
 }
 
+.bg3_2p9NX5o0OQlGvgd9:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
+}
+
+.fG1wV5fs9cPJpYVfg04G:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--text-base); /* css-var: var(--text-base) */
+  color: var(--background-base); /* css-var: var(--background-base) */
+}
+
+.gfOZYFoZ64QN06N_DKeH:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-negative); /* css-var: var(--text-negative) */
+}
+
 .MxfRfinhGfWmp8Fdr2BJ:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
 }

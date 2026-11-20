@@ -3516,8 +3516,12 @@ a.DIRE9vCNa9uVIV3A6ny_:hover {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.vWc0z6lZF5bun1WKKA4h.CBpXsg3c8NSVQa0NcFBD {
+.CBpXsg3c8NSVQa0NcFBD {
+  vertical-align: middle;
+  margin-block-start: -3px;
   margin-inline: var(--encore-spacing-tighter-4) var(--encore-spacing-tighter-5);
+  align-items: center;
+  display: inline-flex;
 }
 .ypjCu8gZVXI2lG9RTOnk {
   all: unset;
@@ -23014,4 +23018,4 @@ html[lang="ar"] .OJ5cWLDrUtmvvt79mGNM {
     color: var(--text-announcement);
   }
 }
-/*# sourceMappingURL=web-player.34bf70f2.css.map*/
+/*# sourceMappingURL=web-player.6cc8a9a5.css.map*/

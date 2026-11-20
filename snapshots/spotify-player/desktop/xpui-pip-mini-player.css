@@ -1243,10 +1243,10 @@ html:not(.no-focus-outline)
 }
 .uI8JyD_faatLr66nS5Cb {
   touch-action: none;
-  --bg-color: #ffffff4d;
+  --bg-color: var(--progress-bar-bg-color, #ffffff4d);
   --mg-color: #ffffffb3;
   --fg-color: #fff;
-  --is-active-fg-color: #1db954;
+  --is-active-fg-color: var(--progress-bar-active-fg-color, #1db954);
   --progress-bar-transform: 0%;
   --hover-bar-transform: 0%;
   --progress-bar-height: 4px;
@@ -1260,7 +1260,6 @@ html:not(.no-focus-outline)
   cursor: pointer;
 }
 .CJNV1IIT3eMUTjFyxFku {
-  background-color: var(--bg-color);
   border-radius: var(--progress-bar-radius);
   height: var(--progress-bar-height);
   width: 100%;
@@ -1268,6 +1267,19 @@ html:not(.no-focus-outline)
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+.O6Y3A1fEGHLxnhfuC6ng {
+  background-color: var(--bg-color);
+  border-radius: inherit;
+  transform: var(--progress-bar-track-transform, none);
+  transform-origin: top;
+  transition:
+    transform var(--progress-bar-track-transition-duration, 0s)
+      var(--progress-bar-track-transition-easing, linear),
+    background-color var(--progress-bar-color-transition-duration, 0s)
+      ease-in-out;
+  position: absolute;
+  inset: 0;
 }
 .IArn70r67O47a5w2VPr9 {
   width: 100%;
@@ -1327,6 +1339,9 @@ html:not(.no-focus-outline)
 .VAFlqZJob1zPEkCheIJW .J3DfIQSsMxjYi0557Ben {
   transition: none;
 }
+.CTG2kuUAISyh9_NteS8D .WyycTWtu04F8uhU5gkI4 {
+  --progress-bar-track-transform: scaleY(1);
+}
 .CTG2kuUAISyh9_NteS8D:focus-within .qinWev06d0dPqPkQfCov,
 .CTG2kuUAISyh9_NteS8D .WyycTWtu04F8uhU5gkI4 .qinWev06d0dPqPkQfCov,
 .CTG2kuUAISyh9_NteS8D .uI8JyD_faatLr66nS5Cb:hover .qinWev06d0dPqPkQfCov {
@@ -1346,6 +1361,7 @@ html:not(.no-focus-outline)
   visibility: hidden;
 }
 .pyq3gLRAyHjtPwSQgn2Y {
+  display: var(--progress-bar-chapter-hover-display, block);
   height: var(--progress-bar-height);
   z-index: 2;
   pointer-events: none;
@@ -1403,7 +1419,7 @@ html:not(.no-focus-outline)
   pointer-events: none;
   left: var(--button-size);
   z-index: 1;
-  background-color: #333;
+  background: var(--volume-slider-background, #333);
   border-radius: 4px;
   padding: 4px 8px;
   transition: opacity 0.4s linear;
@@ -1536,6 +1552,10 @@ html:not(.no-focus-outline)
   pointer-events: none;
   z-index: 2;
   height: 100%;
+  transform: var(--progress-bar-track-transform, none);
+  transform-origin: top;
+  transition: transform var(--progress-bar-track-transition-duration, 0s)
+    var(--progress-bar-track-transition-easing, linear);
   position: absolute;
   top: 0;
   left: 0;
@@ -2141,4 +2161,4 @@ input:disabled ~ .ZgpugrSQ4mYTFUFNxSgZ {
   height: 100%;
   max-height: 100%;
 }
-/*# sourceMappingURL=xpui-pip-mini-player.126a49bc.css.map*/
+/*# sourceMappingURL=xpui-pip-mini-player.ebcca6b0.css.map*/
