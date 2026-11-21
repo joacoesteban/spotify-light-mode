@@ -611,18 +611,11 @@
   aspect-ratio: 9/16;
   align-self: flex-end;
   min-height: 228px;
-  max-height: 347px;
-  margin-inline-end: var(--encore-spacing-looser-2);
-}
-.ajXfDXp4DJrFsSWzkHiI {
-  aspect-ratio: 9/16;
-  align-self: flex-end;
-  min-height: 228px;
   max-height: 304px;
   margin-inline-end: var(--encore-spacing-base);
 }
 @container main-view-grid-area (width>=600px) {
-  .ajXfDXp4DJrFsSWzkHiI {
+  .GYAMU0PrOQjtpDuxMMny {
     margin-inline-end: var(--encore-spacing-looser-2);
   }
 }
@@ -1068,4 +1061,4 @@ __workaround_element__ {
 .QO2sjtEUhEdKAtiVPSiN {
   padding-bottom: var(--encore-spacing-base);
 }
-/*# sourceMappingURL=xpui-routes-collection-songs.28d88230.css.map*/
+/*# sourceMappingURL=xpui-routes-collection-songs.1d18dcda.css.map*/
