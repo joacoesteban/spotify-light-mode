@@ -809,7 +809,13 @@ html[dir="rtl"] .pOpsVh6gpVnbZUA0dtnI {
 .w0y2QFRAbbaz9eGFO8y_ {
   min-width: 0;
   margin-inline: calc(-1 * var(--content-spacing));
+}
+.XBtIlNIOXONriF4PxkA_ {
   padding-inline: var(--content-spacing);
+  scroll-padding-inline: var(--content-spacing);
+}
+.O5d3jnkjp154S9H9Nm_Z {
+  margin-inline: calc(var(--content-spacing) - var(--encore-spacing-tighter-2));
 }
 .LSbNZacTXno8F3zQYo_4 {
   gap: var(--encore-spacing-tighter-2);
@@ -1192,4 +1198,4 @@ html[dir="rtl"] .pOpsVh6gpVnbZUA0dtnI {
 .xb37ODcxWDOjcWxIpq2i {
   grid-area: content;
 }
-/*# sourceMappingURL=xpui-routes-playlist.2fe327c1.css.map*/
+/*# sourceMappingURL=xpui-routes-playlist.acd57db0.css.map*/

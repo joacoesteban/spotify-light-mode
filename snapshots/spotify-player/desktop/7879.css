@@ -812,10 +812,6 @@ __workaround_element__ {
   left: 8px;
   right: 8px;
 }
-.QXcSMfVC5Q3PjEIL4Y39 > * {
-  margin-top: -16px;
-  top: 50%;
-}
 [data-carousel-gridlist-item]:has(.U7cIDw6DuPJAePf70jLD) {
   width: calc(2 * var(--carousel-shelf-element-width));
   grid-column: span 2;
@@ -874,4 +870,4 @@ __workaround_element__ {
   bottom: 0;
   box-shadow: 0 2px 4px #0003;
 }
-/*# sourceMappingURL=7879.c5e6ed17.css.map*/
+/*# sourceMappingURL=7879.6208dc6b.css.map*/

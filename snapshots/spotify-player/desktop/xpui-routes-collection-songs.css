@@ -353,7 +353,13 @@
 .w0y2QFRAbbaz9eGFO8y_ {
   min-width: 0;
   margin-inline: calc(-1 * var(--content-spacing));
+}
+.XBtIlNIOXONriF4PxkA_ {
   padding-inline: var(--content-spacing);
+  scroll-padding-inline: var(--content-spacing);
+}
+.O5d3jnkjp154S9H9Nm_Z {
+  margin-inline: calc(var(--content-spacing) - var(--encore-spacing-tighter-2));
 }
 .LSbNZacTXno8F3zQYo_4 {
   gap: var(--encore-spacing-tighter-2);
@@ -1061,4 +1067,4 @@ __workaround_element__ {
 .QO2sjtEUhEdKAtiVPSiN {
   padding-bottom: var(--encore-spacing-base);
 }
-/*# sourceMappingURL=xpui-routes-collection-songs.1d18dcda.css.map*/
+/*# sourceMappingURL=xpui-routes-collection-songs.01a5a9de.css.map*/

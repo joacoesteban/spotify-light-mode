@@ -1456,11 +1456,14 @@ html[dir="rtl"] .pOpsVh6gpVnbZUA0dtnI {
 .fWv11gxEKsQIzZVmv2fp {
   min-width: 0;
   margin-inline: calc(-1 * var(--content-spacing));
+}
+.hQGK0kNYhlpHGjFYTcLI {
   padding-inline: var(--content-spacing);
+  scroll-padding-inline: var(--content-spacing);
 }
 .SaDDdo_AeGk3f11s8zAA {
+  margin-inline: calc(var(--content-spacing) - var(--encore-spacing-tighter-2));
   align-items: center;
-  padding-inline-end: var(--content-spacing);
 }
 .imOmmJRle3kJkgxYAZOD {
   gap: var(--encore-spacing-tighter-2);
@@ -1597,4 +1600,4 @@ __workaround_element__ {
   max-height: 900px;
   position: sticky;
 }
-/*# sourceMappingURL=dwp-promptedPlaylists.31a37156.css.map*/
+/*# sourceMappingURL=dwp-promptedPlaylists.52c4a1a7.css.map*/

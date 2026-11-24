@@ -1361,52 +1361,88 @@ dialog:not(#spotify-light-mode-specificity-bump)::backdrop {
 .rIea0yxSRf4CmGEjP9bC:not(#spotify-light-mode-specificity-bump) {
   --start-gradient-color: #ffffff; /* custom-property: black → #ffffff */
   --end-gradient-color: #ffffff; /* custom-property: black → #ffffff */
-  -webkit-mask-image: linear-gradient(90deg, var(--start-gradient-color) 0%, #ffffff 120px),
+  -webkit-mask-image: linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ),
     linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
       var(--end-gradient-color) 100%
-    ); /* hardcoded-color: linear-gradient(90deg, var(--start-gradient-color) 0%, black 120px),
+    ); /* hardcoded-color: linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      black var(--carousel-gradient-width, 120px)
+    ),
     linear-gradient(
       90deg,
-      black calc(100% - 120px),
+      black calc(100% - var(--carousel-gradient-width, 120px)),
       var(--end-gradient-color) 100%
-    ) → linear-gradient(90deg, var(--start-gradient-color) 0%, #ffffff 120px),
+    ) → linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ),
     linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
-      var(--end-gradient-color) 100%
-    ) */
-  -webkit-mask-image: linear-gradient(90deg, var(--start-gradient-color) 0%, #ffffff 120px),
-    linear-gradient(
-      90deg,
-      #ffffff calc(100% - 120px),
-      var(--end-gradient-color) 100%
-    ); /* hardcoded-color: linear-gradient(90deg, var(--start-gradient-color) 0%, black 120px),
-    linear-gradient(
-      90deg,
-      black calc(100% - 120px),
-      var(--end-gradient-color) 100%
-    ) → linear-gradient(90deg, var(--start-gradient-color) 0%, #ffffff 120px),
-    linear-gradient(
-      90deg,
-      #ffffff calc(100% - 120px),
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
       var(--end-gradient-color) 100%
     ) */
-  mask-image: linear-gradient(90deg, var(--start-gradient-color) 0%, #ffffff 120px),
+  -webkit-mask-image: linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ),
     linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
       var(--end-gradient-color) 100%
-    ); /* hardcoded-color: linear-gradient(90deg, var(--start-gradient-color) 0%, black 120px),
+    ); /* hardcoded-color: linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      black var(--carousel-gradient-width, 120px)
+    ),
     linear-gradient(
       90deg,
-      black calc(100% - 120px),
+      black calc(100% - var(--carousel-gradient-width, 120px)),
       var(--end-gradient-color) 100%
-    ) → linear-gradient(90deg, var(--start-gradient-color) 0%, #ffffff 120px),
+    ) → linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ),
     linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
+      var(--end-gradient-color) 100%
+    ) */
+  mask-image: linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ),
+    linear-gradient(
+      90deg,
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
+      var(--end-gradient-color) 100%
+    ); /* hardcoded-color: linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      black var(--carousel-gradient-width, 120px)
+    ),
+    linear-gradient(
+      90deg,
+      black calc(100% - var(--carousel-gradient-width, 120px)),
+      var(--end-gradient-color) 100%
+    ) → linear-gradient(
+      90deg,
+      var(--start-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ),
+    linear-gradient(
+      90deg,
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
       var(--end-gradient-color) 100%
     ) */
 }
@@ -1414,52 +1450,88 @@ dialog:not(#spotify-light-mode-specificity-bump)::backdrop {
 [dir="rtl"] .rIea0yxSRf4CmGEjP9bC:not(#spotify-light-mode-specificity-bump) {
   -webkit-mask-image: linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
       var(--start-gradient-color) 100%
     ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, #ffffff 120px); /* hardcoded-color: linear-gradient(
+    linear-gradient(
       90deg,
-      #000 calc(100% - 120px),
-      var(--start-gradient-color) 100%
-    ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, black 120px) → linear-gradient(
+      var(--end-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ); /* hardcoded-color: linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #000 calc(100% - var(--carousel-gradient-width, 120px)),
       var(--start-gradient-color) 100%
     ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, #ffffff 120px) */
+    linear-gradient(
+      90deg,
+      var(--end-gradient-color) 0%,
+      black var(--carousel-gradient-width, 120px)
+    ) → linear-gradient(
+      90deg,
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
+      var(--start-gradient-color) 100%
+    ),
+    linear-gradient(
+      90deg,
+      var(--end-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ) */
   -webkit-mask-image: linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
       var(--start-gradient-color) 100%
     ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, #ffffff 120px); /* hardcoded-color: linear-gradient(
+    linear-gradient(
       90deg,
-      #000 calc(100% - 120px),
-      var(--start-gradient-color) 100%
-    ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, black 120px) → linear-gradient(
+      var(--end-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ); /* hardcoded-color: linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #000 calc(100% - var(--carousel-gradient-width, 120px)),
       var(--start-gradient-color) 100%
     ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, #ffffff 120px) */
+    linear-gradient(
+      90deg,
+      var(--end-gradient-color) 0%,
+      black var(--carousel-gradient-width, 120px)
+    ) → linear-gradient(
+      90deg,
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
+      var(--start-gradient-color) 100%
+    ),
+    linear-gradient(
+      90deg,
+      var(--end-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ) */
   mask-image: linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
       var(--start-gradient-color) 100%
     ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, #ffffff 120px); /* hardcoded-color: linear-gradient(
+    linear-gradient(
       90deg,
-      #000 calc(100% - 120px),
-      var(--start-gradient-color) 100%
-    ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, black 120px) → linear-gradient(
+      var(--end-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ); /* hardcoded-color: linear-gradient(
       90deg,
-      #ffffff calc(100% - 120px),
+      #000 calc(100% - var(--carousel-gradient-width, 120px)),
       var(--start-gradient-color) 100%
     ),
-    linear-gradient(90deg, var(--end-gradient-color) 0%, #ffffff 120px) */
+    linear-gradient(
+      90deg,
+      var(--end-gradient-color) 0%,
+      black var(--carousel-gradient-width, 120px)
+    ) → linear-gradient(
+      90deg,
+      #ffffff calc(100% - var(--carousel-gradient-width, 120px)),
+      var(--start-gradient-color) 100%
+    ),
+    linear-gradient(
+      90deg,
+      var(--end-gradient-color) 0%,
+      #ffffff var(--carousel-gradient-width, 120px)
+    ) */
 }
 
 .VdoAFBSgMkSkMmW0NgAk:not(#spotify-light-mode-specificity-bump):before {
