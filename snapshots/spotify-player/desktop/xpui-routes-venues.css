@@ -431,15 +431,15 @@ __workaround_element__ {
   display: flex;
 }
 .QA4jstemFgU2bioSxIBl {
-  object-fit: cover;
-  border-radius: 50%;
+  object-fit: contain;
+  border-radius: 0;
   flex-shrink: 0;
   width: 48px;
   height: 48px;
 }
-._LrkQZZrDtCAEV8153UA {
-  object-fit: contain;
-  border-radius: 0;
+.Z6fqBFZ_KD0z61YxIV3c {
+  object-fit: cover;
+  border-radius: 50%;
 }
 .WNXQ05qmaYMrYolXekIJ {
   color: #fff;
@@ -641,4 +641,4 @@ __workaround_element__ {
 .DWtz0t1x8bDvAdU2kyVg {
   margin-top: 16px;
 }
-/*# sourceMappingURL=xpui-routes-venues.d7a72d81.css.map*/
+/*# sourceMappingURL=xpui-routes-venues.f8d62b8a.css.map*/

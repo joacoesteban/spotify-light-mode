@@ -384,6 +384,85 @@ __workaround_element__ {
   justify-content: flex-end;
   display: flex;
 }
+.VAgtnvXVJ3TJBxLiYJlt {
+  border: none;
+  border-radius: 8px;
+  flex-direction: column;
+  width: 100%;
+  min-height: 272px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.VAgtnvXVJ3TJBxLiYJlt:hover {
+  border: none;
+}
+.XMI5lxjdDkSL5HCFjPYq,
+.QmWm18fr_jjbuidqBRZc {
+  position: absolute;
+  inset: 0;
+}
+.XMI5lxjdDkSL5HCFjPYq {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 4px #0003;
+}
+.QmWm18fr_jjbuidqBRZc {
+  background-color: var(--background-elevated-base);
+  place-items: center;
+  display: grid;
+}
+.abIAIlcsBHn3cTab40hS {
+  color: #fff;
+  justify-content: space-between;
+  align-items: end;
+  gap: 12px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline: 0;
+}
+.oaiz9_Pw2bEtiCOlXQhQ {
+  min-width: 0;
+}
+.Ru0Mw6axQMQHTmqpwcGU {
+  -webkit-line-clamp: 2;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.nDDAXB8bMfOrgyvPcr7s {
+  text-align: center;
+  background: #0009;
+  border-radius: 4px;
+  flex-direction: column;
+  width: 48px;
+  height: 48px;
+  padding: 4px 8px;
+  display: flex;
+  position: absolute;
+  inset-block-start: 16px;
+  inset-inline-start: 16px;
+}
+.Bc7BDOXvhajThYKhoeHl {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-block-start: 4px;
+  display: -webkit-box;
+}
+.AT4EtqL0YXE7hukCRawT {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  flex-shrink: 0;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  display: grid;
+}
 .FLiaApCNMAn3Vqsha2vj {
   max-width: 80%;
   max-height: 100%;
@@ -980,6 +1059,15 @@ __workaround_element__ {
   --carousel-shelf-min-items: 1.5;
   --carousel-shelf-element-width: 180px;
 }
+.nfeR_IyBtGfcYR_27N3Q {
+  container-type: inline-size;
+}
+.nfeR_IyBtGfcYR_27N3Q .PNyaf84_55PNytktmdfb .EthTcXnOiBs9M9FA6hVA {
+  width: min(2 * var(--carousel-shelf-element-width), 100cqi);
+  grid-column: span 2;
+  margin-block-start: 12px;
+  margin-inline-end: 12px;
+}
 .zgw9BYL9LgmrcWAveRQC {
   gap: 8px;
   display: flex;
@@ -1006,4 +1094,4 @@ __workaround_element__ {
   margin-bottom: 24px;
   display: flex;
 }
-/*# sourceMappingURL=xpui-routes-collection-concerts.bb549495.css.map*/
+/*# sourceMappingURL=xpui-routes-collection-concerts.40e9a9f2.css.map*/

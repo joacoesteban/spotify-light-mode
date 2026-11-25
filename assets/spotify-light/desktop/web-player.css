@@ -2615,6 +2615,10 @@ html:not(.no-focus-outline) .KUCW2oDmMs7u23G9D_s3:focus:not(#spotify-light-mode-
   border-bottom: 1px solid #0000001a; /* hardcoded-color: 1px solid #ffffff1a → 1px solid #0000001a */
 }
 
+.JgoFKiH369zRT5UPEMi1:not(#spotify-light-mode-specificity-bump) {
+  border-inline: 1px solid #ffffff00; /* hardcoded-color: 1px solid #0000 → 1px solid #ffffff00 */
+}
+
 .U5EKmWxF_AHcuhhqWTN8 .GRvtoc3LI2LnwdFyR3Qt:not(#spotify-light-mode-specificity-bump) {
   border-bottom: 1px solid #ffffff00; /* hardcoded-color: 1px solid #0000 → 1px solid #ffffff00 */
 }
