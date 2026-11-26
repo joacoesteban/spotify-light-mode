@@ -414,14 +414,14 @@ html.spotify__container--is-web body {
   position: absolute;
   top: 0;
 }
-a:not([data-encore-id]) {
+a:not([data-encore-id], .button-styled-link) {
   color: #fff;
   text-decoration: none;
 }
-a:not([data-encore-id]):hover,
-a:not([data-encore-id]):focus,
-a:not([data-encore-id])[data-context-menu-open="true"],
-[data-context-menu-open="true"] > a:only-child {
+a:not([data-encore-id], .button-styled-link):hover,
+a:not([data-encore-id], .button-styled-link):focus,
+a:not([data-encore-id], .button-styled-link)[data-context-menu-open="true"],
+[data-context-menu-open="true"] > a:only-child:not(.button-styled-link) {
   text-decoration: underline;
 }
 .link-subtle {
@@ -435,7 +435,13 @@ a:not([data-encore-id])[data-context-menu-open="true"],
   color: #fff;
 }
 .no-focus-outline
-  :focus:where(:not([data-encore-id="button"], [data-encore-id="buttonIcon"])) {
+  :focus:where(
+    :not(
+      [data-encore-id="button"],
+      [data-encore-id="buttonIcon"],
+      .button-styled-link
+    )
+  ) {
   outline: none;
 }
 #login-container {
@@ -12673,11 +12679,17 @@ html:not(.no-focus-outline) .OJ5cWLDrUtmvvt79mGNM:focus-within {
   border: 1px solid #fff;
 }
 .OJ5cWLDrUtmvvt79mGNM:hover,
-.OJ5cWLDrUtmvvt79mGNM:focus-within {
+.OJ5cWLDrUtmvvt79mGNM:where(:not(.H8qGEu9GDk3SyLP6j_X4)):focus-within,
+.OJ5cWLDrUtmvvt79mGNM:where(:has(:focus-visible)) {
   background-color: #ffffff1a;
 }
 .OJ5cWLDrUtmvvt79mGNM:hover:where(:has(> .YArXPOthVU5grIadxi0D)),
-.OJ5cWLDrUtmvvt79mGNM:focus-within:where(:has(> .YArXPOthVU5grIadxi0D)) {
+.OJ5cWLDrUtmvvt79mGNM:where(:not(.H8qGEu9GDk3SyLP6j_X4)):focus-within:where(
+    :has(> .YArXPOthVU5grIadxi0D)
+  ),
+.OJ5cWLDrUtmvvt79mGNM:where(:has(:focus-visible)):where(
+    :has(> .YArXPOthVU5grIadxi0D)
+  ) {
   background-color: var(--background-tinted-highlight);
 }
 .OJ5cWLDrUtmvvt79mGNM:hover ._YqNg9vF_UAzs7BiHLTQ,
@@ -23089,4 +23101,4 @@ html[lang="ar"] .OJ5cWLDrUtmvvt79mGNM {
     color: var(--text-announcement);
   }
 }
-/*# sourceMappingURL=web-player.07c0c49b.css.map*/
+/*# sourceMappingURL=web-player.1ad62cfe.css.map*/

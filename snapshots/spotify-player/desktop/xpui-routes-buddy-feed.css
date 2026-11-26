@@ -478,4 +478,83 @@ __workaround_element__ {
     opacity: 1;
   }
 }
-/*# sourceMappingURL=xpui-routes-buddy-feed.4ef977e1.css.map*/
+.C3Ppk6RuReKBI0pCiaZT {
+  inline-size: 420px;
+  max-inline-size: 100%;
+  padding: var(--encore-spacing-base);
+  background: var(--background-elevated-base);
+  border-start-start-radius: var(--encore-corner-radius-larger-3);
+  border-start-end-radius: var(--encore-corner-radius-larger-3);
+}
+.ZLhhmfgSxQTKvHFsm55i {
+  gap: var(--encore-spacing-tighter-5);
+}
+.AegFkzqiHOQaz7SQY3RQ {
+  align-items: center;
+  gap: var(--encore-spacing-tighter);
+  display: flex;
+}
+.E1s169rQXUL0KYvMg9Gu {
+  text-align: start;
+  flex: 1;
+  min-inline-size: 0;
+}
+.m9VREjRFeVwPQuNNZ4Vf {
+  min-block-size: 0;
+  padding-block-end: var(--encore-spacing-base);
+}
+.PPOfJBxqPjOSANuQ390z {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+._Nu82OYtASW9yGCtGu1p {
+  padding: var(--encore-spacing-tighter);
+  border-radius: var(--encore-corner-radius-larger-2);
+  background: var(--background-elevated-highlight);
+  gap: var(--encore-spacing-tighter);
+  flex-direction: column;
+  display: flex;
+}
+.mVPT2m8KcFJbptZd9qsW {
+  min-block-size: 0;
+  padding-block: 0;
+}
+.JJv_LaOUc9iyihtO1jrA,
+.ugW2zdj2Y4LC2EkL8uhw,
+.czKIRpKClAbn6ESiBHE0,
+.LecS86aiPi3CoX2r2XcG {
+  align-items: center;
+  display: flex;
+}
+.JJv_LaOUc9iyihtO1jrA {
+  gap: var(--encore-spacing-tighter-4);
+  min-inline-size: 0;
+}
+.DkDG2OZnPbpjdcf8pQKo {
+  flex-shrink: 0;
+}
+.ugW2zdj2Y4LC2EkL8uhw {
+  justify-content: flex-end;
+  gap: var(--encore-spacing-base);
+}
+.czKIRpKClAbn6ESiBHE0 {
+  gap: var(--encore-spacing-tighter);
+  flex-wrap: wrap;
+  min-inline-size: 0;
+  margin-inline-end: auto;
+}
+.LecS86aiPi3CoX2r2XcG {
+  gap: var(--encore-spacing-tighter-2);
+}
+.niErS3XsNe3NXRAVQhWJ {
+  max-inline-size: calc(100vw - var(--encore-spacing-looser-2));
+  border-radius: var(--encore-corner-radius-larger-3);
+  background: var(--background-elevated-base);
+  color: var(--text-base);
+  border: 0;
+  padding: 0;
+}
+.mZw1oLPFxAsq2QAjfPxc {
+  display: none;
+}
+/*# sourceMappingURL=xpui-routes-buddy-feed.0efd68da.css.map*/

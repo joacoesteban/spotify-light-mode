@@ -71,7 +71,7 @@ body:not(#spotify-light-mode-specificity-bump), dialog:not(#spotify-light-mode-s
   color: #7a7a7a; /* hardcoded-color: #b3b3b3 → #7a7a7a */
 }
 
-a:not([data-encore-id]):not(#spotify-light-mode-specificity-bump) {
+a:not([data-encore-id], .button-styled-link):not(#spotify-light-mode-specificity-bump) {
   color: #000000; /* hardcoded-color: #fff → #000000 */
 }
 
@@ -84,7 +84,13 @@ a:not([data-encore-id]):not(#spotify-light-mode-specificity-bump) {
 }
 
 .no-focus-outline
-  :focus:where(:not([data-encore-id="button"], [data-encore-id="buttonIcon"])):not(#spotify-light-mode-specificity-bump) {
+  :focus:where(
+    :not(
+      [data-encore-id="button"],
+      [data-encore-id="buttonIcon"],
+      .button-styled-link
+    )
+  ):not(#spotify-light-mode-specificity-bump) {
   outline: none; /* forwarded-reset: none */
 }
 
@@ -2636,11 +2642,15 @@ html:not(.no-focus-outline) .OJ5cWLDrUtmvvt79mGNM:focus-within:not(#spotify-ligh
   border: 1px solid #000000; /* hardcoded-color: 1px solid #fff → 1px solid #000000 */
 }
 
-.OJ5cWLDrUtmvvt79mGNM:hover:not(#spotify-light-mode-specificity-bump), .OJ5cWLDrUtmvvt79mGNM:focus-within:not(#spotify-light-mode-specificity-bump) {
+.OJ5cWLDrUtmvvt79mGNM:hover:not(#spotify-light-mode-specificity-bump), .OJ5cWLDrUtmvvt79mGNM:where(:not(.H8qGEu9GDk3SyLP6j_X4)):focus-within:not(#spotify-light-mode-specificity-bump), .OJ5cWLDrUtmvvt79mGNM:where(:has(:focus-visible)):not(#spotify-light-mode-specificity-bump) {
   background-color: #0000001a; /* hardcoded-color: #ffffff1a → #0000001a */
 }
 
-.OJ5cWLDrUtmvvt79mGNM:hover:where(:has(> .YArXPOthVU5grIadxi0D)):not(#spotify-light-mode-specificity-bump), .OJ5cWLDrUtmvvt79mGNM:focus-within:where(:has(> .YArXPOthVU5grIadxi0D)):not(#spotify-light-mode-specificity-bump) {
+.OJ5cWLDrUtmvvt79mGNM:hover:where(:has(> .YArXPOthVU5grIadxi0D)):not(#spotify-light-mode-specificity-bump), .OJ5cWLDrUtmvvt79mGNM:where(:not(.H8qGEu9GDk3SyLP6j_X4)):focus-within:where(
+    :has(> .YArXPOthVU5grIadxi0D)
+  ):not(#spotify-light-mode-specificity-bump), .OJ5cWLDrUtmvvt79mGNM:where(:has(:focus-visible)):where(
+    :has(> .YArXPOthVU5grIadxi0D)
+  ):not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-highlight); /* css-var: var(--background-tinted-highlight) */
 }
 

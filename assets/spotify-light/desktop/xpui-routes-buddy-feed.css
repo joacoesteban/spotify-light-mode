@@ -111,3 +111,7 @@
 .HK15UZ5B9vdv2jrDGHlE:focus-visible:not(#spotify-light-mode-specificity-bump) {
   outline: 2px solid #000000; /* hardcoded-color: 2px solid #fff → 2px solid #000000 */
 }
+
+.niErS3XsNe3NXRAVQhWJ:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}

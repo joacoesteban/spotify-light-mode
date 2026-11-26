@@ -221,6 +221,10 @@
   color: var(--text-base); /* css-var: var(--text-base) */
 }
 
+.HUJhZs1nfuXjXoInjZtF:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-subdued); /* css-var: var(--text-subdued) */
+}
+
 .KV63eJ1zGaIa5XagjJrQ:has(:focus-visible):not(#spotify-light-mode-specificity-bump) {
   outline: 5px auto #73a9ff; /* hardcoded-color: 5px auto #3673d4 → 5px auto #73a9ff */
 }
