@@ -3731,6 +3731,32 @@ a.pxo4kvoArJpVFHxcPeHe:hover {
   display: flex;
   transform: translate(154px) rotate(4deg);
 }
+.G7zSazrb2ABofcJeKeYP {
+  inset-inline: 24px auto;
+}
+.lwDBVpGt8i5iEF8m_hB6:is(
+  :lang(ae),
+  :lang(ar),
+  :lang(arc),
+  :lang(bcc),
+  :lang(bqi),
+  :lang(ckb),
+  :lang(dv),
+  :lang(fa),
+  :lang(glk),
+  :lang(he),
+  :lang(ku),
+  :lang(mzn),
+  :lang(nqo),
+  :lang(pnb),
+  :lang(ps),
+  :lang(sd),
+  :lang(ug),
+  :lang(ur),
+  :lang(yi)
+) {
+  transform: scaleX(-1);
+}
 .dhps3aVX9dAE7wz6VLCg {
   text-align: center;
   justify-content: center;
@@ -3764,6 +3790,24 @@ a.pxo4kvoArJpVFHxcPeHe:hover {
 .jzb39VPM7_pFAP8ilS1B {
   gap: 8px;
   display: flex;
+}
+.Qin_ke2ihQCQN4inmtU9 {
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  overflow-y: auto;
+}
+.Q1p6e89q5gw_wQPJBZGv {
+  margin: 0;
+  padding-inline-start: 24px;
+}
+.Bixh4e55NQ8IIezdLDOo {
+  list-style: outside;
+  display: list-item;
+}
+.Qin_ke2ihQCQN4inmtU9 .tZqbdlTTeAGhDyq7v61S {
+  text-decoration: underline;
 }
 .wSjm9aXapA0a6YFRBciO {
   text-align: center;
@@ -3908,4 +3952,4 @@ a.pxo4kvoArJpVFHxcPeHe:hover {
 .o1nK0kDjqxVL2lhO07Zg {
   border-radius: 8px;
 }
-/*# sourceMappingURL=xpui-root-dialogs.ccecba11.css.map*/
+/*# sourceMappingURL=xpui-root-dialogs.1e282fdd.css.map*/

@@ -3393,14 +3393,9 @@ __workaround_element__ {
   --section-border-radius: 8px;
   timeline-scope: --npv-scroll;
   background-color: var(--background-base);
-  border-radius: 8px;
   height: 100cqh;
   position: relative;
   overflow: hidden;
-}
-.spotify__browser--is-meta-oculus .hMmF6IL0WDN29KL01IzB,
-.spotify__browser--is-google-xr .hMmF6IL0WDN29KL01IzB {
-  border-radius: 0;
 }
 .YAN3PYFuNyd0ddz5ayPt {
   height: 100%;
@@ -3796,4 +3791,4 @@ __workaround_element__ {
   gap: 8px;
   display: flex;
 }
-/*# sourceMappingURL=dwp-panel-section.f4e5a5c3.css.map*/
+/*# sourceMappingURL=dwp-panel-section.ccdb5e61.css.map*/

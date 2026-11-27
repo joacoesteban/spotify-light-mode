@@ -1,7 +1,7 @@
 {
-  "snapshotVersion": "spotify-player.web-player.70c47459__mobile-web-player.d55f541b",
+  "snapshotVersion": "spotify-player.web-player.7ceb9800__mobile-web-player.51353642",
   "source": {
-    "fingerprint": "sha256:1c1b2ff88d16cdcb2f483dddf9fb1e024fe0b1c6bc77a67a67f971675a552972",
+    "fingerprint": "sha256:34667953583e128dd46676992b9ca8fc381556df3b1234c8b374a97e548b9f31",
     "targets": {
       "desktop": [
         {
@@ -163,8 +163,8 @@
         {
           "fileName": "dwp-panel-section.css",
           "relativePath": "desktop/dwp-panel-section.css",
-          "sha256": "175c9ae8badfb6cfd2cc68d61dfdc75f62e8db105e43f3377e503629d41e8305",
-          "byteLength": 79843
+          "sha256": "c5371b150b3a0837d5f46ea6b561140dbf67c7e45331abb4bd7f629808388cbe",
+          "byteLength": 79686
         },
         {
           "fileName": "dwp-premium-page.css",
@@ -283,8 +283,8 @@
         {
           "fileName": "web-player.css",
           "relativePath": "desktop/web-player.css",
-          "sha256": "250d7d482b70ac1b1c7e4199add478973b32ea7536fe281aa0785b8e16a03ec1",
-          "byteLength": 610637
+          "sha256": "1560d753d5a964a34f4a331052d3072a5f2a754a3c56d26e1309db057ab971f2",
+          "byteLength": 612164
         },
         {
           "fileName": "xpui-debug-window-contents.css",
@@ -307,8 +307,8 @@
         {
           "fileName": "xpui-root-dialogs.css",
           "relativePath": "desktop/xpui-root-dialogs.css",
-          "sha256": "639c6a2a5c1f83742e515a5f93250ad231269d03a9a0ebf73a3a6b4af3b1f45f",
-          "byteLength": 86137
+          "sha256": "520f4ee8788111ced4ed2e147c629d140398f647597300110a157c9457d38e26",
+          "byteLength": 86836
         },
         {
           "fileName": "xpui-routes-album-prerelease.css",
@@ -343,8 +343,8 @@
         {
           "fileName": "xpui-routes-buddy-feed.css",
           "relativePath": "desktop/xpui-routes-buddy-feed.css",
-          "sha256": "9e1481b78e2e58f5c0d83d3202a26e5d1b4226faf77a7b46f36acfa6c4c0b9a7",
-          "byteLength": 13363
+          "sha256": "e4855dc45ca708423a93407e53804a794f93a60b298c7e491d7a2c1b2d3f679d",
+          "byteLength": 14475
         },
         {
           "fileName": "xpui-routes-collection-concert-gallery.css",
@@ -373,8 +373,8 @@
         {
           "fileName": "xpui-routes-collection-songs.css",
           "relativePath": "desktop/xpui-routes-collection-songs.css",
-          "sha256": "f363f6cf349fb1c71a4da7154f76cc8494f29d87e8ba7467af8f1bf522f0a510",
-          "byteLength": 23747
+          "sha256": "731c3bf9f1339a28c830346bb034b7c4e4e7fcaea2f029cb38ecdb34ce4566cc",
+          "byteLength": 24143
         },
         {
           "fileName": "xpui-routes-concert-campaign.css",
@@ -445,8 +445,8 @@
         {
           "fileName": "xpui-routes-playlist.css",
           "relativePath": "desktop/xpui-routes-playlist.css",
-          "sha256": "aecc367c030197f3b41c161e22bc360709477d2c1a010ca70ec9cd925d845f8d",
-          "byteLength": 25437
+          "sha256": "4c02327f9614a19edecfd3142159971a2bdbfe32f0de75cf273e50ed2bac9c05",
+          "byteLength": 25833
         },
         {
           "fileName": "xpui-routes-podcast-chapter.css",
@@ -487,8 +487,8 @@
         {
           "fileName": "xpui-routes-search.css",
           "relativePath": "desktop/xpui-routes-search.css",
-          "sha256": "cbf3d2e08b17153c79a1ee208158aab1bc98e47ba224bb99afff31e2a9b3d4b8",
-          "byteLength": 32089
+          "sha256": "fc5b486116afb4a34b2eae55e6f0c672010eaf3df4bbb11f4b319ed937a0abdc",
+          "byteLength": 32112
         },
         {
           "fileName": "xpui-routes-see-all-playlist-leavebehinds.css",
@@ -610,7 +610,7 @@
     }
   },
   "output": {
-    "fingerprint": "sha256:9a297d714bb9d2fc82dd48b67fe1471bc786d1cebda8d204ed02df87c114ae8b",
+    "fingerprint": "sha256:e48b7323445161a5409517f428a7bc0cbfea40a80e3f843eae60bb5c31a2264e",
     "files": [
       {
         "fileName": "2113.css",
@@ -891,8 +891,8 @@
       {
         "fileName": "web-player.css",
         "relativePath": "desktop/web-player.css",
-        "sha256": "89f6eeaa2fdfabc00c99a177d888c6eb78e768783ca676f9ae002897e610fcd5",
-        "byteLength": 270136
+        "sha256": "7a38b72c0a6f6c22534c2ef1f4e44433779229e8f4f0790648909f93187d48b6",
+        "byteLength": 270736
       },
       {
         "fileName": "xpui-debug-window-contents.css",

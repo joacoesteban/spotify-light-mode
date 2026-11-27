@@ -2188,6 +2188,10 @@ dialog:not(#spotify-light-mode-specificity-bump)::backdrop {
   background-color: #ffffff; /* hardcoded-color: #000 → #ffffff */
 }
 
+.yJ61eaqeo91qfDVTna4i:not(#spotify-light-mode-specificity-bump):after {
+  background-color: #f6f6f6; /* hardcoded-color: #121212 → #f6f6f6 */
+}
+
 .pPiP5876ggZdYrE3relB:not(#spotify-light-mode-specificity-bump) {
   background-color: #ffffff; /* hardcoded-color: #000 → #ffffff */
 }
@@ -2419,6 +2423,16 @@ dialog:not(#spotify-light-mode-specificity-bump)::backdrop {
 .MCUma7Lh2GeKTVtcU_5P:hover:not(#spotify-light-mode-specificity-bump), .MCUma7Lh2GeKTVtcU_5P:focus-visible:not(#spotify-light-mode-specificity-bump) {
   background-color: var(--background-tinted-base); /* css-var: var(--background-tinted-base) */
   color: var(--text-base); /* css-var: var(--text-base) */
+}
+
+.wzUZzA_L5jGJ4lAynQ7h:not(#spotify-light-mode-specificity-bump) {
+  background-color: var(--background-base); /* css-var: var(--background-base) */
+  color: var(--text-base); /* css-var: var(--text-base) */
+  box-shadow: 0 4px 4px #ffffff40; /* hardcoded-color: 0 4px 4px #00000040 → 0 4px 4px #ffffff40 */
+}
+
+.vaOwkoAe4zZWmqVU3RKc:not(#spotify-light-mode-specificity-bump) {
+  background-color: #d4d4d4; /* hardcoded-color: #3c3c3c → #d4d4d4 */
 }
 
 .message-bar:not(#spotify-light-mode-specificity-bump) {
