@@ -1,7 +1,7 @@
 {
-  "snapshotVersion": "spotify-player.web-player.7ceb9800__mobile-web-player.51353642",
+  "snapshotVersion": "spotify-player.web-player.05da289c__mobile-web-player.41de37e0",
   "source": {
-    "fingerprint": "sha256:34667953583e128dd46676992b9ca8fc381556df3b1234c8b374a97e548b9f31",
+    "fingerprint": "sha256:6e5041bbc906b02374ab63bb82d7029891b1f0b395ad1e0de1f966de2da2505c",
     "targets": {
       "desktop": [
         {
@@ -535,8 +535,8 @@
         {
           "fileName": "xpui-routes-web-settings.css",
           "relativePath": "desktop/xpui-routes-web-settings.css",
-          "sha256": "1aff550f379e488824058907d2a945f637befabba51cceaeebd576e3852756d1",
-          "byteLength": 10585
+          "sha256": "6b38c34ddf335a2c16fe3c3cf03c3188aebed609aa3f1ffe171f20fe445b7f6c",
+          "byteLength": 11110
         },
         {
           "fileName": "xpui-routes-your-library-x.css",
@@ -610,7 +610,7 @@
     }
   },
   "output": {
-    "fingerprint": "sha256:e48b7323445161a5409517f428a7bc0cbfea40a80e3f843eae60bb5c31a2264e",
+    "fingerprint": "sha256:011044f49e137d39201ae030db0e2b92c84d5c2975b7d31884705181441b7d33",
     "files": [
       {
         "fileName": "2113.css",
@@ -1143,8 +1143,8 @@
       {
         "fileName": "xpui-routes-web-settings.css",
         "relativePath": "desktop/xpui-routes-web-settings.css",
-        "sha256": "3454bc809b0ab8d28675714c5701d8e6a2de834610252ebf891a364ba18feed4",
-        "byteLength": 6373
+        "sha256": "80b2700981d55fb05af027f0466f3b901233969b64881ff617044be02e09abea",
+        "byteLength": 6501
       },
       {
         "fileName": "xpui-routes-your-library-x.css",

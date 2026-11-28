@@ -38,6 +38,10 @@ input:checked ~ .ZgpugrSQ4mYTFUFNxSgZ .c7cfA324G09TSXVvGMc1:not(#spotify-light-m
   background-color: #000000; /* hardcoded-color: #fff → #000000 */
 }
 
+.hNIVWkNQkMFCfXxjhQ1Q:not(#spotify-light-mode-specificity-bump) {
+  color: var(--text-base); /* css-var: var(--text-base) */
+}
+
 .MiV511XbYLgWc8rDtHQH:not(#spotify-light-mode-specificity-bump) {
   color: var(--text-subdued); /* css-var: var(--text-subdued) */
   background-color: var(--background-elevated-base); /* css-var: var(--background-elevated-base) */
